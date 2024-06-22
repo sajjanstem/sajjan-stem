@@ -1,0 +1,7 @@
+.MuiButtonBase-root{
+    background-color: rgba(243, 248, 247, 0.75) !important;
+}
+.MuiTableHead-root{
+    background-color: rgba(243, 248, 247, 0.75) !important;
+    color : #596981 !important;
+}
