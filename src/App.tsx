@@ -20,13 +20,14 @@ function App() {
           <Header />
           <Routes>
               <Route path="/" element={<Home/>} />
+              {/* <Route path="/sajjan-stem" element={<Home/>} /> */}
               <Route path="/aboutus" element={<AboutUs/>} />
               <Route path="/exams" element={<Stem/>} />
-              <Route path="/maths" element={<Maths/>} />
-              <Route path="/science" element={<Science/>} />
-              <Route path="/stem" element={<Stem/>} />
-              <Route path="/syllabus" element={<Syllabus/>} />
               <Route path="/contactus" element={<ContactUs/>} />
+              {/* <Route path="/maths" element={<Maths/>} /> */}
+              {/* <Route path="/science" element={<Science/>} /> */}
+              {/* <Route path="/stem" element={<Stem/>} /> */}
+              {/* <Route path="/syllabus" element={<Syllabus/>} /> */}
           </Routes>
           <Footer />
       </Router>
