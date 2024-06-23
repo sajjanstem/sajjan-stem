@@ -19,7 +19,7 @@ const Header = () => {
     <>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          <img src={process.env.PUBLIC_URL + '/logoFullTrans.png'} alt="g" className="logo"/>
+          <img src={process.env.PUBLIC_URL + '/assets/logoFullTrans.png'} alt="g" className="logo"/>
         </Link>
         <div className="menu-icon" onClick={() => setIsMobile(!isMobile)}>
           {isMobile ? <CloseIcon /> : <MenuIcon />}
