@@ -109,7 +109,7 @@ const Stem = () => {
               Me and My Body, Plants around Us, Animals around Us, Living and Non-Living, Our Needs, Good Habits, Earth and Sky, Transport.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
-              Me and My Body, Plants around Us, Animals around Us, Living and Non-Living, Our Needs, Good Habits, Earth and Sky, Transport.
+              Introduction to Computer, Uses of Computer, Parts of Computer, Introduction to Artificial Intelligence, Intelligence Assessment with Logical Reasoning.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Shapes and Sizes, Number System, Addition, Subtraction, Time, Money, Measurement, Patterns.
@@ -126,9 +126,9 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               Festival and Celebration, The Night Sky, Food, Clothing and Shelter, Transport and Communication, Know Your Body, Occupation, Good Habits and Safety Rule, Plants around Us, Animals around Us, Air, Water and Weather.
               <br /><br />
-              <b>Section 2: Science</b><br />
-              Festival and Celebration, The Night Sky, Food, Clothing and Shelter, Transport and Communication, Know Your Body, Occupation, Good Habits and Safety Rule, Plants around Us, Animals around Us, Air, Water and Weather.
-              <br /><br />
+              <b>Section 2: Technology & Engineering</b><br />
+              Introduction to Computer, Types of computer, Uses of Computer, Parts of Computer, Working of Computer, Keyboard and Mouse, Introduction to Artificial Intelligence, Intelligence Assessment with Logical Reasoning.
+             <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Lines and Shapes, Number system, Addition, Subtraction, Time, Money, Measurement, Patterns.
               </Typography>
@@ -144,9 +144,9 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               Food, Transport and Communication, Housing and Clothing, Birds, Plants, Animals, Living and Non-Living, Human Body, Weather and Sky, Light and Sound.
               <br /><br />
-              <b>Section 2: Science</b><br />
-              Food, Transport and Communication, Housing and Clothing, Birds, Plants, Animals, Living and Non-Living, Human Body, Weather and Sky, Light and Sound.
-            <br /><br />
+              <b>Section 2: Technology & Engineering</b><br />
+              Information Technology - Introduction to Hardware and Software, Usage of the Internet; Coding using ‘Scratch’ - Block-based Programming Language (Beginner), Introduction to Artificial Intelligence [AI vs Human Intelligence], Intelligence assessment with Logical Reasoning.
+              <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Basic Geometric Shapes, Number System, Addition & Subtraction, Multiplication & Division, Fractions, Measurement, Time & Calendar, Data Handling. 
               </Typography>
@@ -162,9 +162,12 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               States of Matter, Birds, Clothing, Animal, Earth and its Neighbour, Our body, Plants, Environment, Food. 
               <br /><br />
-              <b>Section 2: Science</b><br />
-              States of Matter, Birds, Clothing, Animal, Earth and its Neighbour, Our body, Plants, Environment, Food. 
-              <br /><br />
+              <b>Section 2: Technology & Engineering</b><br />
+              Information Technology - More on Hardware and Software, Application of Internet and Security
+Coding using 'Scratch' - Block based Programming Language (Intermediate)
+Introduction to Artificial Intelligence [AI Smart Homes]
+Intelligence assessment with Logical Reasoning
+             <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Basic Geometric Shapes, Number System, Addition & Subtraction, Multiplication & Division, Fractions, Measurement, Time & Calendar, Data Handling.
               </Typography>
@@ -180,9 +183,13 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               States of Matter, Environment and Us, Busy at Work - Our Internal Organs, Community and Health Hygiene, Force, Work, and Energy, Solar System, Natural Resources, Fuels and Energy, All about Crop, Sense and Emotion, Disease and Its Prevention.
               <br /><br />
-              <b>Section 2: Science</b><br />
-              States of Matter, Environment and Us, Busy at Work - Our Internal Organs, Community and Health Hygiene, Force, Work, and Energy, Solar System, Natural Resources, Fuels and Energy, All about Crop, Sense and Emotion, Disease and Its Prevention.
-              <br /><br />
+              <b>Section 2: Technology & Engineering</b><br />
+              Information Technology - Computer Fundamental, Windows OS, Introduction to MS-Office, Internet and communication
+Introduction and basics of Programming Language
+Coding using 'Scratch' - Block based Programming Language (Advanced)
+Artificial Intelligence [Domains of AI]
+Intelligence assessment with Logical Reasoning
+             <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Concept of Geometry, Number System, Factors & Multiples, Addition & Subtraction, Multiplication & Division, Fractions & Decimals, Measurement, Data Handling.
               </Typography>
@@ -198,8 +205,15 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               Components of Food, Sorting Materials into Groups, Separation of Substances, Getting to Know Plants, Body Movements, The Living Organisms — Characteristics and Habitats, Motion and Measurement of Distances, Light, Shadows and Reflections, Electricity and Circuits, Fun with Magnets, Air Around Us.
               <br /><br />
-              <b>Section 2: Science</b><br />
-              Components of Food, Sorting Materials into Groups, Separation of Substances, Getting to Know Plants, Body Movements, The Living Organisms — Characteristics and Habitats, Motion and Measurement of Distances, Light, Shadows and Reflections, Electricity and Circuits, Fun with Magnets, Air Around Us.
+              <b>Section 2: Technology & Engineering</b><br />
+              AI
+Introduction to AI, The Birth of AI, Understanding AI, Future of AI, New Technologies (Augmented Reality)
+
+Coding
+Introduction of Coding, Algorithms with Block Coding, Variables using Block Coding, Control with Conditionals, Loops using Block Coding
+
+Intelligence assessment with Logical Reasoning
+Series Completion, Blood Relation, Direction Sense Test, Geometrical Shapes, Mirror and Water Reflections
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Knowing Our Numbers, Whole Numbers, Playing with Numbers, Basic Geometrical Ideas, Understanding Elementary Shapes, Integers, Fractions, Decimals, Data Handling, Mensuration, Algebra, Ratio and Proportion.
@@ -216,8 +230,15 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               Nutrition in Plants, Nutrition in Animals, Heat, Acids, Bases and Salts, Physical and Chemical Changes, Respiration in Organisms, Transportation in Animals and Plants, Reproduction in Plants, Motion and Time, Electric Current and its Effects, Light, Forests: Our Lifeline, Wastewater Story. 
               <br /><br />
-              <b>Section 2: Science</b><br />
-              Nutrition in Plants, Nutrition in Animals, Heat, Acids, Bases and Salts, Physical and Chemical Changes, Respiration in Organisms, Transportation in Animals and Plants, Reproduction in Plants, Motion and Time, Electric Current and its Effects, Light, Forests: Our Lifeline, Wastewater Story. 
+              <b>Section 2: Technology & Engineering</b><br />
+              AI
+Introduction to AI, Application Area of AI, Ethics of AI, Future of AI, New Technologies [Virtual Reality]
+
+Coding
+Understanding Programming Languages, Variable in Real Life, Sequencing with Block Coding, Fun with Functions, Understanding Arrays and Collections
+
+Intelligence assessment with Logical Reasoning
+Series Completion, Blood Relation, Analogy and Classification, Coding & Decoding, Cubes and Dice
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Integers, Fractions and Decimals, Data Handling, Simple Equations, Lines and Angles, The Triangle and its Properties, Comparing Quantities, Rational Numbers, Perimeter and Area, Algebraic Expressions, Exponents and Powers, Symmetry, Visualising Solid Shapes.
@@ -234,8 +255,15 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               Crop Production and Management, Microorganisms: Friend and Foe, Coal and Petroleum, Combustion and Flame, Conservation of Plants and Animals, Reproduction in Animals, Reaching the Age of Adolescence, Force and Pressure, Friction, Sound.
               <br /><br />
-              <b>Section 2: Science</b><br />
-              Crop Production and Management, Microorganisms: Friend and Foe, Coal and Petroleum, Combustion and Flame, Conservation of Plants and Animals, Reproduction in Animals, Reaching the Age of Adolescence, Force and Pressure, Friction, Sound.
+              <b>Section 2: Technology & Engineering</b><br />
+              AI
+Introduction to AI, History of AI, Application of AI, Future of AI, AI Ethics and Bias
+
+Coding
+Conditionals in Details, Get Creative with Loops, Functions, Programming with Arrays, Advanced Sequencing
+
+Intelligence assessment with Logical Reasoning
+Series Completion, Classification, Direction Sense Test, Coding & Decoding, Image Reflection
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Rational Numbers, Linear Equations in One Variable, Understanding Quadrilaterals, Data Handling, Squares and Square Roots, Cubes and Cube Roots, Comparing Quantities, Algebraic Expressions and Identities, Mensuration, Exponents and Powers, Direct and Inverse Proportions, Factorisation, Introduction to Graphs.
@@ -252,8 +280,15 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               Matter in Our Surroundings, Is Matter Around Us Pure?, Atoms and Molecules, Structure of the Atom, The Fundamental Unit of Life, Tissues, Motion, Force and Laws of Motion, Gravitation, Work and Energy, Sound, Improvement in Food Resources.
               <br /><br />
-              <b>Section 2: Science</b><br />
-              Matter in Our Surroundings, Is Matter Around Us Pure?, Atoms and Molecules, Structure of the Atom, The Fundamental Unit of Life, Tissues, Motion, Force and Laws of Motion, Gravitation, Work and Energy, Sound, Improvement in Food Resources.
+              <b>Section 2: Technology & Engineering</b><br />
+              AI
+Introduction to AI, AI Project Cycle, Neural Networks
+
+Coding
+Coding with Python - Intermediate
+
+Intelligence assessment with Logical Reasoning
+Series Completion, Blood Relation, Syllogism, Inserting Missing Number, Figures Sequence
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Number Systems, Polynomials, Coordinate Geometry, Linear Equations in Two Variables, Introduction to Euclid’s Geometry, Lines and Angles, Triangles, Quadrilaterals, Circles, Heron’s Formula, Surface Areas and Volumes, Statistics.
@@ -270,8 +305,15 @@ const Stem = () => {
               <b>Section 1: Science </b><br />   
               Chemical Reactions and Equations, Acids, Bases and Salts, Metals and Non-metals, Carbon and its Compounds, Life Processes, Control and Coordination, How do Organisms Reproduce?, Heredity, Light – Reflection and Refraction, The Human Eye and the Colourful World, Electricity, Magnetic Effects of Electric Current, Our Environment.
               <br /><br />
-              <b>Section 2: Science</b><br />
-              Chemical Reactions and Equations, Acids, Bases and Salts, Metals and Non-metals, Carbon and its Compounds, Life Processes, Control and Coordination, How do Organisms Reproduce?, Heredity, Light – Reflection and Refraction, The Human Eye and the Colourful World, Electricity, Magnetic Effects of Electric Current, Our Environment.
+              <b>Section 2: Technology & Engineering</b><br />
+              AI
+Foundational Concepts of AI, Understanding AI Project Cycle, Computer Vision, Natural Language Processing
+
+Coding
+Coding with Python - Advance
+
+Intelligence assessment with Logical Reasoning
+Direction Test, Venn Diagram, Logical Sequence, Mathematical Operations, Coding & Decoding
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Real Numbers, Polynomials, Pair of Linear Equations in Two Variables, Quadratic Equations, Arithmetic Progressions, Triangles, Coordinate Geometry, Introduction to Trigonometry, Some Applications of Trigonometry, Circles, Areas Related to Circles, Surface Areas and Volumes, Statistics, Probability.
