@@ -1,60 +1,90 @@
 .ss-background {
-    background-color: rgba(243, 248, 247, 0.5);
-  
-  }
-.ss-text{
-      color: #596981;
-      font-family: sans-serif;
-      font-size: 18px;
-      line-height: 27px;
-  }
+  background-color: rgba(243, 248, 247, 0.5);
+}
 
-  .slider-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .content-section {
-    background-color: rgba(243, 248, 247, 0.5);
-    padding: 2rem;
-    border-radius: 8px;
-    margin-bottom: 1rem;
-    animation: fadeInUp 0.6s ease-out;
-  }
-  
-  .content-section h1, .content-section h2, .content-section h3 {
-    color: #596981;
-  }
-  
-  .content-section p {
-    color: #596981;
-    line-height: 1.6;
-  }
-  
-  .content-section ul {
-    list-style-type: disc;
-    padding-left: 1.5rem;
-  }
-  
-  .content-section li {
-    margin-bottom: 0.5rem;
-  }
-  
-  @keyframes fadeInUp {
-    from {
+.ss-text {
+  color: #596981;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(243, 248, 247, 0.5);
+  padding: 2rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.content {
+  flex: 1 1 60%;
+  padding-right: 1rem;
+}
+
+.content-image {
+  flex: 1 1 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.content-section h1,
+.content-section h2,
+.content-section h3 {
+  color: #596981;
+}
+
+.content-section p {
+  color: #596981;
+  line-height: 1.6;
+}
+
+.content-section ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.content-section li {
+  margin-bottom: 0.5rem;
+}
+
+@keyframes fadeInUp {
+  from {
       transform: translate3d(0, 40px, 0);
       opacity: 0;
-    }
-    to {
+  }
+  to {
       transform: translate3d(0, 0, 0);
       opacity: 1;
-    }
   }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .content-section {
-      padding: 1rem;
-    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-section {
+      flex-direction: column;
   }
-  
+
+  .content {
+      padding-right: 0;
+      padding-bottom: 1rem;
+  }
+
+  .content-image {
+      padding-top: 1rem;
+  }
+}
