@@ -14,48 +14,7 @@ const Stem = () => {
       <Typography variant="body1" paragraph>
         Stem Genius Hunt Examinations are beneficial for school students because they promote critical thinking, problem-solving skills, and a deeper understanding of mathematical concepts beyond the regular curriculum. These competitions challenge students to apply their knowledge in innovative ways, fostering intellectual growth and encouraging a love for mathematics. Additionally, participating in such exams can boost students' confidence, provide recognition for their abilities, and open up opportunities for scholarships and advanced educational programs. This not only enhances their academic profile but also prepares them for future academic and professional success.
       </Typography>
-
-      <Box mt={4}>
-        <TableContainer component={Paper}>
-          <Table>
-            <TableHead>
-              <TableRow>
-                <TableCell><b>Classes 1 to 5</b></TableCell>
-                <TableCell align="right"><b>No. Of Questions</b></TableCell>
-                <TableCell align="right"><b>Marks (per question)</b></TableCell>
-                <TableCell align="right"><b>Total Marks</b></TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              <TableRow>
-                <TableCell>Section 1: Science </TableCell>
-                <TableCell align="right">10 </TableCell>
-                <TableCell align="right">1</TableCell>
-                <TableCell align="right">10</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell>Section2: Technology & Engineering</TableCell>
-                <TableCell align="right">15</TableCell>
-                <TableCell align="right">1</TableCell>
-                <TableCell align="right">15</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell>Section3: Mathematics </TableCell>
-                <TableCell align="right">5</TableCell>
-                <TableCell align="right">2</TableCell>
-                <TableCell align="right">10</TableCell>
-              </TableRow>
-              <TableRow>
-                <TableCell><b>Total</b></TableCell>
-                <TableCell align="right">30</TableCell>
-                <TableCell align="right"></TableCell>
-                <TableCell align="right">35</TableCell>
-              </TableRow>
-            </TableBody>
-          </Table>
-        </TableContainer>
-      </Box>
-
+      
       <Box mt={4}>
         <TableContainer component={Paper}>
         <Table>
@@ -76,19 +35,19 @@ const Stem = () => {
               </TableRow>
               <TableRow>
                 <TableCell>Section2: Technology & Engineering</TableCell>
-                <TableCell align="right">25</TableCell>
-                <TableCell align="right">1</TableCell>
-                <TableCell align="right">25</TableCell>
+                <TableCell align="right">15</TableCell>
+                <TableCell align="right">2</TableCell>
+                <TableCell align="right">30</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell>Section3: Mathematics </TableCell>
-                <TableCell align="right">5</TableCell>
-                <TableCell align="right">3</TableCell>
-                <TableCell align="right">15</TableCell>
+                <TableCell align="right">10</TableCell>
+                <TableCell align="right">1</TableCell>
+                <TableCell align="right">10</TableCell>
               </TableRow>
               <TableRow>
                 <TableCell><b>Total</b></TableCell>
-                <TableCell align="right">40</TableCell>
+                <TableCell align="right">35</TableCell>
                 <TableCell align="right"></TableCell>
                 <TableCell align="right">50</TableCell>
               </TableRow>
@@ -99,103 +58,6 @@ const Stem = () => {
 
       <Box mt={4}>
         <Typography variant="h4" gutterBottom>Syllabus</Typography>
-        <Accordion>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography>Class 1</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              <b>Section 1: Science </b><br />   
-              Me and My Body, Plants around Us, Animals around Us, Living and Non-Living, Our Needs, Good Habits, Earth and Sky, Transport.
-              <br /><br />
-              <b>Section 2: Technology & Engineering</b><br />
-              Introduction to Computer, Uses of Computer, Parts of Computer, Introduction to Artificial Intelligence, Intelligence Assessment with Logical Reasoning.
-              <br /><br />
-              <b>Section 3: Mathematics</b> <br />
-              Shapes and Sizes, Number System, Addition, Subtraction, Time, Money, Measurement, Patterns.
-              </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography>Class 2</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              <b>Section 1: Science </b><br />   
-              Festival and Celebration, The Night Sky, Food, Clothing and Shelter, Transport and Communication, Know Your Body, Occupation, Good Habits and Safety Rule, Plants around Us, Animals around Us, Air, Water and Weather.
-              <br /><br />
-              <b>Section 2: Technology & Engineering</b><br />
-              Introduction to Computer, Types of computer, Uses of Computer, Parts of Computer, Working of Computer, Keyboard and Mouse, Introduction to Artificial Intelligence, Intelligence Assessment with Logical Reasoning.
-             <br /><br />
-              <b>Section 3: Mathematics</b> <br />
-              Lines and Shapes, Number system, Addition, Subtraction, Time, Money, Measurement, Patterns.
-              </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography>Class 3</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              <b>Section 1: Science </b><br />   
-              Food, Transport and Communication, Housing and Clothing, Birds, Plants, Animals, Living and Non-Living, Human Body, Weather and Sky, Light and Sound.
-              <br /><br />
-              <b>Section 2: Technology & Engineering</b><br />
-              Information Technology - Introduction to Hardware and Software, Usage of the Internet; Coding using ‘Scratch’ - Block-based Programming Language (Beginner), Introduction to Artificial Intelligence [AI vs Human Intelligence], Intelligence assessment with Logical Reasoning.
-              <br /><br />
-              <b>Section 3: Mathematics</b> <br />
-              Basic Geometric Shapes, Number System, Addition & Subtraction, Multiplication & Division, Fractions, Measurement, Time & Calendar, Data Handling. 
-              </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography>Class 4</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              <b>Section 1: Science </b><br />   
-              States of Matter, Birds, Clothing, Animal, Earth and its Neighbour, Our body, Plants, Environment, Food. 
-              <br /><br />
-              <b>Section 2: Technology & Engineering</b><br />
-              Information Technology - More on Hardware and Software, Application of Internet and Security
-Coding using 'Scratch' - Block based Programming Language (Intermediate)
-Introduction to Artificial Intelligence [AI Smart Homes]
-Intelligence assessment with Logical Reasoning
-             <br /><br />
-              <b>Section 3: Mathematics</b> <br />
-              Basic Geometric Shapes, Number System, Addition & Subtraction, Multiplication & Division, Fractions, Measurement, Time & Calendar, Data Handling.
-              </Typography>
-          </AccordionDetails>
-        </Accordion>
-
-        <Accordion>
-          <AccordionSummary expandIcon={<ExpandMoreIcon />}>
-            <Typography>Class 5</Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography>
-              <b>Section 1: Science </b><br />   
-              States of Matter, Environment and Us, Busy at Work - Our Internal Organs, Community and Health Hygiene, Force, Work, and Energy, Solar System, Natural Resources, Fuels and Energy, All about Crop, Sense and Emotion, Disease and Its Prevention.
-              <br /><br />
-              <b>Section 2: Technology & Engineering</b><br />
-              Information Technology - Computer Fundamental, Windows OS, Introduction to MS-Office, Internet and communication
-Introduction and basics of Programming Language
-Coding using 'Scratch' - Block based Programming Language (Advanced)
-Artificial Intelligence [Domains of AI]
-Intelligence assessment with Logical Reasoning
-             <br /><br />
-              <b>Section 3: Mathematics</b> <br />
-              Concept of Geometry, Number System, Factors & Multiples, Addition & Subtraction, Multiplication & Division, Fractions & Decimals, Measurement, Data Handling.
-              </Typography>
-          </AccordionDetails>
-        </Accordion>
-
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>Class 6</Typography>

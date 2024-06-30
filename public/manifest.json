@@ -1,19 +1,19 @@
 {
-  "short_name": "Sajjan STEM",
-  "name": "Sajjan STEM Organisation",
+  "short_name": "Yuva STEM",
+  "name": "Yuva STEM Organisation",
   "icons": [
     {
-      "src": "logoColor.png",
+      "src": "logoIconWhite.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logoColor.png",
+      "src": "logoIconWhite.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logoColor.png",
+      "src": "logoIconWhite.png",
       "type": "image/png",
       "sizes": "512x512"
     }
