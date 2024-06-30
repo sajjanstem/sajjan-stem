@@ -48,50 +48,41 @@ const Home = () => {
         <p>Unleashing the Young Leaders in STEM</p>
       </div>
 
-      <section className="content-section">
+      <section className="content-section bg1">
         <div className="content">
           <p>
-          At Yuva STEM Organisation, we are dedicated to nurturing the intellectual growth and curiosity of young minds through our STEM Genius Hunt Examination. This initiative is designed to cultivate a profound understanding and passion for STEM (Science, Technology, Engineering, and Mathematics) subjects among students from classes 6 to 10. Our mission is to inspire critical thinking, enhance problem-solving skills, and foster the innovative application of knowledge, preparing students for future academic and professional triumphs.
+            At Yuva STEM Organisation, we are dedicated to nurturing the intellectual growth and curiosity of young minds through our STEM Genius Hunt Examination. This initiative is designed to cultivate a profound understanding and passion for STEM (Science, Technology, Engineering, and Mathematics) subjects among students from classes 6 to 10. Our mission is to inspire critical thinking, enhance problem-solving skills, and foster the innovative application of knowledge, preparing students for future academic and professional triumphs.
           </p>
         </div>
       </section>
 
-      <section className="content-section">
-  <div className="content-image">
-    <img src={process.env.PUBLIC_URL + "/assets/exams.jpg"} alt="Exams" />
-  </div>
-  <div className="content">
-    <h2>About the STEM Genius Hunt Examination</h2>
-    <p>
-      The STEM Genius Hunt Examination is designed to go beyond the regular curriculum, offering students a unique opportunity to engage with STEM concepts at a deeper level. These exams are conducted in two levels:
-    </p>
-    <h3>Level 1: Objective Examination</h3>
-    <p>
-      The first level consists of an objective examination based on the STEM syllabus, tailored for each class from 6th to 10th. This stage focuses on evaluating the students' grasp of STEM concepts, their ability to apply this knowledge in various scenarios, and their proficiency in critical thinking and problem-solving. Top performers from Level 1 will advance to Level 2.
-    </p>
-    <h3>Level 2: Advanced Projects and Mentorship</h3>
-    <p>
-      Students who qualify for Level 2 will receive master classes in Python, AI, IoT, web development, Arduino, and more to help them build projects. The top projects will be shortlisted for presentation at premier institutions. For this academic year, we have collaborated with IIIT Dharwad, where the faculty of this premier institute will evaluate the projects. This level aims to push the boundaries of students' creativity and innovation, enabling them to tackle real-world problems and develop practical solutions. The best projects will receive further cash prizes, recognizing their exceptional contribution and ingenuity.
-    </p>
-  </div>
-</section>
+      <section className="content-section bg2">
+        <div className="content">
+          <h2>About the STEM Genius Hunt Examination</h2>
+          <p>
+            The STEM Genius Hunt Examination is designed to go beyond the regular curriculum, offering students a unique opportunity to engage with STEM concepts at a deeper level. These exams are conducted in two levels:
+          </p>
+          <h3>Level 1: Objective Examination</h3>
+          <p>
+            The first level consists of an objective examination based on the STEM syllabus, tailored for each class from 6th to 10th. This stage focuses on evaluating the students' grasp of STEM concepts, their ability to apply this knowledge in various scenarios, and their proficiency in critical thinking and problem-solving. Top performers from Level 1 will advance to Level 2.
+          </p>
+          <h3>Level 2: Advanced Projects and Mentorship</h3>
+          <p>
+            Students who qualify for Level 2 will receive master classes in Python, AI, IoT, web development, Arduino, and more to help them build projects. The top projects will be shortlisted for presentation at premier institutions. For this academic year, we have collaborated with IIIT Dharwad, where the faculty of this premier institute will evaluate the projects. This level aims to push the boundaries of students' creativity and innovation, enabling them to tackle real-world problems and develop practical solutions. The best projects will receive further cash prizes, recognizing their exceptional contribution and ingenuity.
+          </p>
+        </div>
+      </section>
 
-      <section className="content-section">
+      <section className="content-section bg3">
         <div className="content">
           <h2>Promoting Critical Skills for the Future</h2>
           <p>
             In alignment with the National Education Policy 2020, our examinations emphasize essential skills such as digital literacy, coding, and artificial intelligence. By integrating these skills into our curriculum, we aim to prepare students for success in a rapidly evolving technological landscape.
           </p>
         </div>
-        <div className="content-image">
-          <img src={process.env.PUBLIC_URL + "/assets/skills.jpg"} alt="Skills" />
-        </div>
       </section>
 
-      <section className="content-section">
-        <div className="content-image">
-          <img src={process.env.PUBLIC_URL + "/assets/love_stem.jpg"} alt="Love for STEM" />
-        </div>
+      <section className="content-section bg4">
         <div className="content">
           <h2>Fostering a Lifelong Love for STEM</h2>
           <p>
@@ -100,7 +91,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="content-section">
+      <section className="content-section bg5">
         <div className="content">
           <h2>The Importance of Project-Based Learning</h2>
           <p>
@@ -113,15 +104,9 @@ const Home = () => {
             <li><strong>Develop Resilience:</strong> Learn from failures and persist in the face of difficulties, building a growth mindset.</li>
           </ul>
         </div>
-        <div className="content-image">
-          <img src={process.env.PUBLIC_URL + "/assets/project_learning.jpg"} alt="Project-Based Learning" />
-        </div>
       </section>
 
-      <section className="content-section">
-        <div className="content-image">
-          <img src={process.env.PUBLIC_URL + "/assets/innovators.jpg"} alt="Innovators" />
-        </div>
+      <section className="content-section bg6">
         <div className="content">
           <h2>Inspiring the Next Generation of Innovators</h2>
           <p>
@@ -133,33 +118,35 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="content-section">
+      <section className="content-section bg7">
         <div className="content">
-          <h2>How to Participate</h2>
+          <h2>Contact Us</h2>
           <p>
-            Students from classes 1 to 10 are eligible to participate in the STEM Genius Hunt Examinations. The registration process is simple and can be completed online through our website. Detailed instructions, syllabus, and sample questions are available to help students prepare effectively.
+            For any inquiries or further information about the STEM Genius Hunt Examinations, please feel free to contact us at:
           </p>
-        </div>
-        <div className="content-image">
-          <img src={process.env.PUBLIC_URL + "/assets/participate.jpg"} alt="Participate" />
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:info@stemyuva.org" style={{ color: "#ffffff" }}>info@stemyuva.org</a></li>
+            <li><strong>Phone:</strong> +91 98765 43210</li>
+          </ul>
+          <p>
+            Stay connected with us on social media for the latest updates and announcements:
+          </p>
+          <ul>
+            <li><a href="https://www.facebook.com/yuvaSTEM" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff" }}>Facebook</a></li>
+            <li><a href="https://twitter.com/yuvaSTEM" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff" }}>Twitter</a></li>
+            <li><a href="https://www.instagram.com/yuvaSTEM" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff" }}>Instagram</a></li>
+          </ul>
         </div>
       </section>
 
-      <section className="content-section">
-        <div className="content-image">
-          <img src={process.env.PUBLIC_URL + "/assets/conclusion.jpg"} alt="Conclusion" />
-        </div>
+      <section className="content-section bg8">
         <div className="content">
-          <h2>Conclusion</h2>
+          <h2>Join Us in Shaping the Future</h2>
           <p>
-            At Yuva STEM Organisation, we believe in the power of education to transform lives. Our STEM Genius Hunt Examinations are designed to provide students with the tools they need to succeed in an ever-changing world. By promoting critical thinking, problem-solving skills, and a deep understanding of STEM concepts, we are preparing the leaders of tomorrow to meet global challenges head-on.
-          </p>
-          <p>
-            Join us in our mission to nurture young minds and inspire a new generation of STEM innovators. Together, we can make a difference and shape the future of education.
+            At Yuva STEM Organisation, we believe that every child has the potential to be a STEM genius. Through our comprehensive examination and mentorship program, we are committed to providing students with the knowledge, skills, and opportunities they need to excel in STEM fields. Join us in shaping the future of STEM education and inspiring the innovators of tomorrow.
           </p>
         </div>
       </section>
-
     </div>
   );
 };
