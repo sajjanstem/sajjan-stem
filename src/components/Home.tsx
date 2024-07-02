@@ -16,27 +16,20 @@ const Home = () => {
   };
 
   return (
-    <div className="p-4 flex flex-col gap-8">
+    <div className="p-4 flex flex-col gap-4">
       <div className="mb-8">
         <Slider {...settings}>
           <div>
             <img
-              src={process.env.PUBLIC_URL + "/assets/STEMGENIUSHUNT.png"}
+              src={process.env.PUBLIC_URL + "/assets/slider1.png"}
               alt="STEM Genius Hunt"
               className="slider-image"
             />
           </div>
           <div>
             <img
-              src={process.env.PUBLIC_URL + "/assets/STEMGENIUSHUNT.png"}
-              alt="STEM Genius Hunt"
-              className="slider-image"
-            />
-          </div>
-          <div>
-            <img
-              src={process.env.PUBLIC_URL + "/assets/STEMGENIUSHUNT.png"}
-              alt="STEM"
+              src={process.env.PUBLIC_URL + "/assets/slider2.png"}
+              alt="prizes"
               className="slider-image"
             />
           </div>
