@@ -1,7 +1,31 @@
-.MuiButtonBase-root{
+.stem-image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .stem-image {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+  }
+  
+  .stem-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 123, 255, 0.2); /* Blue glass shade */
+    mix-blend-mode: overlay;
+  }
+  
+  .MuiButtonBase-root {
     background-color: rgba(243, 248, 247, 0.75) !important;
-}
-.MuiTableHead-root{
+  }
+  
+  .MuiTableHead-root {
     background-color: rgba(243, 248, 247, 0.75) !important;
-    color : #596981 !important;
-}
+    color: #596981 !important;
+  }
+  

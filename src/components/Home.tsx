@@ -49,7 +49,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="content-section bg2">
+      <section className="content-section bg1">
         <div className="content">
           <h2>About the STEM Genius Hunt Examination</h2>
           <p>
@@ -66,7 +66,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="content-section bg3">
+      <section className="content-section bg2">
         <div className="content">
           <h2>Promoting Critical Skills for the Future</h2>
           <p>
@@ -75,7 +75,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="content-section bg4">
+      <section className="content-section bg2">
         <div className="content">
           <h2>Fostering a Lifelong Love for STEM</h2>
           <p>
@@ -84,7 +84,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="content-section bg5">
+      <section className="content-section bg3">
         <div className="content">
           <h2>The Importance of Project-Based Learning</h2>
           <p>
@@ -99,7 +99,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="content-section bg6">
+      <section className="content-section bg3">
         <div className="content">
           <h2>Inspiring the Next Generation of Innovators</h2>
           <p>

@@ -6,7 +6,14 @@ import "./Stem.css";
 const Stem = () => {
   return (
     <Box className="p-4">
-      <img src={process.env.PUBLIC_URL + '/assets/stem.png'} alt="" style={{ width: '100%', height: 'auto' }} />
+      <div className="stem-image-container">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/stem.png"}
+          alt="STEM"
+          className="stem-image"
+        />
+        <div className="stem-image-overlay"></div>
+      </div>
       <Typography variant="h1" gutterBottom>Stem</Typography>
       <Typography variant="body1" paragraph>
         Stem Genius Hunt Examinations are beneficial for school students because they promote critical thinking, problem-solving skills, and a deeper understanding of mathematical concepts beyond the regular curriculum. These competitions challenge students to apply their knowledge in innovative ways, fostering intellectual growth and encouraging a love for mathematics. Additionally, participating in such exams can boost students' confidence, provide recognition for their abilities, and open up opportunities for scholarships and advanced educational programs. This not only enhances their academic profile but also prepares them for future academic and professional success.
