@@ -111,35 +111,6 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="content-section bg7">
-        <div className="content">
-          <h2>Contact Us</h2>
-          <p>
-            For any inquiries or further information about the STEM Genius Hunt Examinations, please feel free to contact us at:
-          </p>
-          <ul>
-            <li><strong>Email:</strong> <a href="mailto:info@stemyuva.org" style={{ color: "#ffffff" }}>info@stemyuva.org</a></li>
-            <li><strong>Phone:</strong> +91 98765 43210</li>
-          </ul>
-          <p>
-            Stay connected with us on social media for the latest updates and announcements:
-          </p>
-          <ul>
-            <li><a href="https://www.facebook.com/yuvaSTEM" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff" }}>Facebook</a></li>
-            <li><a href="https://twitter.com/yuvaSTEM" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff" }}>Twitter</a></li>
-            <li><a href="https://www.instagram.com/yuvaSTEM" target="_blank" rel="noopener noreferrer" style={{ color: "#ffffff" }}>Instagram</a></li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="content-section bg8">
-        <div className="content">
-          <h2>Join Us in Shaping the Future</h2>
-          <p>
-            At Yuva STEM Organisation, we believe that every child has the potential to be a STEM genius. Through our comprehensive examination and mentorship program, we are committed to providing students with the knowledge, skills, and opportunities they need to excel in STEM fields. Join us in shaping the future of STEM education and inspiring the innovators of tomorrow.
-          </p>
-        </div>
-      </section>
     </div>
   );
 };

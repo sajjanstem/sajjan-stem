@@ -53,11 +53,11 @@
 }
 
 .bg3 {
-  background-image: url("../../public/assets/skills.jpg");
+  background-image: url("../../public/assets/innovators.jpg");
 }
 
 .bg4 {
-  background-image: url("../../public/assets/love_stem.jpg");
+  background-image: url("../../public/assets/innovators.jpg");
 }
 
 .bg5 {
@@ -65,16 +65,9 @@
 }
 
 .bg6 {
-  background-image: url("../../public/assets/innovators.jpg");
+  background-image: url("../../public/assets/love_stem.jpg");
 }
 
-.bg7 {
-  background-image: url("../../public/assets/innovators.jpg");
-}
-
-.bg8 {
-  background-image: url("../../public/assets/skills.jpg");
-}
 
 .content {
   max-width: 800px;
@@ -127,6 +120,17 @@
   .heading-section p {
     font-size: 1rem;
     color: #596981;
+  }
+
+  .content {
+    backdrop-filter: blur(2px); 
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: justify;
+  }
+
+  .content-section {
+    padding: 4rem 1rem;
   }
 
 }
