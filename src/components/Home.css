@@ -44,6 +44,26 @@
   z-index: -1;
 }
 
+.read-more-container {
+  margin-top: 20px;
+}
+
+.read-more-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 20px;
+  border: 3px solid white;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 24px;
+  transition: background-color 0.3s;
+}
+
+.external-link-icon {
+  margin-left: 8px;
+  font-size: 16px;
+}
+
 .bg1 {
   background-image: url("../../public/assets/skills.jpg");
 }
@@ -69,9 +89,19 @@
   text-align: justify;
 }
 
-.content h2, .content h3 {
-  color: #ffffff;
+.content h2 {
+  color: rgba(108,246,59,0.65);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  font-family: ui-monospace;
+}
+
+
+.content h3 {
+  color: rgba(108,246,59,0.65);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
+  font-family: ui-monospace;
 }
 
 .content p, .content ul {
@@ -120,6 +150,21 @@
 
   .content-section {
     padding: 4rem 1rem;
+  }
+
+  .content h2 {
+    color: rgba(108,246,59,0.65);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+    font-family: ui-monospace;
+  }
+  
+  
+  .content h3 {
+    color: rgba(108,246,59,0.65);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.25rem;
+    font-family: ui-monospace;
   }
 
 }

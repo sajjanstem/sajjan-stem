@@ -1,6 +1,8 @@
 import React from "react";
 import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
 import "./Stem.css";
 
 const Stem = () => {
@@ -14,17 +16,22 @@ const Stem = () => {
         />
         <div className="stem-image-overlay"></div>
       </div>
-      <Typography variant="h1" gutterBottom>Stem</Typography>
+      <div className="heading-section">
+        <h1>STEM Genius Hunt</h1>
+      </div>
       <Typography variant="body1" paragraph>
-        Stem Genius Hunt Examinations are beneficial for school students because they promote critical thinking, problem-solving skills, and a deeper understanding of mathematical concepts beyond the regular curriculum. These competitions challenge students to apply their knowledge in innovative ways, fostering intellectual growth and encouraging a love for mathematics. Additionally, participating in such exams can boost students' confidence, provide recognition for their abilities, and open up opportunities for scholarships and advanced educational programs. This not only enhances their academic profile but also prepares them for future academic and professional success.
+        Stem Genius Hunt Examinations are beneficial for school students because they promote critical thinking, problem-solving skills, and a deeper understanding of STEM (Science, Technology, Engineering, and Mathematics) concepts beyond the regular curriculum. These competitions challenge students to apply their knowledge in innovative ways, fostering intellectual growth and encouraging a love for STEM subjects. Additionally, participating in such exams can boost students' confidence, provide recognition for their abilities, and open up opportunities for scholarships and advanced educational programs. This not only enhances their academic profile but also prepares them for future academic and professional success.
       </Typography>
       <Typography variant="body1" paragraph>
-        Stem Genius Hunt Examinations are beneficial for school students because they promote critical thinking, problem-solving skills, and a deeper understanding of mathematical concepts beyond the regular curriculum. These competitions challenge students to apply their knowledge in innovative ways, fostering intellectual growth and encouraging a love for mathematics. Additionally, participating in such exams can boost students' confidence, provide recognition for their abilities, and open up opportunities for scholarships and advanced educational programs. This not only enhances their academic profile but also prepares them for future academic and professional success.
+        The STEM Genius Hunt Examination goes beyond traditional assessments by encouraging students to engage in hands-on projects and real-world problem-solving. This approach allows students to showcase their creativity and innovation, further deepening their understanding of STEM principles. By working on projects, students develop practical skills and gain experience in applying theoretical knowledge to tangible outcomes, preparing them for future challenges in academia and professional careers.
       </Typography>
-      
+      <Typography variant="body1" paragraph>
+        Moreover, the top 50 projects from Level 2 of the examination will be given an invaluable opportunity to present at premier institutes, such as our collaboration this year with IIIT Dharwad. This exposure provides students with a platform to interact with faculty of premier institutions, receive feedback, and inspire further innovation, fostering a community of young STEM enthusiasts ready to make significant contributions to the field.
+      </Typography>
+
       <Box mt={4}>
         <TableContainer component={Paper}>
-        <Table>
+          <Table>
             <TableHead>
               <TableRow>
                 <TableCell><b>Classes 6 to 10</b></TableCell>
@@ -36,18 +43,18 @@ const Stem = () => {
             <TableBody>
               <TableRow>
                 <TableCell>Section 1: Science </TableCell>
-                <TableCell align="right">10 </TableCell>
+                <TableCell align="right">10</TableCell>
                 <TableCell align="right">1</TableCell>
                 <TableCell align="right">10</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Section2: Technology & Engineering</TableCell>
+                <TableCell>Section 2: Technology & Engineering</TableCell>
                 <TableCell align="right">15</TableCell>
                 <TableCell align="right">2</TableCell>
                 <TableCell align="right">30</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Section3: Mathematics </TableCell>
+                <TableCell>Section 3: Mathematics </TableCell>
                 <TableCell align="right">10</TableCell>
                 <TableCell align="right">1</TableCell>
                 <TableCell align="right">10</TableCell>
@@ -65,6 +72,7 @@ const Stem = () => {
 
       <Box mt={4}>
         <Typography variant="h4" gutterBottom>Syllabus</Typography>
+        {/* Accordion for Syllabus */}
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>Class 6</Typography>
@@ -76,20 +84,19 @@ const Stem = () => {
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
               AI
-Introduction to AI, The Birth of AI, Understanding AI, Future of AI, New Technologies (Augmented Reality)
-
-Coding
-Introduction of Coding, Algorithms with Block Coding, Variables using Block Coding, Control with Conditionals, Loops using Block Coding
-
-Intelligence assessment with Logical Reasoning
-Series Completion, Blood Relation, Direction Sense Test, Geometrical Shapes, Mirror and Water Reflections
+              Introduction to AI, The Birth of AI, Understanding AI, Future of AI, New Technologies (Augmented Reality)
+              <br />
+              Coding
+              Introduction of Coding, Algorithms with Block Coding, Variables using Block Coding, Control with Conditionals, Loops using Block Coding
+              <br />
+              Intelligence assessment with Logical Reasoning
+              Series Completion, Blood Relation, Direction Sense Test, Geometrical Shapes, Mirror and Water Reflections
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Knowing Our Numbers, Whole Numbers, Playing with Numbers, Basic Geometrical Ideas, Understanding Elementary Shapes, Integers, Fractions, Decimals, Data Handling, Mensuration, Algebra, Ratio and Proportion.
-              </Typography>
+            </Typography>
           </AccordionDetails>
         </Accordion>
-
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>Class 7</Typography>
@@ -101,20 +108,19 @@ Series Completion, Blood Relation, Direction Sense Test, Geometrical Shapes, Mir
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
               AI
-Introduction to AI, Application Area of AI, Ethics of AI, Future of AI, New Technologies [Virtual Reality]
-
-Coding
-Understanding Programming Languages, Variable in Real Life, Sequencing with Block Coding, Fun with Functions, Understanding Arrays and Collections
-
-Intelligence assessment with Logical Reasoning
-Series Completion, Blood Relation, Analogy and Classification, Coding & Decoding, Cubes and Dice
+              Introduction to AI, Application Area of AI, Ethics of AI, Future of AI, New Technologies [Virtual Reality]
+              <br />
+              Coding
+              Understanding Programming Languages, Variable in Real Life, Sequencing with Block Coding, Fun with Functions, Understanding Arrays and Collections
+              <br />
+              Intelligence assessment with Logical Reasoning
+              Series Completion, Blood Relation, Analogy and Classification, Coding & Decoding, Cubes and Dice
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Integers, Fractions and Decimals, Data Handling, Simple Equations, Lines and Angles, The Triangle and its Properties, Comparing Quantities, Rational Numbers, Perimeter and Area, Algebraic Expressions, Exponents and Powers, Symmetry, Visualising Solid Shapes.
-              </Typography>
+            </Typography>
           </AccordionDetails>
         </Accordion>
-
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>Class 8</Typography>
@@ -126,20 +132,19 @@ Series Completion, Blood Relation, Analogy and Classification, Coding & Decoding
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
               AI
-Introduction to AI, History of AI, Application of AI, Future of AI, AI Ethics and Bias
-
-Coding
-Conditionals in Details, Get Creative with Loops, Functions, Programming with Arrays, Advanced Sequencing
-
-Intelligence assessment with Logical Reasoning
-Series Completion, Classification, Direction Sense Test, Coding & Decoding, Image Reflection
+              Introduction to AI, History of AI, Application of AI, Future of AI, AI Ethics and Bias
+              <br />
+              Coding
+              Conditionals in Details, Get Creative with Loops, Functions, Programming with Arrays, Advanced Sequencing
+              <br />
+              Intelligence assessment with Logical Reasoning
+              Series Completion, Classification, Direction Sense Test, Coding & Decoding, Image Reflection
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Rational Numbers, Linear Equations in One Variable, Understanding Quadrilaterals, Data Handling, Squares and Square Roots, Cubes and Cube Roots, Comparing Quantities, Algebraic Expressions and Identities, Mensuration, Exponents and Powers, Direct and Inverse Proportions, Factorisation, Introduction to Graphs.
-              </Typography>
+            </Typography>
           </AccordionDetails>
         </Accordion>
-
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>Class 9</Typography>
@@ -151,20 +156,19 @@ Series Completion, Classification, Direction Sense Test, Coding & Decoding, Imag
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
               AI
-Introduction to AI, AI Project Cycle, Neural Networks
-
-Coding
-Coding with Python - Intermediate
-
-Intelligence assessment with Logical Reasoning
-Series Completion, Blood Relation, Syllogism, Inserting Missing Number, Figures Sequence
+              Introduction to AI, AI Project Cycle, Neural Networks
+              <br />
+              Coding
+              Coding with Python - Intermediate
+              <br />
+              Intelligence assessment with Logical Reasoning
+              Series Completion, Blood Relation, Syllogism, Inserting Missing Number, Figures Sequence
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Number Systems, Polynomials, Coordinate Geometry, Linear Equations in Two Variables, Introduction to Euclid’s Geometry, Lines and Angles, Triangles, Quadrilaterals, Circles, Heron’s Formula, Surface Areas and Volumes, Statistics.
-              </Typography>
+            </Typography>
           </AccordionDetails>
         </Accordion>
-
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>Class 10</Typography>
@@ -176,22 +180,22 @@ Series Completion, Blood Relation, Syllogism, Inserting Missing Number, Figures 
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
               AI
-Foundational Concepts of AI, Understanding AI Project Cycle, Computer Vision, Natural Language Processing
-
-Coding
-Coding with Python - Advance
-
-Intelligence assessment with Logical Reasoning
-Direction Test, Venn Diagram, Logical Sequence, Mathematical Operations, Coding & Decoding
+              Foundational Concepts of AI, Understanding AI Project Cycle, Computer Vision, Natural Language Processing
+              <br />
+              Coding
+              Coding with Python - Advance
+              <br />
+              Intelligence assessment with Logical Reasoning
+              Direction Test, Venn Diagram, Logical Sequence, Mathematical Operations, Coding & Decoding
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Real Numbers, Polynomials, Pair of Linear Equations in Two Variables, Quadratic Equations, Arithmetic Progressions, Triangles, Coordinate Geometry, Introduction to Trigonometry, Some Applications of Trigonometry, Circles, Areas Related to Circles, Surface Areas and Volumes, Statistics, Probability.
-              </Typography>
+            </Typography>
           </AccordionDetails>
         </Accordion>
-
-
       </Box>
+
+    //awards
 
     </Box>
   );

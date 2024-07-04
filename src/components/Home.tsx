@@ -61,8 +61,13 @@ const Home = () => {
           </p>
           <h3>Level 2: Advanced Projects and Mentorship</h3>
           <p>
-            Students who qualify for Level 2 will receive master classes in Python, AI, IoT, web development, Arduino, and more to help them build projects. The top projects will be shortlisted for presentation at premier institutions. For this academic year, we have collaborated with IIIT Dharwad, where the faculty of this premier institute will evaluate the projects. This level aims to push the boundaries of students' creativity and innovation, enabling them to tackle real-world problems and develop practical solutions. The best projects will receive further cash prizes, recognizing their exceptional contribution and ingenuity.
+            Students who qualify for Level 2 will receive master classes in Python, AI, IoT, web development, Arduino, and more to help them build projects. The top projects will be shortlisted for presentation at premier institutions. For this academic year, we have collaborated with <b>IIIT Dharwad</b>, where the faculty of this premier institute will evaluate the projects. This level aims to push the boundaries of students' creativity and innovation, enabling them to tackle real-world problems and develop practical solutions. The best projects will receive further cash prizes, recognizing their exceptional contribution and ingenuity.
           </p>
+          <div className="read-more-container">
+          <a href="/exams" className="read-more-button">
+            Read More <span className="external-link-icon">→</span>
+          </a>
+        </div>
         </div>
       </section>
 
@@ -103,11 +108,8 @@ const Home = () => {
         <div className="content">
           <h2>Inspiring the Next Generation of Innovators</h2>
           <p>
-            Our mission at Yuva STEM Organisation is to inspire and educate the next generation of STEM leaders. By encouraging curiosity and analytical thinking from an early age, we aim to motivate students to pursue higher studies and careers in STEM fields. The STEM Genius Hunt Examinations provide a stepping stone for students to prepare for global challenges and achieve future academic and professional success.
-          </p>
-          <p>
-            We invite students, educators, and parents to join us in this exciting journey. By participating in the STEM Genius Hunt Examinations, students will not only demonstrate their knowledge and skills but also cultivate a passion for STEM that will last a lifetime.
-          </p>
+          Our mission is to inspire and educate the next generation of STEM leaders. By encouraging curiosity and analytical thinking. The STEM Genius Hunt Examinations prepare students for global challenges and future success. We invite educational institutions to join us in this exciting journey to cultivate a lasting passion for STEM.
+           </p>
         </div>
       </section>
 
