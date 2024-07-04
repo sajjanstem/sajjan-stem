@@ -6,12 +6,12 @@
   text-align: start;
   border-radius: 10px;
   background: white;
-  overflow: hidden; 
+  overflow: hidden;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .ss-exams-submenu li {
-  background: transparent; 
+  background: transparent;
   cursor: pointer;
 
 }

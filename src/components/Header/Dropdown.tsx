@@ -6,23 +6,23 @@ function Dropdown() {
   const [dropdown, setDropdown] = useState(false);
   const serviceDropdown = [
     {
-        id: 1,
-        title: "STEM Genius Hunt",
-        path: "./stem",
-        cName: "submenu-item",
-      },
-      {
-        id: 2, 
-        title: "Maths Genius Hunt",
-        path: "./maths",
-        cName: "submenu-item",
-      },
-      {
-        id: 3,
-        title: "Science Genius Hunt",
-        path: "./science",
-        cName: "submenu-item",
-      }
+      id: 1,
+      title: "STEM Genius Hunt",
+      path: "./stem",
+      cName: "submenu-item",
+    },
+    {
+      id: 2,
+      title: "Maths Genius Hunt",
+      path: "./maths",
+      cName: "submenu-item",
+    },
+    {
+      id: 3,
+      title: "Science Genius Hunt",
+      path: "./science",
+      cName: "submenu-item",
+    }
   ]
 
   return (
@@ -31,7 +31,7 @@ function Dropdown() {
         className={dropdown ? "ss-exams-submenu clicked" : "ss-exams-submenu"}
         onClick={() => setDropdown(!dropdown)}
       >
-        {serviceDropdown.map((item:any) => {
+        {serviceDropdown.map((item: any) => {
           return (
             <li key={item.id}>
               <Link
