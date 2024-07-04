@@ -2,8 +2,9 @@ import React from "react";
 import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
+import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import "./Stem.css";
+import { Height } from "@mui/icons-material";
 
 const Stem = () => {
   return (
@@ -72,14 +73,13 @@ const Stem = () => {
 
       <Box mt={4}>
         <Typography variant="h4" gutterBottom>Syllabus</Typography>
-        {/* Accordion for Syllabus */}
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>Class 6</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              <b>Section 1: Science </b><br />   
+              <b>Section 1: Science </b><br />
               Components of Food, Sorting Materials into Groups, Separation of Substances, Getting to Know Plants, Body Movements, The Living Organisms — Characteristics and Habitats, Motion and Measurement of Distances, Light, Shadows and Reflections, Electricity and Circuits, Fun with Magnets, Air Around Us.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
@@ -103,8 +103,8 @@ const Stem = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              <b>Section 1: Science </b><br />   
-              Nutrition in Plants, Nutrition in Animals, Heat, Acids, Bases and Salts, Physical and Chemical Changes, Respiration in Organisms, Transportation in Animals and Plants, Reproduction in Plants, Motion and Time, Electric Current and its Effects, Light, Forests: Our Lifeline, Wastewater Story. 
+              <b>Section 1: Science </b><br />
+              Nutrition in Plants, Nutrition in Animals, Heat, Acids, Bases and Salts, Physical and Chemical Changes, Respiration in Organisms, Transportation in Animals and Plants, Reproduction in Plants, Motion and Time, Electric Current and its Effects, Light, Forests: Our Lifeline, Wastewater Story.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
               AI
@@ -127,7 +127,7 @@ const Stem = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              <b>Section 1: Science </b><br />   
+              <b>Section 1: Science </b><br />
               Crop Production and Management, Microorganisms: Friend and Foe, Coal and Petroleum, Combustion and Flame, Conservation of Plants and Animals, Reproduction in Animals, Reaching the Age of Adolescence, Force and Pressure, Friction, Sound.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
@@ -151,7 +151,7 @@ const Stem = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              <b>Section 1: Science </b><br />   
+              <b>Section 1: Science </b><br />
               Matter in Our Surroundings, Is Matter Around Us Pure?, Atoms and Molecules, Structure of the Atom, The Fundamental Unit of Life, Tissues, Motion, Force and Laws of Motion, Gravitation, Work and Energy, Sound, Improvement in Food Resources.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
@@ -175,7 +175,7 @@ const Stem = () => {
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              <b>Section 1: Science </b><br />   
+              <b>Section 1: Science </b><br />
               Chemical Reactions and Equations, Acids, Bases and Salts, Metals and Non-metals, Carbon and its Compounds, Life Processes, Control and Coordination, How do Organisms Reproduce?, Heredity, Light – Reflection and Refraction, The Human Eye and the Colourful World, Electricity, Magnetic Effects of Electric Current, Our Environment.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
@@ -194,8 +194,92 @@ const Stem = () => {
           </AccordionDetails>
         </Accordion>
       </Box>
+      <Box mt={4}>
+        <Typography variant="h4" gutterBottom>Awards</Typography>
+        <TableContainer component={Paper}>
+          <Table>
+            <TableHead >
+              <TableRow >
+                <TableCell ><b>Level 2 Awards for top 10 projects</b></TableCell>
+                <TableCell></TableCell>
+              </TableRow>
+            </TableHead>
+            <TableHead>
+              <TableRow>
+                <TableCell><b>Position</b></TableCell>
+                <TableCell align="right"><b>Awards</b></TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell><b>1st</b> </TableCell>
+                <TableCell align="right"><b>25,000 INR</b> + <b>Trophy </b><EmojiEventsIcon className="trophy" />+<b> Medal</b><MilitaryTechIcon className="medal" /></TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell><b>2nd</b></TableCell>
+                <TableCell align="right"><b>15,000 INR</b> + <b>Trophy </b><EmojiEventsIcon className="trophy" />+<b> Medal</b><MilitaryTechIcon className="medal" /></TableCell>
 
-    //awards
+              </TableRow>
+              <TableRow>
+                <TableCell><b>3rd </b></TableCell>
+                <TableCell align="right"><b>5,000 INR</b> + <b>Trophy </b><EmojiEventsIcon className="trophy" />+<b> Medal</b><MilitaryTechIcon className="medal" /></TableCell>
+
+              </TableRow>
+              <TableRow>
+                <TableCell><b>4th & 5th</b> </TableCell>
+                <TableCell align="right"><b>Trophy </b><EmojiEventsIcon className="trophy" />+<b> Medal</b><MilitaryTechIcon className="medal" /></TableCell>
+
+              </TableRow>
+              <TableRow>
+                <TableCell><b>6th to 10th </b></TableCell>
+                <TableCell align="right"><b> Medal</b><MilitaryTechIcon className="medal" /></TableCell>
+
+              </TableRow>
+
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </Box>
+
+      <Box mt={4}>
+        <TableContainer component={Paper}>
+          <Table>
+            <TableHead >
+              <TableRow >
+                <TableCell ><b>Level 1 Awards at school level</b></TableCell>
+                <TableCell></TableCell>
+                <TableCell></TableCell>
+              </TableRow>
+            </TableHead>
+            <TableHead>
+              <TableRow>
+                <TableCell><b>Class Rank</b></TableCell>
+                <TableCell align="right"><b>Classes</b></TableCell>
+                <TableCell align="right"><b>Awards</b></TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              <TableRow>
+                <TableCell><b>1st</b></TableCell>
+                <TableCell align="right">6th to 10th</TableCell>
+                <TableCell align="right"><MilitaryTechIcon className="medal" />Gold Medal + Special Achievement certificate</TableCell>
+
+              </TableRow>
+              <TableRow>
+                <TableCell><b>2nd</b></TableCell>
+                <TableCell align="right">6th to 10th</TableCell>
+                <TableCell align="right"><MilitaryTechIcon className="medal" />Silver Medal + Special Achievement certificate</TableCell>
+              </TableRow>
+              <TableRow>
+                <TableCell><b>3rd </b></TableCell>
+                <TableCell align="right">6th to 10th</TableCell>
+                <TableCell align="right"><MilitaryTechIcon className="medal" />Bronze Medal + Special Achievement certificate</TableCell>
+              </TableRow>
+
+            </TableBody>
+          </Table>
+        </TableContainer>
+      </Box>
 
     </Box>
   );
