@@ -31,6 +31,10 @@ const Stem = () => {
       </Typography>
 
       <Box mt={4}>
+      <div>Duration of the exam is 1 hour</div>
+      <div>Note: Please refer to Olympiad books for preparation.</div>
+      <div>The Level 1 exam is tentatively scheduled for the last week of September or the first week of October.</div>
+      The venue of the examination will be school only.
         <TableContainer component={Paper}>
           <Table>
             <TableHead>
