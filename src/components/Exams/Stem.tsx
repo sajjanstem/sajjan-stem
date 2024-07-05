@@ -5,10 +5,17 @@ import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
 import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
 import "./Stem.css";
 import { Height } from "@mui/icons-material";
+import { Helmet } from "react-helmet";
 
 const Stem = () => {
   return (
     <Box className="p-4">
+      <Helmet>
+        <title>STEM Genius Hunt - Yuva STEM Organisation</title>
+        <meta name="description" content="Learn about the STEM Genius Hunt Examination organized by Yuva STEM Organisation. Enhance critical thinking and problem-solving skills in school students through STEM education." />
+        <meta name="keywords" content="STEM Genius Hunt, Yuva STEM Organisation, STEM education, school competitions, science, technology, engineering, mathematics" />
+        <meta name="author" content="Yuva STEM Organisation" />
+      </Helmet>
       <div className="stem-image-container">
         <img
           src={process.env.PUBLIC_URL + "/assets/stem.png"}

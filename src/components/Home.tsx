@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Home.css";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const settings = {
@@ -17,6 +18,13 @@ const Home = () => {
 
   return (
     <div className="p-4 flex flex-col gap-4">
+      <Helmet>
+        <title>Yuva STEM Organisation - Home</title>
+        <meta
+          name="description"
+          content="Yuva STEM Organisation - Unleashing the Young Leaders in STEM. Learn about our STEM Genius Hunt Examination and how we nurture young minds in STEM subjects."
+        />
+      </Helmet>
       <div className="mb-8">
         <Slider {...settings}>
           <div>
