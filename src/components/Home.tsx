@@ -24,6 +24,9 @@ const Home = () => {
           name="description"
           content="Yuva STEM Organisation - Unleashing the Young Leaders in STEM. Learn about our STEM Genius Hunt Examination and how we nurture young minds in STEM subjects."
         />
+        <meta name="description" content="Yuva STEM Organisation - Unleashing the Young Leaders in STEM through the STEM Genius Hunt Examination for classes 6 to 10." />
+        <meta name="keywords" content="Yuva STEM, STEM Genius Hunt, yuva stem, yuva STEM Examination, STEM Education, Science Technology Engineering Mathematics, Student Competitions, IIIT Dharwad, Project-Based Learning" />
+        <meta name="author" content="Yuva STEM Organisation" />
       </Helmet>
       <div className="mb-8">
         <Slider {...settings}>
