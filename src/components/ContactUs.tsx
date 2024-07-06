@@ -8,7 +8,7 @@ const ContactUs = () => {
             <Helmet>
                 <title>Contact Us - Yuva STEM Organisation</title>
                 <meta name="description" content="Contact Yuva STEM Organisation for more information, sample papers, exam fees, and to register for our Genius Hunt exams." />
-                <meta name="keywords" content="Yuva STEM Organisation, contact, STEM education, Genius Hunt exams, registration, sample papers, exam fees" />
+                <meta name="keywords" content="Yuva STEM Organisation, contact, STEM education, Genius Hunt exams, registration, Karthik Sajjan, Yuva STEM" />
                 <meta name="author" content="Yuva STEM Organisation" />
             </Helmet>
             <h2>Contact Us</h2>

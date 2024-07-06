@@ -13,7 +13,7 @@ const Stem = () => {
       <Helmet>
         <title>STEM Genius Hunt - Yuva STEM Organisation</title>
         <meta name="description" content="Learn about the STEM Genius Hunt Examination organized by Yuva STEM Organisation. Enhance critical thinking and problem-solving skills in school students through STEM education." />
-        <meta name="keywords" content="STEM Genius Hunt, Yuva STEM Organisation, STEM education, school competitions, science, technology, engineering, mathematics" />
+        <meta name="keywords" content="STEM Genius Hunt, Yuva STEM, Yuva STEM Organisation, STEM education, Yuva stem, school competitions, science, technology, engineering, mathematics" />
         <meta name="author" content="Yuva STEM Organisation" />
       </Helmet>
       <div className="stem-image-container">

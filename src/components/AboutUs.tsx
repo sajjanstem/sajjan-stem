@@ -7,7 +7,7 @@ const AboutUs = () => {
             <Helmet>
                 <title>About Us - Yuva STEM Organisation</title>
                 <meta name="description" content="Learn more about Yuva STEM Organisation, dedicated to nurturing young minds through the STEM Genius Hunt Examination." />
-                <meta name="keywords" content="Yuva STEM Organisation, STEM education, Karthik Sajjan, Indian Institute of Information Technology Dharwad, STEM Genius Hunt Examination, digital literacy, coding, artificial intelligence" />
+                <meta name="keywords" content="Yuva STEM Organisation, STEM education, aurdino, Karthik Sajjan, Indian Institute of Information Technology Dharwad, STEM Genius Hunt Examination, digital literacy, coding, artificial intelligence" />
                 <meta name="author" content="Yuva STEM Organisation" />
             </Helmet>
             <h2>About Us</h2>
