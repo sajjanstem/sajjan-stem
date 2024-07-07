@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import "./ContactUs.css"; // Import your CSS file for styling
+import "./ContactUs.css";
 
 const ContactUs = () => {
     return (
@@ -12,12 +12,31 @@ const ContactUs = () => {
                 <meta name="author" content="Yuva STEM Organisation" />
             </Helmet>
             <h2>Contact Us</h2>
-            <div className="contact-info">
-                <h3>Phone</h3>
-                <p>7975176756</p>
-                <h3>Email</h3>
-                <p><a href="mailto:karthiksajjan1@gmail.com">karthiksajjan1@gmail.com</a></p>
-                <p><a href="mailto:info@yuvastem.org">info@yuvastem.org</a></p>
+            <div className="contact-container">
+                <div className="contact-info">
+                    <h3>Email & Phone</h3>
+                    <p>7975176756</p>
+                    <p><a href="mailto:info@yuvastem.org">info@yuvastem.org</a></p>
+                    <p><a href="mailto:karthiksajjan1@gmail.com">karthiksajjan1@gmail.com</a></p>
+                    <h3>Address</h3>
+                    <address>
+                        Yuva STEM Organisation<br />
+                        131/A, 3rd Floor, NGEF Layout, Outer ring road, Ring Road, near Grand Seasons Business Hotel,<br />
+                        East of NGEF Layout, Kasturi Nagar, Bengaluru, Karnataka 560043
+                    </address>
+                </div>
+                <div className="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62200.28460990648!2d77.58683584863279!3d13.0026648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae11c26db122c5%3A0xe95ca23faa9830e2!2sYuva%20STEM%20Organisation!5e0!3m2!1sen!2sin!4v1720342114872!5m2!1sen!2sin"
+                        width="600"
+                        height="450"
+                        style={{ border: 0 }}
+                        allowFullScreen
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                        title="Yuva STEM Organisation"
+                    ></iframe>
+                </div>
             </div>
         </div>
     );
