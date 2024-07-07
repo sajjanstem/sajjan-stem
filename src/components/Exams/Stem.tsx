@@ -28,20 +28,18 @@ const Stem = () => {
         <h1>STEM Genius Hunt</h1>
       </div>
       <Typography variant="body1" paragraph>
-        Stem Genius Hunt Examinations are beneficial for school students because they promote critical thinking, problem-solving skills, and a deeper understanding of STEM (Science, Technology, Engineering, and Mathematics) concepts beyond the regular curriculum. These competitions challenge students to apply their knowledge in innovative ways, fostering intellectual growth and encouraging a love for STEM subjects. Additionally, participating in such exams can boost students' confidence, provide recognition for their abilities, and open up opportunities for scholarships and advanced educational programs. This not only enhances their academic profile but also prepares them for future academic and professional success.
+        Stem Genius Hunt Examinations are beneficial for school students because they promote critical thinking, problem-solving skills, and a deeper understanding of STEM (Science, Technology, Engineering, and Mathematics) concepts beyond the regular curriculum. These competitions challenge students to apply their knowledge in innovative ways, fostering intellectual growth and encouraging a love for STEM subjects. Additionally, participating in such exams can boost students' confidence, provide recognition for their abilities.
       </Typography>
       <Typography variant="body1" paragraph>
         The STEM Genius Hunt Examination goes beyond traditional assessments by encouraging students to engage in hands-on projects and real-world problem-solving. This approach allows students to showcase their creativity and innovation, further deepening their understanding of STEM principles. By working on projects, students develop practical skills and gain experience in applying theoretical knowledge to tangible outcomes, preparing them for future challenges in academia and professional careers.
       </Typography>
       <Typography variant="body1" paragraph>
-        Moreover, the top 50 projects from Level 2 of the examination will be given an invaluable opportunity to present at premier institutes, such as our collaboration this year with IIIT Dharwad. This exposure provides students with a platform to interact with faculty of premier institutions, receive feedback, and inspire further innovation, fostering a community of young STEM enthusiasts ready to make significant contributions to the field.
+        The top 50 projects from Level 2 of the examination will be given an invaluable opportunity to present at premier institutes, such as our collaboration this year with IIIT Dharwad. This exposure provides students with a platform to interact with faculty of premier institutions, receive feedback, and inspire further innovation, fostering a community of young STEM enthusiasts ready to make significant contributions to the field.
       </Typography>
 
       <Box mt={4}>
-      <div>Duration of the exam is 1 hour</div>
-      <div>Note: Please refer to Olympiad books for preparation.</div>
-      <div>The Level 1 exam is tentatively scheduled for the last week of September or the first week of October.</div>
-      The venue of the examination will be school only.
+      <Typography variant="h4" gutterBottom>Exam Pattern</Typography>
+      <div className="font-bold">Duration of the exam is 50 minutes</div>
         <TableContainer component={Paper}>
           <Table>
             <TableHead>
@@ -80,6 +78,9 @@ const Stem = () => {
             </TableBody>
           </Table>
         </TableContainer>
+        <p>Note: Please refer to Olympiad books for preparation.</p>
+      <p>The Level 1 exam is tentatively scheduled for the last week of September or the first week of October.</p>
+     <p>The venue of the examination will be school only.</p> 
       </Box>
 
       <Box mt={4}>
@@ -94,14 +95,11 @@ const Stem = () => {
               Components of Food, Sorting Materials into Groups, Separation of Substances, Getting to Know Plants, Body Movements, The Living Organisms — Characteristics and Habitats, Motion and Measurement of Distances, Light, Shadows and Reflections, Electricity and Circuits, Fun with Magnets, Air Around Us.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
-              AI
-              Introduction to AI, The Birth of AI, Understanding AI, Future of AI, New Technologies (Augmented Reality)
-              <br />
-              Coding
-              Introduction of Coding, Algorithms with Block Coding, Variables using Block Coding, Control with Conditionals, Loops using Block Coding
-              <br />
-              Intelligence assessment with Logical Reasoning
-              Series Completion, Blood Relation, Direction Sense Test, Geometrical Shapes, Mirror and Water Reflections
+              Reasoning & Aptitude.
+              <br /><br />
+              Introduction to AI, The Birth of AI, Understanding AI, Future of AI, New Technologies [Augmented Reality].
+              <br /><br />
+              Introduction of Coding, Algorithms with Block Coding, Variables using Block Coding, Control with Conditionals, Loops using Block Coding.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Knowing Our Numbers, Whole Numbers, Playing with Numbers, Basic Geometrical Ideas, Understanding Elementary Shapes, Integers, Fractions, Decimals, Data Handling, Mensuration, Algebra, Ratio and Proportion.
@@ -118,14 +116,11 @@ const Stem = () => {
               Nutrition in Plants, Nutrition in Animals, Heat, Acids, Bases and Salts, Physical and Chemical Changes, Respiration in Organisms, Transportation in Animals and Plants, Reproduction in Plants, Motion and Time, Electric Current and its Effects, Light, Forests: Our Lifeline, Wastewater Story.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
-              AI
+              Reasoning & Aptitude
+              <br /><br />
               Introduction to AI, Application Area of AI, Ethics of AI, Future of AI, New Technologies [Virtual Reality]
-              <br />
-              Coding
+              <br /><br />
               Understanding Programming Languages, Variable in Real Life, Sequencing with Block Coding, Fun with Functions, Understanding Arrays and Collections
-              <br />
-              Intelligence assessment with Logical Reasoning
-              Series Completion, Blood Relation, Analogy and Classification, Coding & Decoding, Cubes and Dice
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Integers, Fractions and Decimals, Data Handling, Simple Equations, Lines and Angles, The Triangle and its Properties, Comparing Quantities, Rational Numbers, Perimeter and Area, Algebraic Expressions, Exponents and Powers, Symmetry, Visualising Solid Shapes.
@@ -142,14 +137,11 @@ const Stem = () => {
               Crop Production and Management, Microorganisms: Friend and Foe, Coal and Petroleum, Combustion and Flame, Conservation of Plants and Animals, Reproduction in Animals, Reaching the Age of Adolescence, Force and Pressure, Friction, Sound.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
-              AI
-              Introduction to AI, History of AI, Application of AI, Future of AI, AI Ethics and Bias
-              <br />
-              Coding
-              Conditionals in Details, Get Creative with Loops, Functions, Programming with Arrays, Advanced Sequencing
-              <br />
-              Intelligence assessment with Logical Reasoning
-              Series Completion, Classification, Direction Sense Test, Coding & Decoding, Image Reflection
+              Reasoning & Aptitude.
+              <br /><br />
+              Introduction to AI, History of AI, Application of AI, Future of AI, AI Ethics and Bias.
+              <br /><br />
+              Conditionals in Details, Get Creative with Loops, Functions, Programming with Arrays, Advanced Sequencing.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Rational Numbers, Linear Equations in One Variable, Understanding Quadrilaterals, Data Handling, Squares and Square Roots, Cubes and Cube Roots, Comparing Quantities, Algebraic Expressions and Identities, Mensuration, Exponents and Powers, Direct and Inverse Proportions, Factorisation, Introduction to Graphs.
@@ -166,14 +158,11 @@ const Stem = () => {
               Matter in Our Surroundings, Is Matter Around Us Pure?, Atoms and Molecules, Structure of the Atom, The Fundamental Unit of Life, Tissues, Motion, Force and Laws of Motion, Gravitation, Work and Energy, Sound, Improvement in Food Resources.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
-              AI
-              Introduction to AI, AI Project Cycle, Neural Networks
-              <br />
-              Coding
-              Coding with Python - Intermediate
-              <br />
-              Intelligence assessment with Logical Reasoning
-              Series Completion, Blood Relation, Syllogism, Inserting Missing Number, Figures Sequence
+              Reasoning & Aptitude.
+              <br /><br />
+              Introduction to AI, AI Project Cycle, Neural Networks.
+              <br /><br />
+              Coding with Python - Intermediate.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Number Systems, Polynomials, Coordinate Geometry, Linear Equations in Two Variables, Introduction to Euclid’s Geometry, Lines and Angles, Triangles, Quadrilaterals, Circles, Heron’s Formula, Surface Areas and Volumes, Statistics.
@@ -190,14 +179,11 @@ const Stem = () => {
               Chemical Reactions and Equations, Acids, Bases and Salts, Metals and Non-metals, Carbon and its Compounds, Life Processes, Control and Coordination, How do Organisms Reproduce?, Heredity, Light – Reflection and Refraction, The Human Eye and the Colourful World, Electricity, Magnetic Effects of Electric Current, Our Environment.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
-              AI
-              Foundational Concepts of AI, Understanding AI Project Cycle, Computer Vision, Natural Language Processing
-              <br />
-              Coding
-              Coding with Python - Advance
-              <br />
-              Intelligence assessment with Logical Reasoning
-              Direction Test, Venn Diagram, Logical Sequence, Mathematical Operations, Coding & Decoding
+              Reasoning & Aptitude.
+              <br /><br />
+              Foundational Concepts of AI, Understanding AI Project Cycle, Computer Vision, Natural Language Processing.
+              <br /><br />
+              Coding with Python - Advance.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Real Numbers, Polynomials, Pair of Linear Equations in Two Variables, Quadratic Equations, Arithmetic Progressions, Triangles, Coordinate Geometry, Introduction to Trigonometry, Some Applications of Trigonometry, Circles, Areas Related to Circles, Surface Areas and Volumes, Statistics, Probability.
