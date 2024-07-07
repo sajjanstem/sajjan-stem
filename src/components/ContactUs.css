@@ -3,41 +3,58 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.section {
-    padding: 20px;
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
-h2 {
-    font-size: 2rem;
-    color: #333;
+.contact-header {
     text-align: center;
-    margin-bottom: 20px;
+    background: url("../../public/assets/stem.png") no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 .contact-container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
     flex-wrap: wrap;
 }
 
 .contact-info {
     flex: 1;
+    background-color: #333;
+    color: #fff;
     padding: 20px;
-    max-width: 400px;
+    margin-bottom: 20px; /* Add some space between the sections on mobile */
 }
 
 .contact-info h3 {
-    font-size: 1.5rem;
-    color: #007bff;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.contact-info h4 {
+    font-size: 1.4rem;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
 .contact-info p {
     font-size: 1.1rem;
-    color: #666;
     margin: 5px 0;
 }
 
@@ -51,20 +68,14 @@ h2 {
     text-decoration: underline;
 }
 
-.contact-info address {
-    font-style: normal;
-    line-height: 1.6;
-}
-
 .map-container {
-    flex: 2;
-    padding: 20px;
+    flex: 1;
     max-width: 600px;
 }
 
-iframe {
+.map-container iframe {
     width: 100%;
-    height: 450px;
+    height: 100%;
     border: 0;
 }
 
@@ -73,16 +84,17 @@ iframe {
         flex-direction: column;
     }
 
-    .map-container {
-        padding-top: 0;
+    .contact-info {
+        margin-right: 0;
+        margin-bottom: 0;
+        width: 100%;
     }
 
-    .contact-info,
     .map-container {
-        max-width: 100%;
+        width: 100%;
     }
 
-    iframe {
+    .map-container iframe {
         height: 300px;
     }
 }
