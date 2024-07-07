@@ -12,16 +12,22 @@ const AboutUs = () => {
                 <meta name="keywords" content="Yuva STEM Organisation, STEM education, aurdino, Karthik Sajjan, Indian Institute of Information Technology Dharwad, STEM Genius Hunt Examination, digital literacy, coding, artificial intelligence" />
                 <meta name="author" content="Yuva STEM Organisation" />
             </Helmet>
-            <h2>About Us</h2>
+            
+            <div className="heading-section">
+                <h1>About Us</h1>
+            </div>
             <div className="content-container">
                 <div className="profile-card">
                     <img src={process.env.PUBLIC_URL + "/assets/karthik.png"} alt="Karthik Sajjan" className="profile-photo" />
                     <div className="profile-details">
                         <h3>Karthik Sajjan</h3>
                         <p className="position">Founder</p>
-                        <p className="description">
-                            Karthik Sajjan, an alumnus of the Indian Institute of Information Technology (IIIT) Dharwad, holds Olympiad Rank 1 in Level 2 of the International Olympiad of Mathematics 2015 conducted by SilverZone, and secured a gold batch in Mathematica-2011.
-                        </p>
+                        <div className="description">
+                            {/* <p>Karthik Sajjan:</p> */}
+                            <p>• An alumnus of the Indian Institute of Information Technology (IIIT) Dharwad</p>
+                            <p>• Secured Olympiad Rank 1 in Level 2 of the International Olympiad of Mathematics 2015 conducted by SilverZone</p>
+                            <p>• Secured a gold batch in Mathematica-2011 conducted by Karnataka Academy of Mathematics</p>
+                        </div>
                         <a href="https://in.linkedin.com/in/karthik-sajjan-3949691a6" target="_blank" rel="noopener noreferrer">
                             <LinkedInIcon />
                         </a>

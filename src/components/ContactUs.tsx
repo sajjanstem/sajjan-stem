@@ -12,7 +12,7 @@ const ContactUs = () => {
                 <meta name="author" content="Yuva STEM Organisation" />
             </Helmet>
             <div className="contact-header">
-                <h2>Contact</h2>
+                <h2>Contact Us</h2>
             </div>
             <div className="contact-container">
                 <div className="contact-info">

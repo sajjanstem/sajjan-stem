@@ -22,8 +22,9 @@ const Footer = () => {
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" gutterBottom>Our Location</Typography>
             <Typography variant="body1">Yuva STEM Organisation</Typography>
-            <Typography variant="body1">Line 1, Line 2</Typography>
-            <Typography variant="body1">Bengaluru-560043 (India)</Typography>
+            {/* <Typography variant="body1">Line 1, Line 2</Typography> */}
+            <p>131/A, 3rd Floor, Outer ring road, near Grand Seasons Business Hotel, Kasturi Nagar</p>
+            <Typography variant="body1">Bengaluru, Karnataka 560043(India)</Typography>
             <Typography variant="body1">Phone: 7975176756 </Typography>
             <Typography variant="body1">Timings: 08:00 AM to 5:00 PM IST</Typography>
             <Typography variant="body1">Email: <Link href="mailto:" color="inherit" underline="none">info@yuvastem.org</Link></Typography>
