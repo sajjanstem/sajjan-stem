@@ -22,7 +22,7 @@ const ContactUs = () => {
                     <p>131/A, 3rd Floor, NGEF Layout, Outer ring road, Ring Road, near Grand Seasons Business Hotel, East of NGEF Layout, Kasturi Nagar, Bengaluru, Karnataka 560043</p>
                     <h4>Email</h4>
                     <p><a href="mailto:info@yuvastem.org">info@yuvastem.org</a></p>
-                    <p><a href="mailto:karthiksajjan1@gmail.com">karthiksajjan1@gmail.com</a></p>
+                    {/* <p><a href="mailto:karthiksajjan1@gmail.com">karthiksajjan1@gmail.com</a></p> */}
                     <h4>Phone</h4>
                     <p>7975176756</p>
                 </div>

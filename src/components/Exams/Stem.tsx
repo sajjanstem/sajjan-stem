@@ -34,11 +34,11 @@ const Stem = () => {
         The STEM Genius Hunt Examination goes beyond traditional assessments by encouraging students to engage in hands-on projects and real-world problem-solving. This approach allows students to showcase their creativity and innovation, further deepening their understanding of STEM principles. By working on projects, students develop practical skills and gain experience in applying theoretical knowledge to tangible outcomes, preparing them for future challenges in academia and professional careers.
       </Typography>
       <Typography variant="body1" paragraph>
-        The top 50 projects from Level 2 of the examination will be given an invaluable opportunity to present at premier institutes, such as our collaboration this year with IIIT Dharwad. This exposure provides students with a platform to interact with faculty of premier institutions, receive feedback, and inspire further innovation, fostering a community of young STEM enthusiasts ready to make significant contributions to the field.
-      </Typography>
+      The top 50 projects from Level 2 of the examination will be given an invaluable opportunity to present at premier institutes, such as our collaboration this year with IIIT Dharwad. This exposure provides students with a platform to interact with faculty of premier institutions, receive feedback, and inspire further innovation, fostering a community of young STEM enthusiasts ready to make significant contributions to the field. Additionally, the best projects will receive further cash prizes, recognizing their exceptional contribution and ingenuity.
+        </Typography>
 
       <Box mt={4}>
-      <Typography variant="h4" gutterBottom>Exam Pattern</Typography>
+      <Typography variant="h4" gutterBottom>Leve 1: Exam Pattern </Typography>
       <div className="font-bold">Duration of the exam is 50 minutes</div>
         <TableContainer component={Paper}>
           <Table>
@@ -78,13 +78,18 @@ const Stem = () => {
             </TableBody>
           </Table>
         </TableContainer>
-        <p>Note: Please refer to Olympiad books for preparation.</p>
-      <p>The Level 1 exam is tentatively scheduled for the last week of September or the first week of October.</p>
-     <p>The venue of the examination will be school only.</p> 
+        <Typography variant="body1" mt={2}>
+    <ul>
+    <li>The Level 1 Exam is objective in nature, with responses required to be marked on an OMR sheet.</li>
+      <li>Please refer to Olympiad books for preparation.</li>
+      <li>The Level 1 exam is tentatively scheduled for the last week of September or the first week of October.</li>
+      <li>The venue of the examination for Level 1 will be the school only.</li>
+    </ul>
+  </Typography>
       </Box>
 
       <Box mt={4}>
-        <Typography variant="h4" gutterBottom>Syllabus</Typography>
+        <Typography variant="h4" gutterBottom>Leve 1: Exam Syllabus</Typography>
         <Accordion>
           <AccordionSummary expandIcon={<ExpandMoreIcon />}>
             <Typography>Class 6</Typography>
@@ -191,6 +196,10 @@ const Stem = () => {
           </AccordionDetails>
         </Accordion>
       </Box>
+
+      {/* <div>
+        Level 2 will be project based 
+      </div> */}
       <Box mt={4}>
         <Typography variant="h4" gutterBottom>Awards</Typography>
         <TableContainer component={Paper}>
