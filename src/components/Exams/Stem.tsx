@@ -139,7 +139,7 @@ const Stem = () => {
           <AccordionDetails>
             <Typography>
               <b>Section 1: Science </b><br />
-              Crop Production and Management, Microorganisms: Friend and Foe, Coal and Petroleum, Combustion and Flame, Conservation of Plants and Animals, Reproduction in Animals, Reaching the Age of Adolescence, Force and Pressure, Friction, Sound.
+              Crop Production and Management, Microorganisms: Friend and Foe, Coal and Petroleum, Combustion and Flame, Conservation of Plants and Animals, Reproduction in Animals, Reaching the Age of Adolescence, Force and Pressure, Friction, Sound, Chemical effects of electric current, Some natural phenomena, Light.
               <br /><br />
               <b>Section 2: Technology & Engineering</b><br />
               Reasoning & Aptitude.
