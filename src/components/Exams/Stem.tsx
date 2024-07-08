@@ -82,7 +82,7 @@ const Stem = () => {
     <ul>
     <li>The Level 1 Exam is objective in nature, with responses required to be marked on an OMR sheet.</li>
       <li>Please refer to Olympiad books for preparation.</li>
-      <li>The Level 1 exam is tentatively scheduled for the last week of September or the first week of October.</li>
+      <li>The Level 1 exam is tentatively scheduled in the month of October.</li>
       <li>The venue of the examination for Level 1 will be the school only.</li>
     </ul>
   </Typography>
