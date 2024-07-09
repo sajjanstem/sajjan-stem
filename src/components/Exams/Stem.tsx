@@ -125,7 +125,7 @@ const Stem = () => {
               <br /><br />
               Introduction to AI, Application Area of AI, Ethics of AI, Future of AI, New Technologies [Virtual Reality]
               <br /><br />
-              Understanding Programming Languages, Variable in Real Life, Sequencing with Block Coding, Fun with Functions, Understanding Arrays and Collections
+              Understanding Programming Languages, Variable in Real Life, Sequencing with Block Coding, Fun with Functions, Understanding Arrays and Collections, HTML.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Integers, Fractions and Decimals, Data Handling, Simple Equations, Lines and Angles, The Triangle and its Properties, Comparing Quantities, Rational Numbers, Perimeter and Area, Algebraic Expressions, Exponents and Powers, Symmetry, Visualising Solid Shapes.
@@ -146,7 +146,7 @@ const Stem = () => {
               <br /><br />
               Introduction to AI, History of AI, Application of AI, Future of AI, AI Ethics and Bias.
               <br /><br />
-              Conditionals in Details, Get Creative with Loops, Functions, Programming with Arrays, Advanced Sequencing.
+              Conditionals in Details, Get Creative with Loops, Functions, Programming with Arrays, Advanced Sequencing, Basic Web development.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Rational Numbers, Linear Equations in One Variable, Understanding Quadrilaterals, Data Handling, Squares and Square Roots, Cubes and Cube Roots, Comparing Quantities, Algebraic Expressions and Identities, Mensuration, Exponents and Powers, Direct and Inverse Proportions, Factorisation, Introduction to Graphs.
@@ -167,7 +167,7 @@ const Stem = () => {
               <br /><br />
               Introduction to AI, AI Project Cycle, Neural Networks.
               <br /><br />
-              Coding with Python - Intermediate.
+              Coding with Python - Intermediate, Database Management System, Web development.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Number Systems, Polynomials, Coordinate Geometry, Linear Equations in Two Variables, Introduction to Euclid’s Geometry, Lines and Angles, Triangles, Quadrilaterals, Circles, Heron’s Formula, Surface Areas and Volumes, Statistics.
@@ -188,7 +188,7 @@ const Stem = () => {
               <br /><br />
               Foundational Concepts of AI, Understanding AI Project Cycle, Computer Vision, Natural Language Processing.
               <br /><br />
-              Coding with Python - Advance.
+              Coding with Python - Advance, Database Management System, Web development.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Real Numbers, Polynomials, Pair of Linear Equations in Two Variables, Quadratic Equations, Arithmetic Progressions, Triangles, Coordinate Geometry, Introduction to Trigonometry, Some Applications of Trigonometry, Circles, Areas Related to Circles, Surface Areas and Volumes, Statistics, Probability.
