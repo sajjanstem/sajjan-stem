@@ -60,7 +60,9 @@ h2 {
     margin: 5px 0;
 }
 
-.profile-details .description {
+.profile-details .description ul {
+    text-align: justify;
+    list-style-type: disc;
     font-size: 1rem;
     color: #555;
     margin: 10px 0;

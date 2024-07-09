@@ -37,3 +37,30 @@
 .medal {
   color: rgb(238, 191, 90)
 }
+
+.level-2-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.level-2-content {
+  flex-grow: 1;
+}
+
+.iiit-dharwad-logo {
+  width: 22%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .level-2-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .iiit-dharwad-logo {
+    width: 100px;
+    height: auto;
+  }
+}

@@ -197,9 +197,29 @@ const Stem = () => {
         </Accordion>
       </Box>
 
-      {/* <div>
-        Level 2 will be project based 
-      </div> */}
+      <Box mt={4} className="level-2-section">
+        <img
+          src={process.env.PUBLIC_URL + "/assets/iiit-dwd-logo.jpg"}
+          alt="IIIT Dharwad"
+          className="iiit-dharwad-logo"
+        />
+        <div className="level-2-content">
+          <Typography variant="h4" gutterBottom>
+            Level 2: Projects and Mentorship
+          </Typography>
+          <Typography variant="body1" mt={2}>
+            <ul>
+              <li>
+                Top students from Level 1 will qualify for Level 2, where they will receive master classes in Python, AI, IoT, web development, Arduino, and more to help them develop projects. The most outstanding projects will be shortlisted for presentation at premier institutions.
+              </li>
+              <li>
+                This academic year, we are proud to collaborate with IIIT Dharwad. Esteemed faculty from this prestigious institute will evaluate the projects, encouraging students to push the boundaries of creativity and innovation. This level aims to empower students to tackle real-world problems and develop practical solutions. Exceptional projects will be awarded cash prizes in recognition of their outstanding contributions and ingenuity.
+              </li>
+            </ul>
+          </Typography>
+        </div>
+      </Box>
+
       <Box mt={4}>
         <Typography variant="h4" gutterBottom>Awards</Typography>
         <TableContainer component={Paper}>
