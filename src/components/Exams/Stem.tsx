@@ -268,6 +268,15 @@ const Stem = () => {
       </Box>
 
       <Box mt={4}>
+        <Typography variant="body1" mt={2}>
+    <ul>
+    <li>Level 2 students who could not make it to the top 10 will receive a course completion certificate in the domain they took the masterclass for their project.
+    </li>
+    </ul>
+  </Typography>
+      </Box>
+
+      <Box mt={4}>
         <TableContainer component={Paper}>
           <Table>
             <TableHead >
@@ -305,6 +314,15 @@ const Stem = () => {
             </TableBody>
           </Table>
         </TableContainer>
+      </Box>
+
+      <Box mt={4}>
+        <Typography variant="body1" mt={2}>
+    <ul>
+    <li>Every Level 1 student will receive a participation certificate.
+    </li>
+    </ul>
+  </Typography>
       </Box>
 
     </Box>
