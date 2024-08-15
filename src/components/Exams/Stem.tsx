@@ -34,7 +34,7 @@ const Stem = () => {
         The STEM Genius Hunt Examination goes beyond traditional assessments by encouraging students to engage in hands-on projects and real-world problem-solving. This approach allows students to showcase their creativity and innovation, further deepening their understanding of STEM principles. By working on projects, students develop practical skills and gain experience in applying theoretical knowledge to tangible outcomes, preparing them for future challenges in academia and professional careers.
       </Typography>
       <Typography variant="body1" paragraph>
-      The top 50 projects from Level 2 of the examination will be given an invaluable opportunity to present at premier institutes, such as our collaboration this year with IIIT Dharwad. This exposure provides students with a platform to interact with faculty of premier institutions, receive feedback, and inspire further innovation, fostering a community of young STEM enthusiasts ready to make significant contributions to the field. Additionally, the best projects will receive further cash prizes, recognizing their exceptional contribution and ingenuity.
+      The top projects from Level 2 of the examination will be given an invaluable opportunity to present at premier institutes, such as our collaboration this year with IIIT Dharwad. This exposure provides students with a platform to interact with faculty of premier institutions, receive feedback, and inspire further innovation, fostering a community of young STEM enthusiasts ready to make significant contributions to the field. Additionally, the best projects will receive further cash prizes, recognizing their exceptional contribution and ingenuity.
         </Typography>
 
       <Box mt={4}>
