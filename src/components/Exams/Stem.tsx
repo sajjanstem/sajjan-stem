@@ -102,9 +102,14 @@ const Stem = () => {
               <b>Section 2: Technology & Engineering</b><br />
               Reasoning & Aptitude.
               <br /><br />
-              Introduction to AI, The Birth of AI, Understanding AI, Future of AI, New Technologies [Augmented Reality].
+              History and Generation of Computers, Types of Computers, MS-Windows 10, MSWord(Working with Charts and Tables, Using Layout tab, Arranging multiple
+windows of a document), MS-PowerPoint(Creating presentation using Animation,
+Working with Animations and Transitions, Creating new slides using Slides pane,
+Working with Handouts and Notes Master, Arranging multiple windows of a
+presentations, Working with Charts and Tables), Networking and Cyber Safety,
+Hardware, Software, Input & Output Devices, Memory & Storage Devices.
               <br /><br />
-              Introduction of Coding, Algorithms with Block Coding, Variables using Block Coding, Control with Conditionals, Loops using Block Coding.
+              Introduction to Block Based coding.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Knowing Our Numbers, Whole Numbers, Playing with Numbers, Basic Geometrical Ideas, Understanding Elementary Shapes, Integers, Fractions, Decimals, Data Handling, Mensuration, Algebra, Ratio and Proportion.
@@ -123,9 +128,14 @@ const Stem = () => {
               <b>Section 2: Technology & Engineering</b><br />
               Reasoning & Aptitude
               <br /><br />
-              Introduction to AI, Application Area of AI, Ethics of AI, Future of AI, New Technologies [Virtual Reality]
+              Fundamentals of Computer, Evolution of Computers, Memory & Storage Devices,
+Algorithms & Flowcharts (Introduction and Basic Symbols), Using Windows 10, MSWord(Links, Mail Merge, Macros, Exploring Styles group), MS-PowerPoint (Working with
+Slides Master and Themes, Advancing slides using Hyperlink and Actions, Customizing
+Slide Shows), MS-Excel (Components of MS-Excel window, Editing and formatting cells in
+a worksheet, Introduction to Formulas, Sorting and filtering data, Macros, Features of
+Insert and Page layout tabs).
               <br /><br />
-              Understanding Programming Languages, Variable in Real Life, Sequencing with Block Coding, Fun with Functions, Understanding Arrays and Collections, HTML.
+              Programming in Block based coding.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Integers, Fractions and Decimals, Data Handling, Simple Equations, Lines and Angles, The Triangle and its Properties, Comparing Quantities, Rational Numbers, Perimeter and Area, Algebraic Expressions, Exponents and Powers, Symmetry, Visualising Solid Shapes.
@@ -144,9 +154,20 @@ const Stem = () => {
               <b>Section 2: Technology & Engineering</b><br />
               Reasoning & Aptitude.
               <br /><br />
-              Introduction to AI, History of AI, Application of AI, Future of AI, AI Ethics and Bias.
+              Fundamentals of Computers, Algorithms & Flowcharts (Advanced symbols), HTML & CSS
+[Html, Head, Title, Body (Attributes: Background, Bgcolor, Text, Link, Alink, Vlink), Font
+(Attributes: Color, Size, Face), Center, BR, HR (Attributes: Size, Width, Align, Noshade, Color),
+Html tags, Html Elements: A, Ul and Ol
+(Attributes: Type, Start), Li], Flash CS6, MS-Access, Networking, MS-Word (Exploring File tab,
+Language and Translate options, Tracking features -Comments, Reviewing Pane, Tracking
+Changes, Comparing, Combining and Protecting documents, Working with References), MSPowerPoint (Exploring File tab and Slide Show tab, Comparing, Combining and Protecting
+presentations), MS-Excel(Exploring File tab, Useful Formulas and Functions - IF,Even, Odd,
+LCM, GCD, Power, Product, Round, Sqrt, Sum, Min, Max, Average, Count, Upper, Lower And
+Replace, Cell referencing, Using Defined Names group ), Memory & Storage Devices, Number
+System (Introduction), Cyber Safety, Operating Systems(Introduction, Features, Types-single
+user and multi-user).
               <br /><br />
-              Conditionals in Details, Get Creative with Loops, Functions, Programming with Arrays, Advanced Sequencing, Basic Web development.
+              Introduction to Python and Basic applications of AI.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Rational Numbers, Linear Equations in One Variable, Understanding Quadrilaterals, Data Handling, Squares and Square Roots, Cubes and Cube Roots, Comparing Quantities, Algebraic Expressions and Identities, Mensuration, Exponents and Powers, Direct and Inverse Proportions, Factorisation, Introduction to Graphs.
@@ -165,9 +186,12 @@ const Stem = () => {
               <b>Section 2: Technology & Engineering</b><br />
               Reasoning & Aptitude.
               <br /><br />
-              Introduction to AI, AI Project Cycle, Neural Networks.
-              <br /><br />
-              Coding with Python - Intermediate, Database Management System, Web development.
+              Algorithms and Flowcharts in Programming, Number System (Binary to decimal and decimal to
+binary conversion), Visual Basic, Animations, HTML & CSS (Links, Anchors and Table tags), MSWord, MS-Excel(Formula Auditing, Data Tools, Protecting and Sharing workbooks/worksheets,
+Working with cell range), MS-PowerPoint, Hardware, Software, Input & Output Devices, Memory &
+Storage Devices, Flash CS6, Multimedia, Networking, Cyber Safety, Operating Systems (TypesInteractive (GUI based), Real Time and Distributed, Commonly used OS), Using Windows 10.
+             <br /><br />
+             Coding in Python & applications of AI & robotics.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Number Systems, Polynomials, Coordinate Geometry, Linear Equations in Two Variables, Introduction to Euclid’s Geometry, Lines and Angles, Triangles, Quadrilaterals, Circles, Heron’s Formula, Surface Areas and Volumes, Statistics.
@@ -186,9 +210,10 @@ const Stem = () => {
               <b>Section 2: Technology & Engineering</b><br />
               Reasoning & Aptitude.
               <br /><br />
-              Foundational Concepts of AI, Understanding AI Project Cycle, Computer Vision, Natural Language Processing.
+              Fundamentals of Computer, Number System, Operating System, MS-Word, Networking, MSPowerPoint, MS-Excel, HTML & CSS, Cyber Safety, Database Management System(Functions, Types,
+                MS-Access), Using Windows 10.
               <br /><br />
-              Coding with Python - Advance, Database Management System, Web development.
+              Coding in Python & applications of AI & robotics.
               <br /><br />
               <b>Section 3: Mathematics</b> <br />
               Real Numbers, Polynomials, Pair of Linear Equations in Two Variables, Quadratic Equations, Arithmetic Progressions, Triangles, Coordinate Geometry, Introduction to Trigonometry, Some Applications of Trigonometry, Circles, Areas Related to Circles, Surface Areas and Volumes, Statistics, Probability.
