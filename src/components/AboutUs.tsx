@@ -17,7 +17,7 @@ const AboutUs = () => {
                 <h1>About Us</h1>
             </div>
             <div className="content-container">
-                <div className="profile-card">
+{/*                 <div className="profile-card">
                     <img src={process.env.PUBLIC_URL + "/assets/karthik.png"} alt="Karthik Sajjan" className="profile-photo" />
                     <div className="profile-details">
                         <h3>Karthik Sajjan</h3>
@@ -35,7 +35,7 @@ const AboutUs = () => {
                             <LinkedInIcon />
                         </a>
                     </div>
-                </div>
+                </div> */}
                 <div className="about-content">
                     <br />
                     <p>
