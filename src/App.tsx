@@ -20,7 +20,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="Yuva STEM Organisation" content="Yuva STEM Organisation" />
-        <meta name="keywords" content="Yuva STEM, STEM Genius Hunt, STEM Examination, Yuva stem, Science Technology Engineering Mathematics, Student Competitions, Karthik Sajjan, Project-Based Learning" />
+        <meta name="keywords" content="Yuva STEM, Junior Coder Hunt, Junior Coder Hunt Examination, Yuva stem, Science Technology Engineering Mathematics, Student Competitions, Karthik Sajjan, Junior coding exams" />
         <meta name="description" content="Yuva STEM Organisation" />
         <link rel="apple-touch-icon" href="%PUBLIC_URL%/logoIconWhite.png" />
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
