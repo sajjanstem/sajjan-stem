@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 
 const Header = () => {
-  const [dropdown, setDropdown] = useState(false);
+  // const [dropdown, setDropdown] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   const navItems = [

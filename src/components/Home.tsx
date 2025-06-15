@@ -10,11 +10,14 @@ const Home = () => {
   return (
     <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter]">
       <header className="text-center py-12">
-        <h1 className="text-4xl md:text-6xl font-extrabold mb-4" data-aos="fade-down">
-          Yuva STEM Junior Coder Hunt
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-2" data-aos="fade-down">
+          Yuva STEM Organisation
         </h1>
+        <h2 className="text-3xl md:text-5xl font-bold mb-4" data-aos="fade-down">
+          Junior Coder Hunt
+        </h2>
         <p className="text-lg md:text-xl max-w-2xl mx-auto text-gray-400" data-aos="fade-up">
-          National-level coding challenge for students of classes 6–12. Nurturing future tech leaders in line with NEP 2020.
+          Think. Solve. Code. Win. | Empowering Next Generation of Innovators, Coders, Critical Thinkers
         </p>
         <div className="mt-6" data-aos="zoom-in">
           <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-2 px-8 rounded-lg hover:opacity-90 transition">
@@ -25,41 +28,69 @@ const Home = () => {
 
       <section className="max-w-5xl mx-auto py-12 px-4 space-y-8">
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <h2 className="text-2xl font-bold mb-2">Competition Flow</h2>
+          <h2 className="text-2xl font-bold mb-2">🌟 Empowering the Coders of Tomorrow</h2>
           <p className="text-gray-400">
-            <strong>Level 1</strong>: Aptitude and reasoning round designed to test analytical thinking, logic, and problem-solving.  
-            <br />
-            <strong>Level 2</strong>: Participants selected from Level 1 attend IIT/IIIT alumni-led masterclasses covering Python, AI, and problem-solving strategies. Post masterclasses, they attempt a hands-on coding test with syntax corrections, logic building, and code output validations.
+            YuvaStem is a visionary organization committed to building digital literacy, coding skills, AI awareness, and financial literacy among India’s youth. Rooted in NEP 2020 principles, we aim to bridge the gap between school learning and 21st-century skills.
+          </p>
+        </div>
+
+        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
+          <h2 className="text-2xl font-bold mb-2">🚀 Introducing Jr Coder Hunt Exam 2025</h2>
+          <p className="text-gray-400">
+            💡 A talent hunt for classes 6-10, designed to spark curiosity and technical skills.<br/><br/>
+            👑 Two levels of challenge:<br/>
+            <strong>LEVEL 1:</strong> Reasoning + Aptitude Test — Logical reasoning, pattern recognition, problem-solving, equal opportunity for all regardless of coding background, familiar NTSE/Olympiad style exam (online MCQ format).<br/><br/>
+            <strong>LEVEL 2:</strong> Coding with Python + AI Concepts — FREE masterclasses by IIT/IIIT alumni & IT industry leaders, hands-on coding challenges, online exam testing Python fundamentals + basic AI problem solving.
+          </p>
+         
+        </div>
+
+        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
+          <h2 className="text-2xl font-bold mb-2">🏆 Prizes & Recognition</h2>
+          <p className="text-gray-400">
+            ₹50,000+ cash pool for national winners, trophies + certificates for top students & schools, digital badges and national ranking to showcase talent and achievement.
           </p>
           <div className="mt-4 flex items-center justify-center">
             <span className="border border-yellow-500 text-yellow-500 rounded-md px-4 py-2 text-lg font-semibold">
-              ₹50,000+ Prize Pool
+              ₹50,000+ Cash Pool
             </span>
           </div>
         </div>
 
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <h2 className="text-2xl font-bold mb-2">NEP 2020 & Digital Literacy</h2>
+          <h2 className="text-2xl font-bold mb-2">🤝 Why Join Jr Coder Hunt?</h2>
           <p className="text-gray-400">
-            The National Education Policy (NEP) 2020 underscores the integration of coding and digital literacy as essential components of modern education. With technology influencing every sector, NEP's vision is to prepare students for a digital-first world where coding, critical thinking, and ethical technology use are vital skills.
-            <br /><br />
-            Digital literacy allows students to navigate and leverage tools responsibly while coding sharpens their problem-solving abilities and logical reasoning from an early age. This competition supports NEP 2020 by offering structured exposure to these skills in an engaging, competitive environment.
+            ✅ Build logical and computational thinking<br/>
+            ✅ Free mentorship and masterclasses from IIT / IIIT alumni + top IT professionals<br/>
+            ✅ National recognition + cash awards<br/>
+            ✅ Aligned with NEP 2020 — promotes coding, AI, digital, and financial literacy<br/>
+            ✅ Platform for all — rural, urban, private, government school students
           </p>
         </div>
 
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <h2 className="text-2xl font-bold mb-2">The Future: Coding + AI</h2>
+          <h2 className="text-2xl font-bold mb-2">🌱 About YuvaStem</h2>
           <p className="text-gray-400">
-            Coding and AI are no longer niche skills — they are foundational to tomorrow’s innovations. As industries evolve with automation, data science, and AI integration, the demand for skilled developers and ethical technologists will only grow. 
-            <br /><br />
-            Junior Coder Hunt prepares students for this future, offering them a chance to understand not just how to code, but how to think like a developer — approaching problems methodically and building efficient, reliable solutions.
+            🎯 <strong>Our Vision:</strong> To democratize coding and digital literacy education, empowering young minds to lead India’s digital future.<br/><br/>
+            🎯 <strong>Our Mission:</strong> Promote 21st century skills (coding, AI, digital & financial literacy), provide equitable learning platforms, inspire innovation and critical thinking in every child.
           </p>
         </div>
 
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <h2 className="text-2xl font-bold mb-2">Masterclasses: Learn from Experts</h2>
+          <h2 className="text-2xl font-bold mb-2">👨‍💻 Who mentors YuvaStem participants?</h2>
           <p className="text-gray-400">
-            The masterclasses are delivered by seasoned IIT/IIIT alumni and cover practical coding patterns, debugging techniques, Python best practices, and an introduction to artificial intelligence. These sessions are hands-on, project-oriented, and designed to bridge the gap between textbook knowledge and industry expectations.
+            Advisory panel of IT Directors & senior tech leaders (20+ years experience). Mentors who are alumni of IITs, IIITs, NITs, IISc.
+          </p>
+        </div>
+
+        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
+          <h2 className="text-2xl font-bold mb-2">📣 How It Works</h2>
+          <p className="text-gray-400">
+            1️⃣ Register via YuvaStem website (individuals or schools)<br/>
+            2️⃣ Take Level 1 reasoning + aptitude exam online<br/>
+            3️⃣ Get shortlisted and attend free masterclasses<br/>
+            4️⃣ Take Level 2 coding + AI exam<br/>
+            5️⃣ Win cash prizes, certificates & national recognition
           </p>
         </div>
       </section>
@@ -68,8 +99,10 @@ const Home = () => {
         <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition text-lg">
           Join the ₹50,000+ Challenge
         </button>
+        <p className="text-gray-500 mt-4 italic">Think. Solve. Code. Win. — Your logic today, your AI future tomorrow!</p>
       </footer>
     </div>
+    
   );
 };
 
