@@ -1,129 +1,74 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./Home.css";
-import { Helmet } from "react-helmet";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-  };
+  useEffect(() => {
+    AOS.init({ duration: 1000, once: true });
+  }, []);
 
   return (
-    <div className="p-4 flex flex-col gap-4">
-      <Helmet>
-        <title>Yuva STEM Organisation - Home</title>
-        <meta
-          name="description"
-          content="Yuva STEM Organisation - Unleashing the Young Leaders in STEM. Learn about our STEM Genius Hunt Examination and how we nurture young minds in STEM subjects."
-        />
-        <meta name="description" content="Yuva STEM Organisation - Unleashing the Young Leaders in STEM through the STEM Genius Hunt Examination for classes 6 to 10." />
-        <meta name="keywords" content="Yuva STEM, STEM Genius Hunt, yuva stem, yuva STEM Examination, STEM Education, Science Technology Engineering Mathematics, Student Competitions, IIIT Dharwad, Project-Based Learning" />
-        <meta name="author" content="Yuva STEM Organisation" />
-      </Helmet>
-      <div className="mb-8">
-        <Slider {...settings}>
-          <div>
-            <img
-              src={process.env.PUBLIC_URL + "/assets/slider1.png"}
-              alt="STEM Genius Hunt"
-              className="slider-image"
-            />
-          </div>
-          <div>
-            <img
-              src={process.env.PUBLIC_URL + "/assets/slider2.png"}
-              alt="prizes"
-              className="slider-image"
-            />
-          </div>
-        </Slider>
-      </div>
-
-      <div className="heading-section">
-        <h1>Yuva STEM Organisation</h1>
-        <p>Unleashing the Young Leaders in STEM</p>
-      </div>
-
-      <section className="content-section bg1">
-        <div className="content">
-          <p>
-            At Yuva STEM Organisation, we are dedicated to nurturing the intellectual growth and curiosity of young minds through our STEM Genius Hunt Examination. This initiative is designed to cultivate a profound understanding and passion for STEM (Science, Technology, Engineering, and Mathematics) subjects among students from classes 6 to 10. Our mission is to inspire critical thinking, enhance problem-solving skills, and foster the innovative application of knowledge, preparing students for future academic and professional triumphs.
-          </p>
+    <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter]">
+      <header className="text-center py-12">
+        <h1 className="text-4xl md:text-6xl font-extrabold mb-4" data-aos="fade-down">
+          Yuva STEM Junior Coder Hunt
+        </h1>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto text-gray-400" data-aos="fade-up">
+          National-level coding challenge for students of classes 6–12. Nurturing future tech leaders in line with NEP 2020.
+        </p>
+        <div className="mt-6" data-aos="zoom-in">
+          <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-2 px-8 rounded-lg hover:opacity-90 transition">
+            Register Now
+          </button>
         </div>
-      </section>
+      </header>
 
-      <section className="content-section bg1">
-        <div className="content">
-          <h2>About the STEM Genius Hunt Examination</h2>
-          <p>
-            The STEM Genius Hunt Examination is designed to go beyond the regular curriculum, offering students a unique opportunity to engage with STEM concepts at a deeper level. These exams are conducted in two levels:
+      <section className="max-w-5xl mx-auto py-12 px-4 space-y-8">
+        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
+          <h2 className="text-2xl font-bold mb-2">Competition Flow</h2>
+          <p className="text-gray-400">
+            <strong>Level 1</strong>: Aptitude and reasoning round designed to test analytical thinking, logic, and problem-solving.  
+            <br />
+            <strong>Level 2</strong>: Participants selected from Level 1 attend IIT/IIIT alumni-led masterclasses covering Python, AI, and problem-solving strategies. Post masterclasses, they attempt a hands-on coding test with syntax corrections, logic building, and code output validations.
           </p>
-          <h3>Level 1: Objective Examination</h3>
-          <p>
-            The first level consists of an objective examination based on the STEM syllabus, tailored for each class from 6th to 10th. This stage focuses on evaluating the students' grasp of STEM concepts, their ability to apply this knowledge in various scenarios, and their proficiency in critical thinking and problem-solving. Top performers from Level 1 will advance to Level 2.
-          </p>
-          <h3>Level 2: Advanced Projects and Mentorship</h3>
-          <p>
-            Students who qualify for Level 2 will receive master classes in Python, AI, IoT, web development, Arduino, and more to help them build projects. The top projects will be shortlisted for presentation at premier institutions. For this academic year, we have collaborated with <b>IIIT Dharwad</b>, where the faculty of this premier institute will evaluate the projects. This level aims to push the boundaries of students' creativity and innovation, enabling them to tackle real-world problems and develop practical solutions. The best projects will receive further cash prizes, recognizing their exceptional contribution and ingenuity.
-          </p>
-          <div className="read-more-container">
-            <a href="/exams" className="read-more-button">
-              Read More <span className="external-link-icon">→</span>
-            </a>
+          <div className="mt-4 flex items-center justify-center">
+            <span className="border border-yellow-500 text-yellow-500 rounded-md px-4 py-2 text-lg font-semibold">
+              ₹50,000+ Prize Pool
+            </span>
           </div>
         </div>
-      </section>
 
-      <section className="content-section bg2">
-        <div className="content">
-          <h2>Promoting Critical Skills for the Future</h2>
-          <p>
-            In alignment with the National Education Policy 2020, our examinations emphasize essential skills such as digital literacy, coding, and artificial intelligence. By integrating these skills into our curriculum, we aim to prepare students for success in a rapidly evolving technological landscape.
+        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
+          <h2 className="text-2xl font-bold mb-2">NEP 2020 & Digital Literacy</h2>
+          <p className="text-gray-400">
+            The National Education Policy (NEP) 2020 underscores the integration of coding and digital literacy as essential components of modern education. With technology influencing every sector, NEP's vision is to prepare students for a digital-first world where coding, critical thinking, and ethical technology use are vital skills.
+            <br /><br />
+            Digital literacy allows students to navigate and leverage tools responsibly while coding sharpens their problem-solving abilities and logical reasoning from an early age. This competition supports NEP 2020 by offering structured exposure to these skills in an engaging, competitive environment.
+          </p>
+        </div>
+
+        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
+          <h2 className="text-2xl font-bold mb-2">The Future: Coding + AI</h2>
+          <p className="text-gray-400">
+            Coding and AI are no longer niche skills — they are foundational to tomorrow’s innovations. As industries evolve with automation, data science, and AI integration, the demand for skilled developers and ethical technologists will only grow. 
+            <br /><br />
+            Junior Coder Hunt prepares students for this future, offering them a chance to understand not just how to code, but how to think like a developer — approaching problems methodically and building efficient, reliable solutions.
+          </p>
+        </div>
+
+        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
+          <h2 className="text-2xl font-bold mb-2">Masterclasses: Learn from Experts</h2>
+          <p className="text-gray-400">
+            The masterclasses are delivered by seasoned IIT/IIIT alumni and cover practical coding patterns, debugging techniques, Python best practices, and an introduction to artificial intelligence. These sessions are hands-on, project-oriented, and designed to bridge the gap between textbook knowledge and industry expectations.
           </p>
         </div>
       </section>
 
-      <section className="content-section bg2">
-        <div className="content">
-          <h2>Fostering a Lifelong Love for STEM</h2>
-          <p>
-            Participating in the STEM Genius Hunt Examinations is not just about winning prizes; it is about igniting a lifelong passion for STEM subjects. Our exams provide a platform for young minds to showcase their talents, fostering an environment where innovation and creativity can flourish.
-          </p>
-        </div>
-      </section>
-
-      <section className="content-section bg3">
-        <div className="content">
-          <h2>The Importance of Project-Based Learning</h2>
-          <p>
-            Project-based learning is a cornerstone of our approach, as it encourages students to apply their knowledge in practical, meaningful ways. Through projects, students learn to:
-          </p>
-          <ul>
-            <li><strong>Solve Complex Problems:</strong> Tackle real-world challenges that require creative and logical solutions.</li>
-            <li><strong>Think Critically:</strong> Analyze situations, make informed decisions, and reflect on their learning process.</li>
-            <li><strong>Collaborate Effectively:</strong> Work with peers and mentors, enhancing their teamwork and communication skills.</li>
-            <li><strong>Develop Resilience:</strong> Learn from failures and persist in the face of difficulties, building a growth mindset.</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="content-section bg3">
-        <div className="content">
-          <h2>Inspiring the Next Generation of Innovators</h2>
-          <p>
-            Our mission is to inspire and educate the next generation of STEM leaders. By encouraging curiosity and analytical thinking. The STEM Genius Hunt Examinations prepare students for global challenges and future success. We invite educational institutions to join us in this exciting journey to cultivate a lasting passion for STEM.
-          </p>
-        </div>
-      </section>
-
+      <footer className="text-center py-12" data-aos="zoom-in">
+        <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition text-lg">
+          Join the ₹50,000+ Challenge
+        </button>
+      </footer>
     </div>
   );
 };
