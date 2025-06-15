@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import Stem from './components/Exams/Stem';
 import './App.css';
+import CustomCursor from './components/CustomCursor';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
         <title>Yuva STEM Organisation</title>
       </Helmet>
+      <CustomCursor />
       <Router>
         <Header />
         <div className="main-content">

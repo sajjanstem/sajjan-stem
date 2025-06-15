@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -8,8 +8,8 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter]">
-      <header className="text-center py-12">
+    <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden">
+      <div className="text-center py-12 border-b border-gray-700">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-2" data-aos="fade-down">
           Yuva STEM Organisation
         </h1>
@@ -24,7 +24,7 @@ const Home = () => {
             Register Now
           </button>
         </div>
-      </header>
+      </div>
 
       <section className="max-w-5xl mx-auto py-12 px-4 space-y-8">
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
@@ -37,12 +37,11 @@ const Home = () => {
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
           <h2 className="text-2xl font-bold mb-2">🚀 Introducing Jr Coder Hunt Exam 2025</h2>
           <p className="text-gray-400">
-            💡 A talent hunt for classes 6-10, designed to spark curiosity and technical skills.<br/><br/>
-            👑 Two levels of challenge:<br/>
-            <strong>LEVEL 1:</strong> Reasoning + Aptitude Test — Logical reasoning, pattern recognition, problem-solving, equal opportunity for all regardless of coding background, familiar NTSE/Olympiad style exam (online MCQ format).<br/><br/>
+            💡 A talent hunt for classes 6-10, designed to spark curiosity and technical skills.<br /><br />
+            👑 Two levels of challenge:<br />
+            <strong>LEVEL 1:</strong> Reasoning + Aptitude Test — Logical reasoning, pattern recognition, problem-solving, equal opportunity for all regardless of coding background, familiar NTSE/Olympiad style exam (online MCQ format).<br /><br />
             <strong>LEVEL 2:</strong> Coding with Python + AI Concepts — FREE masterclasses by IIT/IIIT alumni & IT industry leaders, hands-on coding challenges, online exam testing Python fundamentals + basic AI problem solving.
           </p>
-         
         </div>
 
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
@@ -60,10 +59,10 @@ const Home = () => {
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
           <h2 className="text-2xl font-bold mb-2">🤝 Why Join Jr Coder Hunt?</h2>
           <p className="text-gray-400">
-            ✅ Build logical and computational thinking<br/>
-            ✅ Free mentorship and masterclasses from IIT / IIIT alumni + top IT professionals<br/>
-            ✅ National recognition + cash awards<br/>
-            ✅ Aligned with NEP 2020 — promotes coding, AI, digital, and financial literacy<br/>
+            ✅ Build logical and computational thinking<br />
+            ✅ Free mentorship and masterclasses from IIT / IIIT alumni + top IT professionals<br />
+            ✅ National recognition + cash awards<br />
+            ✅ Aligned with NEP 2020 — promotes coding, AI, digital and financial literacy<br />
             ✅ Platform for all — rural, urban, private, government school students
           </p>
         </div>
@@ -71,7 +70,7 @@ const Home = () => {
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
           <h2 className="text-2xl font-bold mb-2">🌱 About YuvaStem</h2>
           <p className="text-gray-400">
-            🎯 <strong>Our Vision:</strong> To democratize coding and digital literacy education, empowering young minds to lead India’s digital future.<br/><br/>
+            🎯 <strong>Our Vision:</strong> To democratize coding and digital literacy education, empowering young minds to lead India’s digital future.<br /><br />
             🎯 <strong>Our Mission:</strong> Promote 21st century skills (coding, AI, digital & financial literacy), provide equitable learning platforms, inspire innovation and critical thinking in every child.
           </p>
         </div>
@@ -86,23 +85,24 @@ const Home = () => {
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
           <h2 className="text-2xl font-bold mb-2">📣 How It Works</h2>
           <p className="text-gray-400">
-            1️⃣ Register via YuvaStem website (individuals or schools)<br/>
-            2️⃣ Take Level 1 reasoning + aptitude exam online<br/>
-            3️⃣ Get shortlisted and attend free masterclasses<br/>
-            4️⃣ Take Level 2 coding + AI exam<br/>
+            1️⃣ Register via YuvaStem website (individuals or schools)<br />
+            2️⃣ Take Level 1 reasoning + aptitude exam online<br />
+            3️⃣ Get shortlisted and attend free masterclasses<br />
+            4️⃣ Take Level 2 coding + AI exam<br />
             5️⃣ Win cash prizes, certificates & national recognition
           </p>
         </div>
       </section>
 
-      <footer className="text-center py-12" data-aos="zoom-in">
+      <div className="text-center py-12 border-t border-gray-700" data-aos="zoom-in">
         <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition text-lg">
           Join the ₹50,000+ Challenge
         </button>
-        <p className="text-gray-500 mt-4 italic">Think. Solve. Code. Win. — Your logic today, your AI future tomorrow!</p>
-      </footer>
+        <p className="text-gray-500 mt-4 italic">
+          Think. Solve. Code. Win. — Your logic today, your AI future tomorrow!
+        </p>
+      </div>
     </div>
-    
   );
 };
 
