@@ -30,11 +30,7 @@ const Stem = () => {
       {/* Banner Section */}
       <div className="relative text-center py-12 border-b border-gray-700" data-aos="fade-down">
         <div className="stem-image-container relative">
-          <img
-            src={process.env.PUBLIC_URL + "/assets/coder-hunt-banner.png"}
-            alt="Junior Coder Hunt"
-            className="w-full h-auto rounded-lg shadow-md"
-          />
+         
           <div className="stem-image-overlay absolute inset-0 bg-black bg-opacity-30 rounded-lg"></div>
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold mt-4">Junior Coder Hunt</h1>
@@ -50,6 +46,11 @@ const Stem = () => {
           <Typography variant="body1" className="text-gray-400 mt-4">
             Top performers in this competition not only win exciting cash prizes from a total pool of ₹50,000 but also earn the chance to showcase their projects before expert panels. This journey is aimed at nurturing the next generation of coding prodigies.
           </Typography>
+          <img
+            src={process.env.PUBLIC_URL + "/assets/stem.png"}
+            alt="Junior Coder Hunt"
+            className="w-full h-auto rounded-lg shadow-md"
+          />
         </div>
 
         {/* Level 1 Exam Pattern */}
@@ -147,11 +148,7 @@ const Stem = () => {
         {/* Level 2 */}
         <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
           <div className="flex items-center space-x-4">
-            <img
-              src={process.env.PUBLIC_URL + "/assets/iiit-dwd-logo.jpg"}
-              alt="IIIT Dharwad"
-              className="w-16 h-16 rounded-full"
-            />
+          
             <Typography variant="h4" className="text-2xl font-bold text-gray-200">
               Level 2: Masterclasses & Projects
             </Typography>
