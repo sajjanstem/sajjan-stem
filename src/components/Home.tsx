@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   useEffect(() => {
@@ -9,6 +10,16 @@ const Home = () => {
 
   return (
     <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden">
+      <Helmet>
+        <title>Yuva STEM Organisation - Home</title>
+        <meta
+          name="description"
+          content="Yuva STEM Organisation - Unleashing the Young Leaders in STEM. Learn about our Junior Coder Hunt Examination and how we nurture young minds in STEM subjects."
+        />
+        <meta name="description" content="Yuva STEM Organisation - Unleashing the Young Leaders in STEM through the Junior Coder Hunt Examination for classes 6 to 10." />
+        <meta name="keywords" content="Yuva STEM, Junior Coder Hunt, yuva stem, yuva Junior Coder Hunt, STEM Education, Science Technology Engineering Mathematics, Student Competitions, junior coding exams" />
+        <meta name="author" content="Yuva STEM Organisation" />
+      </Helmet>
       <div className="text-center py-12 border-b border-gray-700">
         <h1 className="text-4xl md:text-6xl font-extrabold mb-2" data-aos="fade-down">
           Yuva STEM Organisation
