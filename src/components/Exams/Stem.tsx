@@ -54,7 +54,7 @@ const Stem = () => {
           data-aos="fade-up"
         >
           <Typography variant="body1" className="text-gray-300 text-lg leading-relaxed">
-            Unleash your coding potential with the <strong>Jr Coder Hunt Exam 2025</strong>, a transformative competition for <strong>classes 6 to 10</strong> students across India. Designed to align with <strong>NEP 2020</strong>, this prestigious talent hunt ignites passion for technology, sharpens logical reasoning, and builds foundational coding skills. Compete to unlock <strong>exclusive masterclasses by IIT/IIIT alumni</strong>, earn <strong>cash prizes, trophies, and medals</strong>, and take your first step toward becoming a global tech innovator.
+            Unleash your coding potential with the <strong>Jr Coder Hunt Exam 2025</strong>, a transformative competition for <strong>classes 6 to 10</strong> students. Designed to align with <strong>NEP 2020</strong>, this prestigious talent hunt ignites passion for technology, sharpens logical reasoning, and builds foundational coding skills. Compete to unlock <strong>exclusive masterclasses by IIT/IIIT alumni</strong>, earn <strong>cash prizes, trophies, and medals</strong>, and take your first step toward becoming a global tech innovator.
           </Typography>
         </Box>
 
@@ -379,15 +379,15 @@ const Stem = () => {
           </TableContainer>
         </Box>
 
-        {/* Call to Action */}
-        <Box className="text-center py-12 border-t border-gray-700" data-aos="zoom-in">
-          <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition text-lg">
-            Join the Challenge Now
-          </button>
-          <Typography variant="body2" className="text-gray-500 mt-4 italic">
-            Code. Create. Conquer. — Shape your tech future today!
-          </Typography>
-        </Box>
+      {/* Call to Action */}
+      <div className="flex flex-col items-center py-12 border-t border-gray-700 font-inter" data-aos="zoom-in">
+        <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition duration-300 text-base md:text-lg">
+          Join the ₹50,000+ Challenge
+        </button>
+        <div className="text-gray-500 mt-4 italic text-sm md:text-base">
+          Think. Solve. Code. Win. — Your logic today, your AI future tomorrow!
+        </div>
+      </div>
       </section>
     </Box>
   );

@@ -68,13 +68,13 @@ const ContactUs = () => {
       </section>
 
       {/* Call to Action */}
-      <div className="text-center py-12 border-t border-gray-700" data-aos="zoom-in">
-        <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition text-lg">
-          Join the STEM Genius Hunt
+      <div className="flex flex-col items-center py-12 border-t border-gray-700 font-inter" data-aos="zoom-in">
+        <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition duration-300 text-base md:text-lg">
+          Join the ₹50,000+ Challenge
         </button>
-        <p className="text-gray-500 mt-4 italic">
+        <div className="text-gray-500 mt-4 italic text-sm md:text-base">
           Think. Solve. Code. Win. — Your logic today, your AI future tomorrow!
-        </p>
+        </div>
       </div>
     </div>
   );
