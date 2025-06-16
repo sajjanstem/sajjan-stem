@@ -62,104 +62,176 @@ const Home = () => {
       <div className="max-w-5xl mx-auto py-12 px-2 sm:px-4 space-y-8 font-inter">
         {/* Empowering Coders Section */}
         <div
-          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
+          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 flex flex-col justify-center min-h-[400px]"
           data-aos="fade-up"
         >
+          <div className="text-2xl md:text-3xl font-bold text-center mb-6" data-aos="fade-down" data-aos-delay="100">
+            💻 Empowering the Coders of Tomorrow
+          </div>
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="w-full md:w-[35%] order-2 md:order-1" data-aos="fade-left" data-aos-delay="200">
               <img
                 src={process.env.PUBLIC_URL + "/assets/roboface.jpg"}
                 alt="AI and Coding Innovation"
-                className="w-full h-48 object-cover object-center rounded shadow-md"
+                className="w-full max-w-xs h-48 object-cover object-center rounded shadow-md mx-auto"
                 loading="lazy"
               />
             </div>
-            <div className="w-full md:w-[65%] order-1 md:order-2 space-y-2" data-aos="fade-right" data-aos-delay="200">
-              <div className="text-2xl md:text-3xl font-bold">🌟 Empowering the Coders of Tomorrow</div>
+            <div className="w-full md:w-[65%] order-1 md:order-2 space-y-4" data-aos="fade-right" data-aos-delay="200">
               <div className="text-sm md:text-base text-gray-400">
-                YuvaStem is a visionary organization committed to building digital literacy, coding skills, AI awareness, and financial literacy among India’s youth. Rooted in NEP 2020 principles, we aim to bridge the gap between school learning and 21st-century skills.
+                YuvaStem is a pioneering organization dedicated to equipping school students with essential 21st-century skills: digital literacy, coding proficiency, AI awareness, and financial literacy. Aligned with the transformative vision of the National Education Policy (NEP) 2020, we emphasize experiential learning, critical thinking, and innovation to prepare students for a technology-driven future.
+              </div>
+              <div className="text-sm md:text-base text-gray-400">
+                By fostering early exposure to coding and AI, we empower students to navigate and shape a rapidly evolving digital world with confidence and creativity. Our mission is to bridge the gap between traditional education and the skills needed to thrive in tomorrow’s innovation economy, ensuring every student is future-ready.
               </div>
             </div>
           </div>
         </div>
 
-        {/* Jr Coder Hunt Exam Section */}
-        <div
-          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
-          data-aos="fade-up"
-        >
-          <div className="space-y-2">
-            <div className="text-2xl md:text-3xl font-bold">🚀 Introducing Jr Coder Hunt Exam 2025</div>
-            <div className="text-sm md:text-base text-gray-400">
-              💡 A talent hunt for classes 6-10, designed to spark curiosity and technical skills.<br /><br />
-              👑 Two levels of challenge:<br />
-              <span className="font-semibold">LEVEL 1:</span> Reasoning + Aptitude Test — Logical reasoning, pattern recognition, problem-solving, equal opportunity for all regardless of coding background, familiar NTSE/Olympiad style exam (online MCQ format).<br /><br />
-              <span className="font-semibold">LEVEL 2:</span> Coding with Python + AI Concepts — FREE masterclasses by IIT/IIIT alumni & IT industry leaders, hands-on coding challenges, online exam testing Python fundamentals + basic AI problem solving.
-            </div>
+      {/* Jr Coder Hunt Exam Section */}
+      <div
+        className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
+        data-aos="fade-up"
+      >
+        <div className="space-y-6">
+          <div className="text-2xl md:text-3xl font-bold text-center mb-6" data-aos="fade-down" data-aos-delay="100">
+            💰 Jr Coder Hunt Exam 2025
           </div>
-        </div>
+          <div className="text-sm md:text-base text-gray-400">
+            <p className="mb-4">
+              Ignite your passion for technology with the <span className="font-semibold">Jr Coder Hunt Exam 2025</span>, a talent hunt for students in <span className="font-semibold">classes 6 to 10</span>. Designed to spark curiosity and build essential technical skills, this exciting competition offers a platform to showcase logical thinking, problem-solving, and coding potential, aligned with the transformative vision of NEP 2020.
+            </p>
+            <div className="relative space-y-6">
+              {/* Timeline Line */}
+              <div className="absolute left-4 md:left-6 top-4 h-[calc(100%-1rem)] w-1 bg-gray-600"></div>
+              
+              {/* Step 1: Level 1 Exam */}
+              <div className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="200">
+                <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
+                <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 1: Level 1 Exam – Reasoning & Aptitude</div>
+                <p>
+                  Kickstart your journey with an <span className="font-semibold">OMR-based MCQ exam</span> testing logical reasoning, pattern recognition, and problem-solving. Aligned with <span className="font-semibold">NTSE/Olympiad syllabi</span>, this level is accessible to all students, regardless of coding experience, ensuring equal opportunity to shine.
+                </p>
+              </div>
 
-        {/* Prizes & Recognition Section */}
-        <div
-          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
-          data-aos="fade-up"
-        >
-          <div className="space-y-4">
-            <div className="text-2xl md:text-3xl font-bold">🏆 Prizes & Recognition</div>
-            <div className="text-sm md:text-base text-gray-400">
-              ₹50,000+ cash pool for national winners, trophies + certificates for top students & schools, digital badges and national ranking to showcase talent and achievement.
-            </div>
-            <div className="flex justify-center">
-              <span className="border border-yellow-500 text-yellow-500 rounded-md px-4 py-2 text-sm md:text-base font-semibold">
-                ₹50,000+ Cash Pool
-              </span>
-            </div>
-          </div>
-        </div>
+              {/* Step 2: Shortlisting */}
+              <div className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="300">
+                <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
+                <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 2: Shortlisting for Level 2</div>
+                <p>
+                  Top performers from Level 1 will be <span className="font-semibold">shortlisted</span> to advance to the next stage, unlocking exclusive opportunities to enhance their coding and AI skills.
+                </p>
+              </div>
 
-        {/* Why Join Section */}
-        <div
-          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
-          data-aos="fade-up"
-        >
-          <div className="space-y-2">
-            <div className="text-2xl md:text-3xl font-bold">🤝 Why Join Jr Coder Hunt?</div>
-            <div className="text-sm md:text-base text-gray-400">
-              ✅ Build logical and computational thinking<br />
-              ✅ Free mentorship and masterclasses from IIT / IIIT alumni + top IT professionals<br />
-              ✅ National recognition + cash awards<br />
-              ✅ Aligned with NEP 2020 — promotes coding, AI, digital and financial literacy<br />
-              ✅ Platform for all — rural, urban, private, government school students
-            </div>
-          </div>
-        </div>
+              {/* Step 3: Masterclasses */}
+              <div className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="400">
+                <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
+                <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 3: Free Masterclasses by Alumni of IIT/IIIT</div>
+                <p>
+                  Shortlisted students gain access to <span className="font-semibold">free online live masterclasses</span> led by <span className="font-semibold">IIT/IIIT alumni</span> and IT industry leaders. Learn hands-on coding with <span className="font-semibold">Python</span> and explore the <span className="font-semibold">basics of AI</span> through engaging, practical sessions.
+                </p>
+              </div>
 
-        {/* About YuvaStem Section */}
-        <div
-          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
-          data-aos="fade-up"
-        >
-          <div className="space-y-2">
-            <div className="text-2xl md:text-3xl font-bold">🌱 About YuvaStem</div>
-            <div className="text-sm md:text-base text-gray-400">
-              🎯 <span className="font-semibold">Our Vision:</span> To democratize coding and digital literacy education, empowering young minds to lead India’s digital future.<br /><br />
-              🎯 <span className="font-semibold">Our Mission:</span> Promote 21st century skills (coding, AI, digital & financial literacy), provide equitable learning platforms, inspire innovation and critical thinking in every child.
-            </div>
-          </div>
-        </div>
+              {/* Step 4: Level 2 Exam */}
+              <div className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="500">
+                <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
+                <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 4: Level 2 Exam – Python & AI</div>
+                <p>
+                  Compete in an <span className="font-semibold">online exam</span> testing <span className="font-semibold">Python fundamentals</span> and <span className="font-semibold">basic AI concepts</span>. Showcase your coding skills and problem-solving abilities in a dynamic, tech-driven challenge.
+                </p>
+              </div>
 
-        {/* Mentors Section */}
-        <div
-          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
-          data-aos="fade-up"
-        >
-          <div className="space-y-2">
-            <div className="text-2xl md:text-3xl font-bold">👨‍💻 Who Mentors YuvaStem Participants?</div>
-            <div className="text-sm md:text-base text-gray-400">
-              Advisory panel of IT Directors & senior tech leaders (20+ years experience). Mentors who are alumni of IITs, IIITs, NITs, IISc.
+              {/* Step 5: Rewards */}
+              <div className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="600">
+                <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
+                <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 5: Win Big!</div>
+                <p>
+                  Top performers in Level 2 will be celebrated with <span className="font-semibold">cash prizes, trophies, and medals</span>, recognizing their excellence and potential as future tech leaders.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Prizes & Recognition Section */}
+      <div
+        className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
+        data-aos="fade-up"
+      >
+        <div className="space-y-4">
+          <div className="text-center text-2xl md:text-3xl font-bold">🏆 Prizes & Recognition</div>
+          <div className="text-sm md:text-base text-gray-400">
+            Celebrate your achievement with exciting rewards! <br /><br />
+            💰 <strong>₹50,000+ Cash Pool</strong> distributed among the top winners.<br />
+            🏆 Stunning trophies for outstanding performers.<br />
+            🏅 Medals and certificates to honor your hard work and talent.<br />
+            🎉 A memorable experience that recognizes your dedication to coding and innovation.
+          </div>
+          <div className="flex justify-center">
+            <span className="border border-yellow-500 text-yellow-500 rounded-md px-4 py-2 text-sm md:text-base font-semibold">
+              ₹50,000+ Cash Pool
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* Why Join Section */}
+      <div
+        className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
+        data-aos="fade-up"
+      >
+        <div className="space-y-2">
+          <div className="text-2xl md:text-3xl font-bold text-center">🤝 Why Join Jr Coder Hunt?</div>
+          <div className="text-sm md:text-base text-gray-400">
+            🚀 <strong>Shape Your Future in the Digital Age!</strong><br /><br />
+            The world is transforming faster than ever with technology like AI, robotics, and data science leading the way. <strong>Jr Coder Hunt</strong> gives you the chance to start early, build essential coding and problem-solving skills, and prepare for tomorrow’s innovations.<br /><br />
+
+            🧠 <strong>Think Smart, Solve Smart:</strong> Sharpen your logical, computational, and creative thinking.<br />
+            💡 <strong>Learn from the Best:</strong> Get free masterclasses from IIT/IIIT alumni, mentored by experienced IT professionals and directors.<br />
+            🏅 <strong>Get Rewarded:</strong> Stand out with medals, trophies, certificates — and grab your share of ₹50,000+ in cash prizes!<br />
+            💻 <strong>Be Future-Ready:</strong> Discover how coding and AI can help you solve real-world problems, innovate, and lead in any career you choose.<br />
+            🎓 <strong>Tailored for School Students:</strong> Specially designed to nurture talent in school learners who aspire to excel in coding and AI.
+          </div>
+        </div>
+      </div>
+
+      {/* About Yuva STEM Section */}
+      <div
+        className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
+        data-aos="fade-up"
+      >
+        <div className="space-y-2">
+          <div className="text-2xl md:text-3xl font-bold text-center">🌱 About Yuva STEM</div>
+          <div className="text-sm md:text-base text-gray-400 space-y-4">
+            <p>
+              Yuva STEM is a dynamic initiative committed to bridging the gap between classroom learning and essential skills. Our vision is to democratize coding, AI, and digital literacy, enabling every young mind to explore, create, and lead in the digital future. We believe in nurturing curiosity and innovation, ensuring that students from diverse backgrounds gain access to quality technology education. With the guidance of experienced mentors from IITs, IIITs, and industry leaders, we aim to spark lifelong learning and critical thinking in every participant.
+            </p>
+            <p>
+              Our mission is to provide equitable platforms that promote coding, AI awareness, and financial literacy, empowering students to think smart, solve smart, and contribute meaningfully to society. Through engaging competitions like the Jr Coder Hunt, free masterclasses, and hands-on challenges, Yuva STEM is building a generation of confident, future-ready innovators. Join us in this journey to shape tomorrow’s digital leaders today!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Mentors Section */}
+      <div
+        className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
+        data-aos="fade-up"
+      >
+        <div className="space-y-2">
+          <div className="text-2xl md:text-3xl font-bold text-center">👨‍💻 Who Mentors Yuva STEM Participants?</div>
+          <div className="text-sm md:text-base text-gray-400 space-y-4">
+            <p>
+              Yuva STEM is guided by an advisory committee consisting of highly accomplished technology professionals with decades of experience in the IT industry. These leaders currently serve as directors and senior experts in renowned technology companies, bringing a wealth of practical knowledge and strategic vision to the initiative.
+            </p>
+            <p>
+              Our mentors are passionate educators and innovators, many of whom are proud alumni of prestigious institutions such as IITs and IIITs. Their mission is to inspire, guide, and support participants, helping them build essential skills and confidence to thrive in a technology-driven world.
+            </p>
+          </div>
+        </div>
+      </div>
+
 
         {/* How It Works Section */}
         <div
