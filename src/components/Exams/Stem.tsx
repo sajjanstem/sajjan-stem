@@ -26,18 +26,19 @@ const Stem = () => {
 
   return (
     <Box className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden p-4">
-      <Helmet>
-        <title>Junior Coder Hunt 2025 - Yuva STEM Organisation</title>
-        <meta
-          name="description"
-          content="Unleash your coding potential with Junior Coder Hunt 2025 by Yuva STEM for classes 6-10. Master reasoning, Python, and AI with IIT/IIIT alumni mentorship and win exclusive cash prizes, trophies, and medals!"
-        />
-        <meta
-          name="keywords"
-          content="Junior Coder Hunt, Yuva STEM, coding competition, Python, AI, reasoning, aptitude, classes 6-10, IIT/IIIT mentorship"
-        />
-        <meta name="author" content="Yuva STEM Organisation" />
-      </Helmet>
+    <Helmet>
+      <title>Junior Coder Hunt 2025 - Yuva STEM Organisation</title>
+      <meta
+        name="description"
+        content="Join Junior Coder Hunt 2025 by Yuva STEM — India’s premier coding competition for classes 6-10! Syllabus includes reasoning, aptitude, Python basics, AI fundamentals, and problem-solving. Win exciting cash prizes, trophies, medals, and completion certificates. Learn from IIT and IIIT alumni in exclusive masterclasses!"
+      />
+      <meta
+        name="keywords"
+        content="Junior Coder Hunt, Yuva STEM, Yuva STEM Organisation, coding competition India, coding exam classes 6-10, Python exam, AI exam, reasoning syllabus, aptitude syllabus, coding syllabus junior coder hunt, junior coder hunt 2025 prizes, junior coder hunt 2025 awards, coding contest for kids, STEM competition India, IIT mentorship, IIIT mentorship, win cash prizes coding, trophy coding competition, medal coding contest, completion certificate coding exam"
+      />
+      <meta name="author" content="Yuva STEM Organisation" />
+    </Helmet>
+
 
       {/* Banner Section */}
       <div className="text-center py-12 border-b border-gray-700" data-aos="fade-down">

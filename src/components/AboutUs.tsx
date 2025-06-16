@@ -10,18 +10,18 @@ const AboutUs = () => {
 
   return (
     <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden">
-      <Helmet>
-        <title>About Us - Yuva STEM Organisation</title>
-        <meta
-          name="description"
-          content="Learn more about Yuva STEM Organisation, founded by IIIT Dharwad alumni, dedicated to empowering young minds through coding, AI, digital literacy, and financial literacy education in alignment with NEP 2020."
-        />
-        <meta
-          name="keywords"
-          content="Yuva STEM Organisation, STEM education, coding, AI, digital literacy, financial literacy, Karthik Sajjan, STEM competitions, STEM masterclasses, IIIT Dharwad, IIT mentors, tech leadership, NEP 2020"
-        />
-        <meta name="author" content="Yuva STEM Organisation" />
-      </Helmet>
+    <Helmet>
+      <title>About Us - Yuva STEM Organisation</title>
+      <meta
+        name="description"
+        content="Discover Yuva STEM Organisation — founded by IIIT Dharwad alumni — empowering young minds through coding, AI, digital literacy, and financial literacy, aligned with NEP 2020."
+      />
+      <meta
+        name="keywords"
+        content="Yuva STEM, Yuva STEM Organisation, Yuva STEM Org, Yuva STEM Coding Exam, Yuva STEM Junior Coder Hunt, Junior Coder Hunt, Junior Coding Exam, Coding Competition for Students, STEM Competitions, Student Coding Challenge, Coding Contest for Kids, Python Masterclass for Students, AI Masterclass for Students, STEM education, digital literacy, financial literacy, NEP 2020, IIIT Dharwad, IIT mentors, Karthik Sajjan, tech leadership"
+      />
+      <meta name="author" content="Yuva STEM Organisation" />
+    </Helmet>
 
       {/* Header Section */}
       <div className="text-center py-12 border-b border-gray-700" data-aos="fade-down">

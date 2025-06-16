@@ -10,21 +10,22 @@ const Home = () => {
 
   return (
     <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-inter relative overflow-hidden">
-      <Helmet>
-        <title>Yuva STEM Organisation - Junior Coder Hunt</title>
-        <meta
-          name="description"
-          content="Yuva STEM Organisation empowers young leaders in STEM through the Junior Coder Hunt for classes 6–10, fostering coding and innovation."
-        />
-        <meta
-          name="keywords"
-          content="Yuva STEM, Junior Coder Hunt, yuva stem, yuva Junior Coder Hunt, STEM Education, Science Technology Engineering Mathematics, Student Competitions, junior coding exams"
-        />
-        <meta
-          name="author"
-          content="Yuva STEM Organisation"
-        />
-      </Helmet>
+    <Helmet>
+      <title>Yuva STEM | Junior Coder Hunt</title>
+      <meta
+        name="description"
+        content="Yuva STEM Organisation empowers students through the Junior Coder Hunt — a coding competition designed to inspire future tech innovators."
+      />
+      <meta
+        name="keywords"
+        content="Yuva STEM, Yuva STEM Organisation, Yuva STEM Org, Yuva STEM Coding Exam, Yuva STEM Junior Coder Hunt, Junior Coder Hunt, Junior Coding Exam, Coding Competition for Students, STEM Competitions, Student Coding Challenge, Coding Contest for Kids, Python Masterclass for Students, AI Masterclass for Students"
+      />
+      <meta
+        name="author"
+        content="Yuva STEM Organisation"
+      />
+    </Helmet>
+
 
       {/* Hero Section */}
       <div className="flex flex-col items-center justify-center min-h-[40vh] py-6 px-2 sm:px-4 font-poppins">

@@ -10,18 +10,18 @@ const ContactUs = () => {
 
   return (
     <div className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden">
-      <Helmet>
-        <title>Contact Us - Yuva STEM Organisation</title>
-        <meta
-          name="description"
-          content="Contact Yuva STEM Organisation for more information, sample papers, exam fees, and to register for our Genius Hunt exams."
-        />
-        <meta
-          name="keywords"
-          content="Yuva STEM Organisation, contact, STEM education, Genius Hunt exams, registration, Karthik Sajjan, Yuva STEM"
-        />
-        <meta name="author" content="Yuva STEM Organisation" />
-      </Helmet>
+    <Helmet>
+      <title>Contact Us - Yuva STEM Organisation</title>
+      <meta
+        name="description"
+        content="Get in touch with Yuva STEM Organisation. Reach out for exam details, partnership opportunities, sponsorships, volunteer information, or general queries about the Junior Coder Hunt and our STEM initiatives."
+      />
+      <meta
+        name="keywords"
+        content="Yuva STEM, Yuva STEM Organisation, Yuva STEM Org, Yuva STEM Coding Exam, Yuva STEM Junior Coder Hunt, Junior Coder Hunt, Junior Coding Exam, Coding Competition for Students, STEM Competitions, Student Coding Challenge, Coding Contest for Kids, Python Masterclass for Students, AI Masterclass for Students, contact Yuva STEM, contact coding competition, STEM exam contact, coding exam support, partnership Yuva STEM, sponsor Yuva STEM, volunteer Yuva STEM, coding contest queries, STEM helpdesk, Junior Coder Hunt contact"
+      />
+      <meta name="author" content="Yuva STEM Organisation" />
+    </Helmet>
 
       {/* Header Section */}
       <div className="text-center py-12 border-b border-gray-700" data-aos="fade-down">
