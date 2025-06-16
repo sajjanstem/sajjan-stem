@@ -52,7 +52,7 @@ const Home = () => {
           </div>
           <div className="mt-4" data-aos="zoom-in" data-aos-delay="400">
             <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-2 px-8 rounded-lg hover:opacity-90 transition duration-300">
-              Register Now
+              Register School
             </button>
           </div>
         </div>
@@ -254,7 +254,7 @@ const Home = () => {
   {/* Footer Call-to-Action */}
     <div className="flex flex-col items-center py-12 border-t border-gray-700 font-inter px-4 md:px-8" data-aos="zoom-in">
       <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition duration-300 text-base md:text-lg w-full max-w-xs md:max-w-sm">
-        Join the ₹50,000+ Challenge
+        Register Your School Today
       </button>
       <div className="text-gray-500 mt-4 italic text-sm md:text-base text-center">
         Think. Solve. Code. Win. — Your logic today, your AI future tomorrow!
