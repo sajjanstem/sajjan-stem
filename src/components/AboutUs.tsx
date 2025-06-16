@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const AboutUs = () => {
   useEffect(() => {
@@ -15,11 +14,11 @@ const AboutUs = () => {
         <title>About Us - Yuva STEM Organisation</title>
         <meta
           name="description"
-          content="Learn more about Yuva STEM Organisation, dedicated to nurturing young minds through the STEM Genius Hunt Examination."
+          content="Learn more about Yuva STEM Organisation, founded by IIIT Dharwad alumni, dedicated to empowering young minds through coding, AI, digital literacy, and financial literacy education in alignment with NEP 2020."
         />
         <meta
           name="keywords"
-          content="Yuva STEM Organisation, STEM education, aurdino, Karthik Sajjan, Indian Institute of Information Technology Dharwad, STEM Genius Hunt Examination, digital literacy, coding, artificial intelligence"
+          content="Yuva STEM Organisation, STEM education, coding, AI, digital literacy, financial literacy, Karthik Sajjan, STEM competitions, STEM masterclasses, IIIT Dharwad, IIT mentors, tech leadership, NEP 2020"
         />
         <meta name="author" content="Yuva STEM Organisation" />
       </Helmet>
@@ -31,16 +30,21 @@ const AboutUs = () => {
 
       {/* Main Content Section */}
       <section className="max-w-5xl mx-auto py-12 px-4 space-y-8">
-        {/* About Content */}
-        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <p className="text-gray-400">
-            Yuva STEM Organisation is dedicated to nurturing the intellectual growth and curiosity of young minds through our STEM Genius Hunt Examination. This initiative aims to inspire a deep understanding and passion for STEM subjects among students from classes 6 to 10, fostering critical thinking, problem-solving skills, and innovative knowledge application.
+        <div
+          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md"
+          data-aos="fade-up"
+        >
+          <p className="text-gray-400 text-sm md:text-base">
+            Yuva STEM is a dynamic initiative founded by alumni of the Indian Institute of Information Technology (IIIT) Dharwad, driven by a vision to make coding, AI, and digital literacy accessible to every young learner. We believe coding and technology are not just skills — they are the language of tomorrow. In a rapidly changing technological world, Yuva STEM helps students from diverse backgrounds develop curiosity, creativity, and problem-solving abilities that will prepare them for future challenges.
           </p>
-          <p className="text-gray-400 mt-4">
-            Aligned with the National Education Policy 2020, our exams emphasize essential skills such as digital literacy, coding, and artificial intelligence. By integrating these into our curriculum, we prepare students for success in an evolving technological landscape. The STEM Genius Hunt Examinations ignite a lifelong passion for STEM, providing a platform for young minds to showcase their talents and fostering innovation and creativity.
+          <p className="text-gray-400 text-sm md:text-base mt-4">
+            Our advisory committee comprises IT professionals with over decades of experience, many of whom currently serve as directors and senior leaders at prominent technology companies. Alongside, we are proud to have mentors who are alumni of prestigious institutes like IITs/IIITs, bringing real-world expertise and guidance to our learners.
           </p>
-          <p className="text-gray-400 mt-4">
-            Our mission is to inspire and educate the next generation of STEM leaders by encouraging curiosity and analytical thinking. The STEM Genius Hunt Examinations prepare students for global challenges and future success. We invite educational institutions to join us in this exciting journey to cultivate a lasting passion for STEM.
+          <p className="text-gray-400 text-sm md:text-base mt-4">
+            Yuva STEM's mission aligns with India's National Education Policy (NEP) 2020, which emphasizes experiential learning, critical thinking, coding, and digital literacy from an early age. We aim to complement this vision by offering equitable platforms through engaging competitions like the Jr Coder Hunt, free masterclasses, and practical challenges that spark lifelong learning.
+          </p>
+          <p className="text-gray-400 text-sm md:text-base mt-4">
+            Our commitment is to empower students not only with technical knowledge but also with essential life skills like financial literacy, enabling them to think smart, solve smart, and contribute meaningfully to society. Together, we are building a generation of confident innovators, ready to shape the future of technology.
           </p>
         </div>
 
@@ -76,7 +80,10 @@ const AboutUs = () => {
       </section>
 
       {/* Call to Action */}
-      <div className="text-center py-12 border-t border-gray-700" data-aos="zoom-in">
+      <div
+        className="text-center py-12 border-t border-gray-700"
+        data-aos="zoom-in"
+      >
         <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition text-lg">
           Join the STEM Genius Hunt
         </button>
