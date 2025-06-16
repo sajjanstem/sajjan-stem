@@ -1,8 +1,20 @@
 import React, { useEffect } from "react";
-import { Box, Typography, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper, Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
-import MilitaryTechIcon from '@mui/icons-material/MilitaryTech';
+import {
+  Box,
+  Typography,
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+} from "@mui/material";
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import EmojiEventsIcon from "@mui/icons-material/EmojiEvents";
+import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
 import { Helmet } from "react-helmet";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -15,161 +27,286 @@ const Stem = () => {
   return (
     <Box className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden p-4">
       <Helmet>
-        <title>Junior Coder Hunt - Yuva STEM Organisation</title>
+        <title>Junior Coder Hunt 2025 - Yuva STEM Organisation</title>
         <meta
           name="description"
-          content="Join the Junior Coder Hunt by Yuva STEM Organisation to test reasoning, aptitude, and coding skills. Get mentored by alumni of premier institutes and win exciting cash prizes!"
+          content="Unleash your coding potential with Junior Coder Hunt 2025 by Yuva STEM for classes 6-10. Master reasoning, Python, and AI with IIT/IIIT alumni mentorship and win exclusive cash prizes, trophies, and medals!"
         />
         <meta
           name="keywords"
-          content="Junior Coder Hunt, Yuva STEM, coding competition, school coding contest, reasoning, aptitude, Python, AI, school students"
+          content="Junior Coder Hunt, Yuva STEM, coding competition, Python, AI, reasoning, aptitude, classes 6-10, IIT/IIIT mentorship"
         />
         <meta name="author" content="Yuva STEM Organisation" />
       </Helmet>
 
       {/* Banner Section */}
-      <div className="relative text-center py-12 border-b border-gray-700" data-aos="fade-down">
-        <div className="stem-image-container relative">
-         
-          <div className="stem-image-overlay absolute inset-0 bg-black bg-opacity-30 rounded-lg"></div>
-        </div>
-        <h1 className="text-4xl md:text-6xl font-extrabold mt-4">Junior Coder Hunt</h1>
+      <div className="text-center py-12 border-b border-gray-700" data-aos="fade-down">
+        <h1 className="text-4xl md:text-6xl font-extrabold"> Junior Coder Hunt 2025</h1>
       </div>
 
-      {/* Main Content Section */}
-      <section className="max-w-5xl mx-auto py-12 px-4 space-y-8">
-        {/* Introduction */}
-        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <Typography variant="body1" className="text-gray-400">
-            The Junior Coder Hunt is designed to inspire and challenge students of classes 6 to 12. This exam evaluates reasoning, aptitude, and foundational coding skills, promoting problem-solving, logical thinking, and creativity. Successful participants will gain access to masterclasses delivered by alumni from premier institutes like IITs and IIITs, equipping them with essential skills in Python, AI, and more.
-          </Typography>
-          <Typography variant="body1" className="text-gray-400 mt-4">
-            Top performers in this competition not only win exciting cash prizes from a total pool of ₹50,000 but also earn the chance to showcase their projects before expert panels. This journey is aimed at nurturing the next generation of coding prodigies.
-          </Typography>
-          <img
-            src={process.env.PUBLIC_URL + "/assets/stem.png"}
-            alt="Junior Coder Hunt"
-            className="w-full h-auto rounded-lg shadow-md"
-          />
-        </div>
 
-        {/* Level 1 Exam Pattern */}
-        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <Typography variant="h4" className="text-2xl font-bold mb-2 text-gray-200">
-            Level 1: Exam Pattern
+      {/* Main Content Section */}
+      <section className="max-w-5xl mx-auto py-12 px-4 space-y-12">
+        {/* Introduction */}
+        <Box
+          className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
+          sx={{ backdropFilter: "blur(4px)" }}
+          data-aos="fade-up"
+        >
+          <Typography variant="body1" className="text-gray-300 text-lg leading-relaxed">
+            Unleash your coding potential with the <strong>Jr Coder Hunt Exam 2025</strong>, a transformative competition for <strong>classes 6 to 10</strong> students across India. Designed to align with <strong>NEP 2020</strong>, this prestigious talent hunt ignites passion for technology, sharpens logical reasoning, and builds foundational coding skills. Compete to unlock <strong>exclusive masterclasses by IIT/IIIT alumni</strong>, earn <strong>cash prizes, trophies, and medals</strong>, and take your first step toward becoming a global tech innovator.
           </Typography>
-          <Typography className="font-semibold text-gray-400 mb-4">Duration: 50 minutes</Typography>
-          <TableContainer
-            component={Paper}
-            className="backdrop-blur-sm bg-white bg-opacity-5 border border-gray-700"
-          >
-            <Table>
-              <TableHead>
-                <TableRow>
-                  <TableCell className="text-gray-200 font-semibold">Section</TableCell>
-                  <TableCell className="text-gray-200 font-semibold" align="right">
-                    No. of Questions
-                  </TableCell>
-                  <TableCell className="text-gray-200 font-semibold" align="right">
-                    Marks (per question)
-                  </TableCell>
-                  <TableCell className="text-gray-200 font-semibold" align="right">
-                    Total Marks
-                  </TableCell>
-                </TableRow>
-              </TableHead>
-              <TableBody>
-                <TableRow>
-                  <TableCell className="text-gray-400">Reasoning & Aptitude</TableCell>
-                  <TableCell className="text-gray-400" align="right">20</TableCell>
-                  <TableCell className="text-gray-400" align="right">1</TableCell>
-                  <TableCell className="text-gray-400" align="right">20</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell className="text-gray-400">Basic Coding Logic</TableCell>
-                  <TableCell className="text-gray-400" align="right">15</TableCell>
-                  <TableCell className="text-gray-400" align="right">2</TableCell>
-                  <TableCell className="text-gray-400" align="right">30</TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell className="text-gray-200 font-semibold">Total</TableCell>
-                  <TableCell className="text-gray-200 font-semibold" align="right">35</TableCell>
-                  <TableCell className="text-gray-200"></TableCell>
-                  <TableCell className="text-gray-200 font-semibold" align="right">50</TableCell>
-                </TableRow>
-              </TableBody>
-            </Table>
-          </TableContainer>
-          <Typography variant="body1" className="text-gray-400 mt-4">
-            <ul className="list-disc pl-5">
-              <li>The exam is objective (OMR based).</li>
-              <li>Recommended prep: reasoning books, aptitude books, coding puzzles.</li>
-              <li>Exam schedule: Tentatively October.</li>
-              <li>Venue: Student's school.</li>
-            </ul>
+        </Box>
+
+       {/* Exam Process Timeline */}
+        <div
+          className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md"
+          data-aos="fade-up"
+        >
+          <Typography variant="h4" className="text-2xl font-bold mb-4 text-gray-200">
+            Exam Process
           </Typography>
+          <Box className="relative space-y-6">
+            {/* Timeline Line */}
+            <Box
+              className="absolute left-4 md:left-6 top-4 w-1 bg-gray-600"
+              sx={{ height: "calc(100% - 1rem)" }}
+            ></Box>
+
+            {/* Step 1: Level 1 Exam */}
+            <Box className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="200">
+              <Box
+                className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full"
+                sx={{ backgroundColor: "rgba(111, 176, 127, 0.8)" }}
+              ></Box>
+              <Typography
+                className="font-semibold"
+                sx={{ color: "rgba(111, 176, 127, 0.8)" }}
+              >
+                Step 1: Level 1 Exam – Reasoning & Aptitude
+              </Typography>
+              <Typography variant="body1" className="text-gray-400">
+                Kickstart your journey with an <strong>OMR-based MCQ exam</strong> testing logical reasoning, pattern recognition, and problem-solving. Aligned with <strong>NTSE/Olympiad syllabi</strong>, this level is accessible to all students, regardless of coding experience, ensuring equal opportunity to shine.
+              </Typography>
+            </Box>
+
+            {/* Step 2: Shortlisting */}
+            <Box className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="300">
+              <Box
+                className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full"
+                sx={{ backgroundColor: "rgba(111, 176, 127, 0.8)" }}
+              ></Box>
+              <Typography
+                className="font-semibold"
+                sx={{ color: "rgba(111, 176, 127, 0.8)" }}
+              >
+                Step 2: Shortlisting for Level 2
+              </Typography>
+              <Typography variant="body1" className="text-gray-400">
+                Top performers from Level 1 will be <strong>shortlisted</strong> to advance to the next stage, unlocking exclusive opportunities to enhance their coding and AI skills.
+              </Typography>
+            </Box>
+
+            {/* Step 3: Masterclasses */}
+            <Box className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="400">
+              <Box
+                className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full"
+                sx={{ backgroundColor: "rgba(111, 176, 127, 0.8)" }}
+              ></Box>
+              <Typography
+                className="font-semibold"
+                sx={{ color: "rgba(111, 176, 127, 0.8)" }}
+              >
+                Step 3: Free Masterclasses by Alumni of IIT/IIIT
+              </Typography>
+              <Typography variant="body1" className="text-gray-400">
+                Shortlisted students gain access to <strong>free online live masterclasses</strong> led by <strong>IIT/IIIT alumni</strong> and IT industry leaders. Learn hands-on coding with <strong>Python</strong> and explore the <strong>basics of AI</strong> through engaging, practical sessions.
+              </Typography>
+            </Box>
+
+            {/* Step 4: Level 2 Exam */}
+            <Box className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="500">
+              <Box
+                className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full"
+                sx={{ backgroundColor: "rgba(111, 176, 127, 0.8)" }}
+              ></Box>
+              <Typography
+                className="font-semibold"
+                sx={{ color: "rgba(111, 176, 127, 0.8)" }}
+              >
+                Step 4: Level 2 Exam – Python & AI
+              </Typography>
+              <Typography variant="body1" className="text-gray-400">
+                Compete in an <strong>online exam</strong> testing <strong>Python fundamentals</strong> and <strong>basic AI concepts</strong>. Showcase your coding skills and problem-solving abilities in a dynamic, tech-driven challenge.
+              </Typography>
+            </Box>
+
+            {/* Step 5: Rewards */}
+            <Box className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="600">
+              <Box
+                className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full"
+                sx={{ backgroundColor: "rgba(111, 176, 127, 0.8)" }}
+              ></Box>
+              <Typography
+                className="font-semibold"
+                sx={{ color: "rgba(111, 176, 127, 0.8)" }}
+              >
+                Step 5: Win Big!
+              </Typography>
+              <Typography variant="body1" className="text-gray-400">
+                Top performers in Level 2 will be celebrated with <strong>cash prizes, trophies, and medals</strong>, recognizing their excellence and potential as future tech leaders.
+              </Typography>
+            </Box>
+          </Box>
         </div>
 
         {/* Level 1 Syllabus */}
-        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <Typography variant="h4" className="text-2xl font-bold mb-2 text-gray-200">
-            Level 1: Syllabus
+        <Box
+          className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
+          sx={{ backdropFilter: "blur(4px)" }}
+          data-aos="fade-up"
+        >
+          <Typography variant="h4" className="text-3xl font-bold mb-6 text-gray-200">
+            Level 1 Syllabus: Reasoning & Aptitude
           </Typography>
-          <Accordion className="bg-transparent border border-gray-700 rounded-lg">
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon className="text-gray-200" />}
-              className="bg-white bg-opacity-5"
+          {[
+            {
+              class: "Class 6",
+              reasoning: "Number sequences (e.g., 1, 3, 5), shape puzzles, analogies (e.g., big:small :: tall:?), simple logical sequences.",
+              aptitude: "Basic math (e.g., 10 ÷ 2), time calculations (e.g., travel time for 5 km), simple word problems (e.g., dividing apples).",
+            },
+            {
+              class: "Class 7",
+              reasoning: "Pattern series (e.g., 2, 4, 8), complex patterns (e.g., geometric shapes), mirror images, basic coding-decoding (e.g., A=2, B=4).",
+              aptitude: "Ratios (e.g., 3:4), area of shapes (e.g., rectangles), averages, time and work (e.g., building a wall).",
+            },
+            {
+              class: "Class 8",
+              reasoning: "Letter coding (e.g., A=2, B=4), direction sense (e.g., left-right turns), logic puzzles (e.g., seating arrangements), series completion.",
+              aptitude: "Profit-loss, algebra (e.g., x + 5 = 10), simple interest, perimeter of polygons.",
+            },
+            {
+              class: "Class 9",
+              reasoning: "Venn diagrams, data sufficiency, complex series (e.g., mixed numbers), analogy reasoning (e.g., word pairs).",
+              aptitude: "Quadratic equations, probability (e.g., card draws), coordinate geometry, time-speed-distance.",
+            },
+            {
+              class: "Class 10",
+              reasoning: "Logical arguments, critical reasoning (e.g., conclusions), data charts (e.g., pie charts), advanced puzzles.",
+              aptitude: "Trigonometry (e.g., cos 45°), statistics (e.g., median), mensuration (e.g., cylinder volume), arithmetic progressions.",
+            },
+          ].map((item, index) => (
+            <Accordion
+              key={index}
+              className="bg-gray-900/80 border border-gray-700 rounded-lg mt-4 transition-all hover:bg-gray-800/80"
+              sx={{
+                backdropFilter: "blur(4px)",
+                "&.Mui-expanded": { bgcolor: "rgba(17, 24, 39, 0.8)" },
+                "&:before": { bgcolor: "transparent" },
+                "& .MuiAccordionSummary-root": { bgcolor: "rgba(17, 24, 39, 0.8)" },
+              }}
             >
-              <Typography className="text-gray-200">Classes 6 to 8</Typography>
-            </AccordionSummary>
-            <AccordionDetails className="bg-white bg-opacity-5">
-              <Typography className="text-gray-400">
-                <strong>Reasoning & Aptitude:</strong> Number series, patterns, puzzles, basic arithmetic logic.<br /><br />
-                <strong>Basic Coding Logic:</strong> Algorithms, flowcharts, pattern-based problems, basics of Python logic (loops, conditions), block-based coding concepts (Scratch/Blockly).
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion className="bg-transparent border border-gray-700 rounded-lg mt-4">
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon className="text-gray-200" />}
-              className="bg-white bg-opacity-5"
-            >
-              <Typography className="text-gray-200">Classes 9 to 12</Typography>
-            </AccordionSummary>
-            <AccordionDetails className="bg-white bg-opacity-5">
-              <Typography className="text-gray-400">
-                <strong>Reasoning & Aptitude:</strong> Number series, coding-decoding, direction sense, puzzles, data interpretation, logical Venn diagrams.<br /><br />
-                <strong>Basic Coding Logic:</strong> Python fundamentals, pseudo-code, loops, conditions, functions, basic AI concepts (if-else models), introductory algorithms.
-              </Typography>
-            </AccordionDetails>
-          </Accordion>
-        </div>
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon className="text-gray-200" />}
+                className="bg-gray-900/80 hover:bg-gray-800/80"
+              >
+                <Typography className="text-gray-200 font-semibold">{item.class}</Typography>
+              </AccordionSummary>
+              <AccordionDetails className="bg-gray-900/80">
+                <Typography className="text-gray-300">
+                  <strong>Reasoning:</strong> {item.reasoning}<br />
+                  <strong>Aptitude:</strong> {item.aptitude}
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+          ))}
+        </Box>
 
-        {/* Level 2 */}
-        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <div className="flex items-center space-x-4">
-          
-            <Typography variant="h4" className="text-2xl font-bold text-gray-200">
-              Level 2: Masterclasses & Projects
-            </Typography>
-          </div>
-          <Typography variant="body1" className="text-gray-400 mt-4">
-            <ul className="list-disc pl-5">
-              <li>Qualified students will receive masterclasses on Python, AI, IoT, Web Dev, Arduino, and more.</li>
-              <li>Top projects will be presented at IIIT Dharwad and other premier institutes for expert evaluation.</li>
-              <li>Winners will receive cash prizes and national-level recognition.</li>
-            </ul>
+        {/* Level 2 Syllabus */}
+        <Box
+          className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
+          sx={{ backdropFilter: "blur(4px)" }}
+          data-aos="fade-up"
+        >
+          <Typography variant="h4" className="text-3xl font-bold mb-6 text-gray-200">
+            Level 2 Syllabus: Python & Basics of AI
           </Typography>
-        </div>
+          {[
+            {
+              class: "Class 6",
+              python: "Python syntax (e.g., print('Hi')), variables (y = 5), loops (e.g., for i in [1,2]).",
+              ai: "What is AI? (e.g., smart assistants), decisions (e.g., if-else for games), pattern recognition (e.g., shapes).",
+            },
+            {
+              class: "Class 7",
+              python: "Lists ([4,5,6]), functions (e.g., def multiply(x,y)), strings (e.g., 'code'.lower()), conditionals.",
+              ai: "AI chatbots (e.g., simple responses), decision trees (e.g., yes/no logic), sorting algorithms.",
+            },
+            {
+              class: "Class 8",
+              python: "Dictionaries ({'age': 13}), try-except, file handling (e.g., reading files), nested loops.",
+              ai: "ML concepts (e.g., data labels), classification (e.g., spam emails), simple predictive models.",
+            },
+            {
+              class: "Class 9",
+              python: "Modules (e.g., import random), OOP (e.g., class Student), NumPy arrays, list comprehensions.",
+              ai: "Supervised learning, neural networks (e.g., neuron basics), AI ethics (e.g., fairness in AI).",
+            },
+            {
+              class: "Class 10",
+              python: "Lambda functions, regex (e.g., phone numbers), APIs (e.g., JSON data), data structures (e.g., stacks).",
+              ai: "Deep learning basics (e.g., layers), model training, real-world AI (e.g., face recognition).",
+            },
+          ].map((item, index) => (
+            <Accordion
+              key={index}
+              className="bg-gray-900/80 border border-gray-700 rounded-lg mt-4 transition-all hover:bg-gray-800/80"
+              sx={{
+                backdropFilter: "blur(4px)",
+                "&.Mui-expanded": { bgcolor: "rgba(17, 24, 39, 0.8)" },
+                "&:before": { bgcolor: "transparent" },
+                "& .MuiAccordionSummary-root": { bgcolor: "rgba(17, 24, 39, 0.8)" },
+              }}
+            >
+              <AccordionSummary
+                expandIcon={<ExpandMoreIcon className="text-gray-200" />}
+                className="bg-gray-900/80 hover:bg-gray-800/80"
+              >
+                <Typography className="text-gray-200 font-semibold">{item.class}</Typography>
+              </AccordionSummary>
+              <AccordionDetails className="bg-gray-900/80">
+                <Typography className="text-gray-300">
+                  <strong>Python:</strong> {item.python}<br />
+                  <strong>AI Basics:</strong> {item.ai}
+                </Typography>
+              </AccordionDetails>
+            </Accordion>
+          ))}
+        </Box>
 
-        {/* Level 2 Awards */}
-        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <Typography variant="h4" className="text-2xl font-bold mb-2 text-gray-200">
-            Awards
+        {/* Prizes & Recognition */}
+        <Box
+          className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
+          sx={{ backdropFilter: "blur(4px)" }}
+          data-aos="fade-up"
+        >
+          <Typography
+            variant="h4"
+            className="text-3xl font-bold text-center mb-6 flex items-center justify-center"
+          >
+            <span className="mr-2">🏆</span> Prizes & Recognition
+          </Typography>
+          <Typography variant="body1" className="text-gray-300 text-center mb-6 text-lg">
+            Celebrate your achievements with exclusive rewards! Top performers in Level 2 earn <strong>cash prizes, trophies, and medals</strong>, while all participants receive a <strong>completion certificate</strong>, recognizing their journey as future tech innovators.
+          </Typography>
+
+          {/* Prizes for Classes 6th–8th */}
+          <Typography variant="h5" className="text-xl font-semibold mb-4 text-gray-200">
+            Prizes for Classes 6th–8th
           </Typography>
           <TableContainer
-            component={Paper}
-            className="backdrop-blur-sm bg-white bg-opacity-5 border border-gray-700"
+            className="bg-gray-900/80 border border-gray-700 rounded-lg mb-6"
+            sx={{ backdropFilter: "blur(4px)" }}
           >
             <Table>
               <TableHead>
@@ -181,96 +318,77 @@ const Stem = () => {
                 </TableRow>
               </TableHead>
               <TableBody>
-                <TableRow>
-                  <TableCell className="text-gray-400">1st</TableCell>
-                  <TableCell className="text-gray-400" align="right">
-                    ₹25,000 + Trophy <EmojiEventsIcon className="inline text-yellow-500" /> + Medal{" "}
-                    <MilitaryTechIcon className="inline text-yellow-500" />
-                  </TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell className="text-gray-400">2nd</TableCell>
-                  <TableCell className="text-gray-400" align="right">
-                    ₹15,000 + Trophy <EmojiEventsIcon className="inline text-yellow-500" /> + Medal{" "}
-                    <MilitaryTechIcon className="inline text-yellow-500" />
-                  </TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell className="text-gray-400">3rd</TableCell>
-                  <TableCell className="text-gray-400" align="right">
-                    ₹10,000 + Trophy <EmojiEventsIcon className="inline text-yellow-500" /> + Medal{" "}
-                    <MilitaryTechIcon className="inline text-yellow-500" />
-                  </TableCell>
-                </TableRow>
+                {[
+                  { position: "1st", award: "₹4,000 + Trophy + Medal" },
+                  { position: "2nd", award: "₹3,000 + Trophy + Medal" },
+                  { position: "3rd", award: "₹2,000 + Trophy + Medal" },
+                ].map((row, index) => (
+                  <TableRow
+                    key={index}
+                    className={`hover:bg-gray-800/80 transition-all ${index % 2 === 0 ? "bg-gray-800/50" : ""}`}
+                  >
+                    <TableCell className="text-gray-300">{row.position}</TableCell>
+                    <TableCell className="text-gray-300" align="right">
+                      {row.award}{" "}
+                      <EmojiEventsIcon className="inline text-yellow-500" />{" "}
+                      <MilitaryTechIcon className="inline text-yellow-500" />
+                    </TableCell>
+                  </TableRow>
+                ))}
               </TableBody>
             </Table>
           </TableContainer>
-          <Typography variant="body1" className="text-gray-400 mt-4">
-            <ul className="list-disc pl-5">
-              <li>All Level 2 participants receive a completion certificate.</li>
-            </ul>
-          </Typography>
-        </div>
 
-        {/* Level 1 School Awards */}
-        <div className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md" data-aos="fade-up">
-          <Typography variant="h4" className="text-2xl font-bold mb-2 text-gray-200">
-            Level 1 School Awards
+          {/* Prizes for Classes 9th–10th */}
+          <Typography variant="h5" className="text-xl font-semibold mb-4 text-gray-200">
+            Prizes for Classes 9th–10th
           </Typography>
           <TableContainer
-            component={Paper}
-            className="backdrop-blur-sm bg-white bg-opacity-5 border border-gray-700"
+            className="bg-gray-900/80 border border-gray-700 rounded-lg mb-6"
+            sx={{ backdropFilter: "blur(4px)" }}
           >
             <Table>
               <TableHead>
                 <TableRow>
-                  <TableCell className="text-gray-200 font-semibold">Level 1 School Awards</TableCell>
-                  <TableCell className="text-gray-200 font-semibold">Classes</TableCell>
-                  <TableCell className="text-gray-200 font-semibold">Awards</TableCell>
+                  <TableCell className="text-gray-200 font-semibold">Position</TableCell>
+                  <TableCell className="text-gray-200 font-semibold" align="right">
+                    Awards
+                  </TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
-                <TableRow>
-                  <TableCell className="text-gray-400">1st Rank</TableCell>
-                  <TableCell className="text-gray-400">6-12</TableCell>
-                  <TableCell className="text-gray-400">
-                    Gold Medal <MilitaryTechIcon className="inline text-yellow-500" /> + Achievement Certificate
-                  </TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell className="text-gray-400">2nd Rank</TableCell>
-                  <TableCell className="text-gray-400">6-12</TableCell>
-                  <TableCell className="text-gray-400">
-                    Silver Medal <MilitaryTechIcon className="inline text-yellow-500" /> + Achievement Certificate
-                  </TableCell>
-                </TableRow>
-                <TableRow>
-                  <TableCell className="text-gray-400">3rd Rank</TableCell>
-                  <TableCell className="text-gray-400">6-12</TableCell>
-                  <TableCell className="text-gray-400">
-                    Bronze Medal <MilitaryTechIcon className="inline text-yellow-500" /> + Achievement Certificate
-                  </TableCell>
-                </TableRow>
+                {[
+                  { position: "1st", award: "₹6,000 + Trophy + Medal" },
+                  { position: "2nd", award: "₹4,000 + Trophy + Medal" },
+                  { position: "3rd", award: "₹3,000 + Trophy + Medal" },
+                ].map((row, index) => (
+                  <TableRow
+                    key={index}
+                    className={`hover:bg-gray-800/80 transition-all ${index % 2 === 0 ? "bg-gray-800/50" : ""}`}
+                  >
+                    <TableCell className="text-gray-300">{row.position}</TableCell>
+                    <TableCell className="text-gray-300" align="right">
+                      {row.award}{" "}
+                      <EmojiEventsIcon className="inline text-yellow-500" />{" "}
+                      <MilitaryTechIcon className="inline text-yellow-500" />
+                    </TableCell>
+                  </TableRow>
+                ))}
               </TableBody>
             </Table>
           </TableContainer>
-          <Typography variant="body1" className="text-gray-400 mt-4">
-            <ul className="list-disc pl-5">
-              <li>Every Level 1 participant will receive a participation certificate.</li>
-            </ul>
-          </Typography>
-        </div>
-      </section>
+        </Box>
 
-      {/* Call to Action */}
-      <div className="text-center py-12 border-t border-gray-700" data-aos="zoom-in">
-        <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition text-lg">
-          Join the ₹50,000+ Challenge
-        </button>
-        <p className="text-gray-500 mt-4 italic">
-          Think. Solve. Code. Win. — Your logic today, your AI future tomorrow!
-        </p>
-      </div>
+        {/* Call to Action */}
+        <Box className="text-center py-12 border-t border-gray-700" data-aos="zoom-in">
+          <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition text-lg">
+            Join the Challenge Now
+          </button>
+          <Typography variant="body2" className="text-gray-500 mt-4 italic">
+            Code. Create. Conquer. — Shape your tech future today!
+          </Typography>
+        </Box>
+      </section>
     </Box>
   );
 };
