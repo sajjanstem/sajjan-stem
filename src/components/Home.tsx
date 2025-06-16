@@ -234,7 +234,7 @@ const Home = () => {
 
 
         {/* How It Works Section */}
-        <div
+        {/* <div
           className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6"
           data-aos="fade-up"
         >
@@ -248,7 +248,7 @@ const Home = () => {
               5️⃣ Win cash prizes, certificates & national recognition
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
   {/* Footer Call-to-Action */}

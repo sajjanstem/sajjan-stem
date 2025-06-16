@@ -284,7 +284,7 @@ const Stem = () => {
           ))}
         </Box>
 
-        {/* Prizes & Recognition */}
+        {/* Awards */}
         <Box
           className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
           sx={{ backdropFilter: "blur(4px)" }}
@@ -294,11 +294,9 @@ const Stem = () => {
             variant="h4"
             className="text-3xl font-bold text-center mb-6 flex items-center justify-center"
           >
-            <span className="mr-2">🏆</span> Prizes & Recognition
+            <span className="mr-2">🏆</span> Awards
           </Typography>
-          <Typography variant="body1" className="text-gray-300 text-center mb-6 text-lg">
-            Celebrate your achievements with exclusive rewards! Top performers in Level 2 earn <strong>cash prizes, trophies, and medals</strong>, while all participants receive a <strong>completion certificate</strong>, recognizing their journey as future tech innovators.
-          </Typography>
+ 
 
           {/* Prizes for Classes 6th–8th */}
           <Typography variant="h5" className="text-xl font-semibold mb-4 text-gray-200">
