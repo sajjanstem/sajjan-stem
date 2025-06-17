@@ -26,41 +26,42 @@ const Home = () => {
       />
     </Helmet>
 
-
-      {/* Hero Section */}
-      <div className="flex flex-col items-center justify-center min-h-[40vh] py-6 px-2 sm:px-4 font-poppins">
-        <div className="text-center max-w-5xl mx-auto space-y-2">
-          <div
-            className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold"
-            data-aos="fade-down"
-            data-aos-delay="100"
-          >
-            Yuva STEM Organisation
-          </div>
-          <div
-            className="text-xl sm:text-2xl md:text-3xl font-bold"
-            data-aos="fade-down"
-            data-aos-delay="200"
-          >
-            Junior Coder Hunt
-          </div>
-          <div
-            className="text-xs sm:text-sm md:text-base text-gray-400"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            Think. Solve. Code. Win. | Empowering Next Generation of Innovators, Coders, Critical Thinkers
-          </div>
-          <div className="mt-4" data-aos="zoom-in" data-aos-delay="400">
-            <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-2 px-8 rounded-lg hover:opacity-90 transition duration-300">
-              Register School
-            </button>
-          </div>
+    {/* Hero Section */}
+    <div className="font-poppins">
+      {/* Main title with full-width border below */}
+      <div className="text-center py-8 border-b border-gray-700" data-aos="fade-down">
+        <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold">
+          Yuva STEM Organisation
         </div>
       </div>
 
+      {/* Rest of hero content */}
+      <div className="text-center py-6 max-w-5xl mx-auto space-y-3">
+        <div
+          className="text-2xl sm:text-3xl md:text-4xl font-bold"
+          data-aos="fade-down"
+          data-aos-delay="200"
+        >
+          Junior Coder Hunt 2025
+        </div>
+        <div
+          className="text-sm sm:text-base md:text-lg text-gray-400"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          Think. Solve. Code. Win.
+        </div>
+        <div className="mt-4" data-aos="zoom-in" data-aos-delay="400">
+          <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold py-3 px-10 rounded-lg hover:opacity-90 transition duration-300">
+            Register School
+          </button>
+        </div>
+      </div>
+    </div>
+
+
       {/* Content Sections */}
-      <div className="max-w-5xl mx-auto py-12 px-2 sm:px-4 space-y-8 font-inter">
+      <div className="max-w-5xl mx-auto pt-4 pb-12 px-2 sm:px-4 space-y-8 font-inter">
         {/* Empowering Coders Section */}
         <div
           className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 flex flex-col justify-center min-h-[400px]"
@@ -72,7 +73,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="w-full md:w-[35%] order-2 md:order-1" data-aos="fade-left" data-aos-delay="200">
               <img
-                src={process.env.PUBLIC_URL + "/assets/roboface.jpg"}
+                src={process.env.PUBLIC_URL + "/assets/roboface_compressed.jpg"}
                 alt="AI and Coding Innovation"
                 className="w-full max-w-xs h-48 object-cover object-center rounded shadow-md mx-auto"
                 loading="lazy"
