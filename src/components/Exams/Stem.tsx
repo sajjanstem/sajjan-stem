@@ -65,7 +65,7 @@ const Stem = () => {
           className="backdrop-blur-sm bg-white bg-opacity-5 rounded-xl border border-gray-700 p-6 shadow-md"
           data-aos="fade-up"
         >
-          <Typography variant="h4" className="text-2xl font-bold mb-4 text-gray-200">
+          <Typography variant="h4" className="text-2xl md:text-3xl font-bold mb-4 text-gray-200 text-center flex items-center justify-center">
             Exam Process
           </Typography>
           <Box className="relative space-y-6">
@@ -188,7 +188,7 @@ const Stem = () => {
           sx={{ backdropFilter: "blur(4px)" }}
           data-aos="fade-up"
         >
-          <Typography variant="h4" className="text-3xl font-bold mb-6 text-gray-200">
+          <Typography variant="h5" className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2 text-gray-200  text-center flex items-center justify-center">
             Level 2 Syllabus: Python & Basics of AI
           </Typography>
           {[
@@ -251,8 +251,8 @@ const Stem = () => {
         data-aos="fade-up"
       >
         <Typography
-          variant="h4"
-          className="text-3xl font-bold text-center mb-6 flex items-center justify-center"
+          variant="h5"
+          className="text-xl md:text-2xl lg:text-3xl font-semibold text-center mb-6 flex items-center justify-center"
           sx={{ color: '#f9fafb' }}
         >
           <span className="mr-2">🏆</span> Awards
@@ -347,6 +347,24 @@ const Stem = () => {
             </TableBody>
           </Table>
         </TableContainer>
+
+        {/* Awards
+        <div className="bg-gray-900/80 border border-gray-700 rounded-xl p-6 shadow-lg backdrop-blur-sm space-y-6" data-aos="fade-up">
+          <h2 className="text-xl sm:text-2xl font-bold text-center">🏆 Awards</h2>
+          {[{ title: "Classes 6th–8th", prizes: ["₹4,000 + Trophy + Medal", "₹3,000 + Trophy + Medal", "₹2,000 + Trophy + Medal"] }, { title: "Classes 9th–10th", prizes: ["₹6,000 + Trophy + Medal", "₹4,000 + Trophy + Medal", "₹3,000 + Trophy + Medal"] }].map((grp, idx) => (
+            <div key={idx}>
+              <p className="font-semibold text-lg text-gray-200 mb-2">{grp.title}</p>
+              <ul className="space-y-1">
+                {grp.prizes.map((prize, i) => (
+                  <li key={i} className="flex justify-between bg-gray-800/50 rounded px-3 py-2 hover:bg-gray-800/80">
+                    <span className="text-gray-200">{i + 1}st</span>
+                    <span className="text-gray-200">{prize}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div> */}
       </Box>
 
   {/* Footer Call-to-Action */}

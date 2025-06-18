@@ -67,10 +67,10 @@ export default function SyllabusTable() {
       className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
       data-aos="fade-up"
     >
-      <Typography variant="h4" className="text-3xl font-bold mb-6 text-gray-200">
+      <Typography variant="h5" className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2 text-gray-200  text-center flex items-center justify-center">
         Level 1 Syllabus: Reasoning & Aptitude
       </Typography>
-      <Typography className="text-sm text-gray-400 mb-4 italic">
+      <Typography className="text-sm text-gray-400 mb-4 italic text-center flex items-center justify-center">
         (As per NTSE / Olympiad standards)
       </Typography>
 
