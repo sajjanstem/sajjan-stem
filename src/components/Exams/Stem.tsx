@@ -361,8 +361,8 @@ const Stem = () => {
 >
   <Typography
     variant="h5"
-    className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10"
-    sx={{ color: '#f9fafb' }}
+    className="text-2xl sm:text-3xl md:text-4xl font-bold text-center"
+    sx={{ color: '#f9fafb' , mb: 4}}
   >
     🏆 Winners
   </Typography>
@@ -416,7 +416,7 @@ const Stem = () => {
           color: '#f9fafb',
           mb: 4,
           fontSize: { xs: '1.25rem', sm: '1.5rem' },
-          fontWeight: 600,
+          fontWeight: 550,
           textAlign: 'center'
         }}
       >
