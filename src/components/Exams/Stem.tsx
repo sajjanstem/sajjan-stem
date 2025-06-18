@@ -252,119 +252,106 @@ const Stem = () => {
       >
         <Typography
           variant="h5"
-          className="text-xl md:text-2xl lg:text-3xl font-semibold text-center mb-6 flex items-center justify-center"
+          className="text-2xl sm:text-3xl md:text-4xl font-bold text-center mb-10 flex items-center justify-center"
           sx={{ color: '#f9fafb' }}
         >
-          <span className="mr-2">🏆</span> Awards
+          <span className="mr-2">🏆</span> Winners
         </Typography>
 
-        {/* Prizes for Classes 6th–8th */}
+        {[
+          {
+            className: "Class 10 (Cash Prize + Trophy)",
+            prizes: [
+              { pos: "1st", award: "₹6,000", type: "trophy" },
+              { pos: "2nd", award: "₹5,000", type: "trophy" },
+              { pos: "3rd", award: "₹4,000", type: "trophy" },
+            ],
+          },
+          {
+            className: "Class 9 (Cash Prize + Trophy)",
+            prizes: [
+              { pos: "1st", award: "₹5,000", type: "trophy" },
+              { pos: "2nd", award: "₹4,000", type: "trophy" },
+              { pos: "3rd", award: "₹3,000", type: "trophy" },
+            ],
+          },
+          {
+            className: "Class 8 (Cash Prize + Medal)",
+            prizes: [
+              { pos: "1st", award: "₹4,000", type: "medal" },
+              { pos: "2nd", award: "₹3,000", type: "medal" },
+              { pos: "3rd", award: "₹2,000", type: "medal" },
+            ],
+          },
+          {
+            className: "Class 7 (Cash Prize + Medal)",
+            prizes: [
+              { pos: "1st", award: "₹3,500", type: "medal" },
+              { pos: "2nd", award: "₹2,500", type: "medal" },
+              { pos: "3rd", award: "₹1,500", type: "medal" },
+            ],
+          },
+          {
+            className: "Class 6 (Cash Prize + Medal)",
+            prizes: [
+              { pos: "1st", award: "₹3,500", type: "medal" },
+              { pos: "2nd", award: "₹2,500", type: "medal" },
+              { pos: "3rd", award: "₹1,500", type: "medal" },
+            ],
+          },
+        ].map((group, idx) => (
+          <Box key={idx} className="mb-10">
+            <Typography
+              variant="h6"
+              className="text-xl sm:text-2xl font-semibold mb-4"
+              sx={{ color: '#f9fafb' }}
+            >
+              {group.className}
+            </Typography>
+            <TableContainer
+              className="bg-gray-900/80 border border-gray-700 rounded-lg"
+              sx={{ backdropFilter: "blur(4px)" }}
+            >
+              <Table>
+                <TableHead>
+                  <TableRow>
+                    <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }}>
+                      Position
+                    </TableCell>
+                    <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }} align="right">
+                      Award
+                    </TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {group.prizes.map((prize, i) => (
+                    <TableRow
+                      key={i}
+                      className={`hover:bg-gray-800/80 transition-all ${i % 2 === 0 ? "bg-gray-800/50" : ""}`}
+                    >
+                      <TableCell sx={{ color: '#f9fafb' }}>{prize.pos}</TableCell>
+                      <TableCell sx={{ color: '#f9fafb' }} align="right">
+                        {prize.award}{" "}
+                        {prize.type === "medal" ? (
+                          <MilitaryTechIcon className="inline text-yellow-500" />
+                        ) : (
+                          <EmojiEventsIcon className="inline text-yellow-500" />
+                        )}
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          </Box>
+        ))}
+
         <Typography
-          variant="h5"
-          className="text-xl font-semibold"
-          sx={{ color: '#f9fafb', mb: 2 }}
+          variant="body1"
+          className="text-center text-sm sm:text-base mt-6 text-gray-400 italic"
         >
-          Prizes for Classes 6th–8th
+          All Level 2 shortlisted students get a Certificate of Appreciation.
         </Typography>
-        <TableContainer
-          className="bg-gray-900/80 border border-gray-700 rounded-lg mb-6"
-          sx={{ backdropFilter: "blur(4px)", mt: 1 }}
-        >
-          <Table>
-            <TableHead>
-              <TableRow>
-                <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }}>
-                  Position
-                </TableCell>
-                <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }} align="right">
-                  Awards
-                </TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              {[
-                { position: "1st", award: "₹4,000 + Trophy + Medal" },
-                { position: "2nd", award: "₹3,000 + Trophy + Medal" },
-                { position: "3rd", award: "₹2,000 + Trophy + Medal" },
-              ].map((row, index) => (
-                <TableRow
-                  key={index}
-                  className={`hover:bg-gray-800/80 transition-all ${index % 2 === 0 ? "bg-gray-800/50" : ""}`}
-                >
-                  <TableCell sx={{ color: '#f9fafb' }}>{row.position}</TableCell>
-                  <TableCell sx={{ color: '#f9fafb' }} align="right">
-                    {row.award}{" "}
-                    <EmojiEventsIcon className="inline text-yellow-500" />{" "}
-                    <MilitaryTechIcon className="inline text-yellow-500" />
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </TableContainer>
-
-        {/* Prizes for Classes 9th–10th */}
-        <Typography
-          variant="h5"
-          className="text-xl font-semibold"
-          sx={{ color: '#f9fafb', mb: 2 }}
-        >
-          Prizes for Classes 9th–10th
-        </Typography>
-        <TableContainer
-          className="bg-gray-900/80 border border-gray-700 rounded-lg mb-6"
-          sx={{ backdropFilter: "blur(4px)", mt: 1 }}
-        >
-          <Table>
-            <TableHead>
-              <TableRow>
-                <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }}>
-                  Position
-                </TableCell>
-                <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }} align="right">
-                  Awards
-                </TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              {[
-                { position: "1st", award: "₹6,000 + Trophy + Medal" },
-                { position: "2nd", award: "₹4,000 + Trophy + Medal" },
-                { position: "3rd", award: "₹3,000 + Trophy + Medal" },
-              ].map((row, index) => (
-                <TableRow
-                  key={index}
-                  className={`hover:bg-gray-800/80 transition-all ${index % 2 === 0 ? "bg-gray-800/50" : ""}`}
-                >
-                  <TableCell sx={{ color: '#f9fafb' }}>{row.position}</TableCell>
-                  <TableCell sx={{ color: '#f9fafb' }} align="right">
-                    {row.award}{" "}
-                    <EmojiEventsIcon className="inline text-yellow-500" />{" "}
-                    <MilitaryTechIcon className="inline text-yellow-500" />
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </TableContainer>
-
-        {/* Awards
-        <div className="bg-gray-900/80 border border-gray-700 rounded-xl p-6 shadow-lg backdrop-blur-sm space-y-6" data-aos="fade-up">
-          <h2 className="text-xl sm:text-2xl font-bold text-center">🏆 Awards</h2>
-          {[{ title: "Classes 6th–8th", prizes: ["₹4,000 + Trophy + Medal", "₹3,000 + Trophy + Medal", "₹2,000 + Trophy + Medal"] }, { title: "Classes 9th–10th", prizes: ["₹6,000 + Trophy + Medal", "₹4,000 + Trophy + Medal", "₹3,000 + Trophy + Medal"] }].map((grp, idx) => (
-            <div key={idx}>
-              <p className="font-semibold text-lg text-gray-200 mb-2">{grp.title}</p>
-              <ul className="space-y-1">
-                {grp.prizes.map((prize, i) => (
-                  <li key={i} className="flex justify-between bg-gray-800/50 rounded px-3 py-2 hover:bg-gray-800/80">
-                    <span className="text-gray-200">{i + 1}st</span>
-                    <span className="text-gray-200">{prize}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div> */}
       </Box>
 
   {/* Footer Call-to-Action */}
