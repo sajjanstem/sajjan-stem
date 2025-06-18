@@ -70,6 +70,9 @@ export default function SyllabusTable() {
       <Typography variant="h4" className="text-3xl font-bold mb-6 text-gray-200">
         Level 1 Syllabus: Reasoning & Aptitude
       </Typography>
+      <Typography className="text-sm text-gray-400 mb-4 italic">
+        (As per NTSE / Olympiad standards)
+      </Typography>
 
       {syllabusData.map((item, index) => (
         <Accordion
@@ -89,7 +92,7 @@ export default function SyllabusTable() {
               {item.class}
             </Typography>
           </AccordionSummary>
-          <AccordionDetails>
+          <AccordionDetails sx={{ padding: 0 }}>
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr>
