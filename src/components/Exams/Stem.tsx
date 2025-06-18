@@ -18,6 +18,7 @@ import MilitaryTechIcon from "@mui/icons-material/MilitaryTech";
 import { Helmet } from "react-helmet";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import SyllabusTable from "../SyllabusTable";
 
 const Stem = () => {
   useEffect(() => {
@@ -47,7 +48,7 @@ const Stem = () => {
 
 
       {/* Main Content Section */}
-      <section className="max-w-5xl mx-auto py-12 px-4 space-y-12">
+      <section className="max-w-5xl mx-auto py-12 px-2 space-y-12">
         {/* Introduction */}
         <Box
           className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
@@ -177,68 +178,9 @@ const Stem = () => {
             </Box>
           </Box>
         </div>
-
+        
         {/* Level 1 Syllabus */}
-        <Box
-          className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
-          sx={{ backdropFilter: "blur(4px)" }}
-          data-aos="fade-up"
-        >
-          <Typography variant="h4" className="text-3xl font-bold mb-6 text-gray-200">
-            Level 1 Syllabus: Reasoning & Aptitude
-          </Typography>
-          {[
-            {
-              class: "Class 6",
-              reasoning: "Number sequences (e.g., 1, 3, 5), shape puzzles, analogies (e.g., big:small :: tall:?), simple logical sequences.",
-              aptitude: "Basic math (e.g., 10 ÷ 2), time calculations (e.g., travel time for 5 km), simple word problems (e.g., dividing apples).",
-            },
-            {
-              class: "Class 7",
-              reasoning: "Pattern series (e.g., 2, 4, 8), complex patterns (e.g., geometric shapes), mirror images, basic coding-decoding (e.g., A=2, B=4).",
-              aptitude: "Ratios (e.g., 3:4), area of shapes (e.g., rectangles), averages, time and work (e.g., building a wall).",
-            },
-            {
-              class: "Class 8",
-              reasoning: "Letter coding (e.g., A=2, B=4), direction sense (e.g., left-right turns), logic puzzles (e.g., seating arrangements), series completion.",
-              aptitude: "Profit-loss, algebra (e.g., x + 5 = 10), simple interest, perimeter of polygons.",
-            },
-            {
-              class: "Class 9",
-              reasoning: "Venn diagrams, data sufficiency, complex series (e.g., mixed numbers), analogy reasoning (e.g., word pairs).",
-              aptitude: "Quadratic equations, probability (e.g., card draws), coordinate geometry, time-speed-distance.",
-            },
-            {
-              class: "Class 10",
-              reasoning: "Logical arguments, critical reasoning (e.g., conclusions), data charts (e.g., pie charts), advanced puzzles.",
-              aptitude: "Trigonometry (e.g., cos 45°), statistics (e.g., median), mensuration (e.g., cylinder volume), arithmetic progressions.",
-            },
-          ].map((item, index) => (
-            <Accordion
-              key={index}
-              className="bg-gray-900/80 border border-gray-700 rounded-lg mt-4 transition-all hover:bg-gray-800/80"
-              sx={{
-                backdropFilter: "blur(4px)",
-                "&.Mui-expanded": { bgcolor: "rgba(17, 24, 39, 0.8)" },
-                "&:before": { bgcolor: "transparent" },
-                "& .MuiAccordionSummary-root": { bgcolor: "rgba(17, 24, 39, 0.8)" },
-              }}
-            >
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon className="text-gray-200" />}
-                className="bg-gray-900/80 hover:bg-gray-800/80"
-              >
-                <Typography className="text-gray-200 font-semibold">{item.class}</Typography>
-              </AccordionSummary>
-              <AccordionDetails className="bg-gray-900/80">
-                <Typography className="text-gray-300">
-                  <strong>Reasoning:</strong> {item.reasoning}<br />
-                  <strong>Aptitude:</strong> {item.aptitude}
-                </Typography>
-              </AccordionDetails>
-            </Accordion>
-          ))}
-        </Box>
+        <SyllabusTable />
 
         {/* Level 2 Syllabus */}
         <Box
