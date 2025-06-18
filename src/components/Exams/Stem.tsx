@@ -25,7 +25,7 @@ const Stem = () => {
   }, []);
 
   return (
-    <Box className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden p-4">
+    <Box className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden">
     <Helmet>
       <title>Junior Coder Hunt 2025 - Yuva STEM Organisation</title>
       <meta
@@ -87,7 +87,7 @@ const Stem = () => {
                 Step 1: Level 1 Exam – Reasoning & Aptitude
               </Typography>
               <Typography variant="body1" className="text-gray-400">
-                Kickstart your journey with an <strong>OMR-based MCQ exam</strong> testing logical reasoning, pattern recognition, and problem-solving. Aligned with <strong>NTSE/Olympiad syllabi</strong>, this level is accessible to all students, regardless of coding experience, ensuring equal opportunity to shine.
+                Kickstart your journey with an <strong>OMR-based MCQ exam</strong> testing logical reasoning and aptitude, aligned with <strong>NTSE/Olympiad standards</strong>, this level is open to all students from classes 6 to 10, regardless of coding experience, ensuring equal opportunity to shine.
               </Typography>
             </Box>
 
@@ -121,7 +121,7 @@ const Stem = () => {
                 Step 3: Free Masterclasses by Alumni of IIT/IIIT
               </Typography>
               <Typography variant="body1" className="text-gray-400">
-                Shortlisted students gain access to <strong>free online live masterclasses</strong> led by <strong>IIT/IIIT alumni</strong> and IT industry leaders. Learn hands-on coding with <strong>Python</strong> and explore the <strong>basics of AI</strong> through engaging, practical sessions.
+                Shortlisted students gain access to <strong>free online live masterclasses</strong> led by <strong>IIT/IIIT alumni.</strong> Learn hands-on coding with <strong>Python</strong> and explore the <strong>basics of AI</strong> through engaging, practical sessions.
               </Typography>
             </Box>
 
@@ -138,7 +138,7 @@ const Stem = () => {
                 Step 4: Level 2 Exam – Python & AI
               </Typography>
               <Typography variant="body1" className="text-gray-400">
-                Compete in an <strong>online exam</strong> testing <strong>Python fundamentals</strong> and <strong>basic AI concepts</strong>. Showcase your coding skills and problem-solving abilities in a dynamic, tech-driven challenge.
+                Compete in an <strong>online exam</strong> testing <strong>Python</strong> and <strong>basic AI concepts</strong>. Showcase your coding skills and problem-solving abilities in a dynamic, tech-driven challenge.
               </Typography>
             </Box>
 

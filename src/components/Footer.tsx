@@ -17,7 +17,7 @@ const Footer = () => {
             <Typography variant="h6" gutterBottom>Exams</Typography>
             {/* <Link href="#" color="inherit" underline="none">Maths Genius Hunt</Link><br />
             <Link href="#" color="inherit" underline="none">Science Genius Hunt</Link><br /> */}
-            <Link href="/exams" color="inherit" underline="none">STEM Genius Hunt</Link>
+            <Link href="/exams" color="inherit" underline="none">Junior Coder Hunt</Link>
           </Grid>
           <Grid item xs={12} sm={4}>
             <Typography variant="h6" gutterBottom>Our Location</Typography>

@@ -112,7 +112,7 @@ const Home = () => {
                 <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
                 <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 1: Level 1 Exam – Reasoning & Aptitude</div>
                 <p>
-                  Kickstart your journey with an <span className="font-semibold">OMR-based MCQ exam</span> testing logical reasoning, pattern recognition, and problem-solving. Aligned with <span className="font-semibold">NTSE/Olympiad syllabi</span>, this level is accessible to all students, regardless of coding experience, ensuring equal opportunity to shine.
+                  Kickstart your journey with an <span className="font-semibold">OMR-based MCQ exam</span> testing logical reasoning and aptitude, aligned with <span className="font-semibold">NTSE/Olympiad standards</span>, this level is open to all students from classes 6 to 10, regardless of coding experience, ensuring equal opportunity to shine.
                 </p>
               </div>
 
@@ -130,7 +130,7 @@ const Home = () => {
                 <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
                 <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 3: Free Masterclasses by Alumni of IIT/IIIT</div>
                 <p>
-                  Shortlisted students gain access to <span className="font-semibold">free online live masterclasses</span> led by <span className="font-semibold">IIT/IIIT alumni</span> and IT industry leaders. Learn hands-on coding with <span className="font-semibold">Python</span> and explore the <span className="font-semibold">basics of AI</span> through engaging, practical sessions.
+                  Shortlisted students gain access to <span className="font-semibold">free online live masterclasses</span> led by <span className="font-semibold">IIT/IIIT alumni.</span> Learn hands-on coding with <span className="font-semibold">Python</span> and explore the <span className="font-semibold">basics of AI</span> through engaging, practical sessions.
                 </p>
               </div>
 
@@ -139,7 +139,7 @@ const Home = () => {
                 <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
                 <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 4: Level 2 Exam – Python & AI</div>
                 <p>
-                  Compete in an <span className="font-semibold">online exam</span> testing <span className="font-semibold">Python fundamentals</span> and <span className="font-semibold">basic AI concepts</span>. Showcase your coding skills and problem-solving abilities in a dynamic, tech-driven challenge.
+                  Compete in an <span className="font-semibold">online exam</span> testing <span className="font-semibold">Python</span> and <span className="font-semibold">basic AI concepts</span>. Showcase your coding skills and problem-solving abilities in a dynamic, tech-driven challenge.
                 </p>
               </div>
 
