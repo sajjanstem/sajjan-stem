@@ -409,7 +409,7 @@ const Stem = () => {
       ],
     },
   ].map((group, idx) => (
-    <Box key={idx} sx={{ mb: 10 }}>
+    <Box key={idx} sx={{ mb: 6 }}>
       <Typography
         variant="h6"
         sx={{
