@@ -64,7 +64,7 @@ const syllabusData = [
 export default function SyllabusTable() {
   return (
     <Box
-      className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-8 shadow-lg"
+      className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-6 shadow-lg"
       data-aos="fade-up"
     >
       <Typography variant="h5" className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2 text-gray-200  text-center flex items-center justify-center">
