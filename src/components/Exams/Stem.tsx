@@ -74,6 +74,23 @@ const Stem = () => {
               sx={{ height: "calc(100% - 1rem)" }}
             ></Box>
 
+            {/* Step 0: Registration */}
+            <Box className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="100">
+              <Box
+                className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full"
+                sx={{ backgroundColor: "rgba(111, 176, 127, 0.8)" }}
+              ></Box>
+              <Typography
+                className="font-semibold"
+                sx={{ color: "rgba(111, 176, 127, 0.8)" }}
+              >
+                Step 0: Register Your School & Students
+              </Typography>
+              <Typography variant="body1" className="text-gray-400">
+                Open the door to a unique opportunity by registering your school and students today! With a minimal exam fee of <strong>₹300 per student</strong>, you can kickstart this exciting journey. Reach out to <a href="mailto:info@yuvastem.org" className="text-green-300 underline">info@yuvastem.org</a> for a hassle-free registration process—let’s get started!
+              </Typography>
+            </Box>
+
             {/* Step 1: Level 1 Exam */}
             <Box className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="200">
               <Box
@@ -392,9 +409,15 @@ const Stem = () => {
 
   {/* Footer Call-to-Action */}
     <div className="flex flex-col items-center py-12 border-t border-gray-700 font-inter px-4 md:px-8" data-aos="zoom-in">
-      <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition duration-300 text-base md:text-lg w-full max-w-xs md:max-w-sm">
-        Register Your School Today
-      </button>
+      <a
+        href="https://forms.gle/1X2s81LZocPSbYc66"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-black font-bold py-3 px-10 rounded-lg hover:opacity-90 transition duration-300 text-base md:text-lg w-full max-w-xs md:max-w-sm">
+          Register Your School Today
+        </button>
+      </a>
       <div className="text-gray-500 mt-4 italic text-sm md:text-base text-center">
         Think. Solve. Code. Win. — Your logic today, your AI future tomorrow!
       </div>
