@@ -39,19 +39,19 @@ const syllabusData = [
     class: "Class 9",
     units: [
       { unit: "Quantitative Aptitude", chapters: "Number system, Algebra, Geometry, Mensuration, Permutation and combinations, Probability" },
+      { unit: "Grammar", chapters: "English grammar" },
       { unit: "Series", chapters: "Analogy (word/numerical), Odd one out (word/numerical), English dictionary word arrangements, Missing letters, Ranking and missing characters" },
       { unit: "Coding", chapters: "Coding and decoding, Symbols, Maths operations" },
       { unit: "Arrangement", chapters: "Sitting arrangement, Blood relations, Direction test" },
       { unit: "Logical", chapters: "Statement and argument, Syllogism, Data interpretation" },
       { unit: "Non-verbal", chapters: "Mirrors and water reflection, Sequence of figures, Configuration, Fitting pieces, Odd pieces" },
-      { unit: "Grammar", chapters: "English grammar" },
     ],
   },
   {
     class: "Class 10",
     units: [
       { unit: "Quantitative Aptitude", chapters: "Number system, Algebra, Geometry, Mensuration, Permutation and combinations, Probability" },
-      { unit: "Qualitative Aptitude", chapters: "English grammar" },
+      { unit: "Grammar", chapters: "English grammar" },
       { unit: "Series", chapters: "Analogy (word/numerical), Odd one out (word/numerical), Ranking and missing characters" },
       { unit: "Coding", chapters: "Coding and decoding, Symbols, Maths operations" },
       { unit: "Arrangement", chapters: "Sitting arrangement, Blood relations, Direction test" },
