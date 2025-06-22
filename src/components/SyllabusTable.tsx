@@ -71,7 +71,7 @@ export default function SyllabusTable() {
         Level 1 Syllabus: Reasoning & Aptitude
       </Typography>
       <Typography className="text-sm text-gray-400 mb-4 italic text-center flex items-center justify-center">
-        (As per NTSE / Olympiad standards)
+        (As per Olympiad exam standards)
       </Typography>
 
       {syllabusData.map((item, index) => (

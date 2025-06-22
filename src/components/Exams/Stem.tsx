@@ -105,7 +105,7 @@ const Stem = () => {
                 Step 1: Level 1 Exam – Reasoning & Aptitude
               </Typography>
               <Typography variant="body1" className="text-gray-400">
-                Kickstart your journey with an <strong>OMR-based MCQ exam</strong> testing logical reasoning and aptitude, aligned with <strong>NTSE/Olympiad standards</strong>, this level is open to all students from classes 6 to 10, regardless of coding experience, ensuring equal opportunity to shine.
+                Kickstart your journey with an <strong>OMR-based MCQ exam</strong> testing logical reasoning and aptitude, aligned with <strong>Olympiad exam standards</strong>, this level is open to all students from classes 6 to 10, regardless of coding experience, ensuring equal opportunity to shine.
               </Typography>
             </Box>
 

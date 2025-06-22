@@ -118,7 +118,7 @@ const Home = () => {
                 <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
                 <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 1: Level 1 Exam – Reasoning & Aptitude</div>
                 <p>
-                  Kickstart your journey with an <span className="font-semibold">OMR-based MCQ exam</span> testing logical reasoning and aptitude, aligned with <span className="font-semibold">NTSE/Olympiad standards</span>, this level is open to all students from classes 6 to 10, regardless of coding experience, ensuring equal opportunity to shine.
+                  Kickstart your journey with an <span className="font-semibold">OMR-based MCQ exam</span> testing logical reasoning and aptitude, aligned with <span className="font-semibold">Olympiad exam standards</span>, this level is open to all students from classes 6 to 10, regardless of coding experience, ensuring equal opportunity to shine.
                 </p>
               </div>
 
