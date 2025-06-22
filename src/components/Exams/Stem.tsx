@@ -178,71 +178,114 @@ const Stem = () => {
             </Box>
           </Box>
         </div>
-        
+
         {/* Level 1 Syllabus */}
         <SyllabusTable />
 
-        {/* Level 2 Syllabus */}
-        <Box
-          className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-6 shadow-lg"
-          sx={{ backdropFilter: "blur(4px)" }}
-          data-aos="fade-up"
-        >
-          <Typography variant="h5" className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2 text-gray-200  text-center flex items-center justify-center">
-            Level 2 Syllabus: Python & Basics of AI
-          </Typography>
-          {[
-            {
-              class: "Class 6",
-              python: "Python syntax (e.g., print('Hi')), variables (y = 5), loops (e.g., for i in [1,2]).",
-              ai: "What is AI? (e.g., smart assistants), decisions (e.g., if-else for games), pattern recognition (e.g., shapes).",
-            },
-            {
-              class: "Class 7",
-              python: "Lists ([4,5,6]), functions (e.g., def multiply(x,y)), strings (e.g., 'code'.lower()), conditionals.",
-              ai: "AI chatbots (e.g., simple responses), decision trees (e.g., yes/no logic), sorting algorithms.",
-            },
-            {
-              class: "Class 8",
-              python: "Dictionaries ({'age': 13}), try-except, file handling (e.g., reading files), nested loops.",
-              ai: "ML concepts (e.g., data labels), classification (e.g., spam emails), simple predictive models.",
-            },
-            {
-              class: "Class 9",
-              python: "Modules (e.g., import random), OOP (e.g., class Student), NumPy arrays, list comprehensions.",
-              ai: "Supervised learning, neural networks (e.g., neuron basics), AI ethics (e.g., fairness in AI).",
-            },
-            {
-              class: "Class 10",
-              python: "Lambda functions, regex (e.g., phone numbers), APIs (e.g., JSON data), data structures (e.g., stacks).",
-              ai: "Deep learning basics (e.g., layers), model training, real-world AI (e.g., face recognition).",
-            },
-          ].map((item, index) => (
-            <Accordion
-              key={index}
-              className="bg-gray-900/80 border border-gray-700 rounded-lg mt-4 transition-all hover:bg-gray-800/80"
-              sx={{
-                backdropFilter: "blur(4px)",
-                "&.Mui-expanded": { bgcolor: "rgba(17, 24, 39, 0.8)" },
-                "&:before": { bgcolor: "transparent" },
-                "& .MuiAccordionSummary-root": { bgcolor: "rgba(17, 24, 39, 0.8)" },
-              }}
-            >
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon className="text-gray-200" />}
-                className="bg-gray-900/80 hover:bg-gray-800/80"
-              >
-                <Typography className="text-gray-200 font-semibold">{item.class}</Typography>
-              </AccordionSummary>
-              <AccordionDetails className="bg-gray-900/80">
-                <Typography className="text-gray-300">
-                  <strong>Python:</strong> {item.python}<br />
-                  <strong>AI Basics:</strong> {item.ai}
-                </Typography>
-              </AccordionDetails>
-            </Accordion>
-          ))}
-        </Box>
+{/* Exam Pattern before Level 1 Syllabus */}
+   <Box
+      className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-6 shadow-lg"
+      data-aos="fade-up"
+    >
+      <Typography variant="h5" className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2 text-gray-200  text-center flex items-center justify-center">
+         Level 1 Exam Pattern
+      </Typography>
+        <Typography className="text-sm text-gray-400 mb-4 italic text-center flex items-center justify-center">
+        (OMR-based MCQ questions)
+      </Typography>
+  <TableContainer
+    className="bg-gray-900/80 border border-gray-700 rounded-lg"
+    sx={{ backdropFilter: "blur(4px)" }}
+  >
+    <Table>
+      <TableHead>
+        <TableRow>
+          <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }}>
+            Classes
+          </TableCell>
+          <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }} align="center">
+            Number of Questions
+          </TableCell>
+          <TableCell sx={{ color: '#f9fafb', fontWeight: '600' }} align="center">
+            Duration
+          </TableCell>
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        <TableRow className="hover:bg-gray-800/80 transition-all bg-gray-800/50">
+          <TableCell sx={{ color: '#f9fafb' }}>
+            Classes 6th to 8th
+          </TableCell>
+          <TableCell sx={{ color: '#f9fafb' }} align="center">
+            25
+          </TableCell>
+          <TableCell sx={{ color: '#f9fafb' }} align="center">
+            35 minutes
+          </TableCell>
+        </TableRow>
+        <TableRow className="hover:bg-gray-800/80 transition-all">
+          <TableCell sx={{ color: '#f9fafb' }}>
+            Classes 9th & 10th
+          </TableCell>
+          <TableCell sx={{ color: '#f9fafb' }} align="center">
+            30
+          </TableCell>
+          <TableCell sx={{ color: '#f9fafb' }} align="center">
+            40 minutes
+          </TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </TableContainer>
+</Box>
+
+
+{/* Level 2 Syllabus Summary */}
+ <Box
+      className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-6 shadow-lg"
+      data-aos="fade-up"
+    >
+      <Typography variant="h5" className="text-xl md:text-2xl lg:text-3xl font-semibold mb-2 text-gray-200  text-center flex items-center justify-center">
+         Level 2 Exam Overview
+      </Typography>
+        <Typography className="text-sm text-gray-400 mb-4 italic text-center flex items-center justify-center">
+        (online coding based exam)
+      </Typography>
+
+
+  <Typography className="text-gray-300 mb-4">
+    <strong>
+      Level 2 will be conducted online and will include:
+    </strong>
+  </Typography>
+  <Box component="ul" className="text-gray-300 pl-5 mt-2 space-y-2">
+    <li>
+      <strong>Python Coding</strong>:
+      <ul className="pl-5 list-disc">
+        <li>Topics like variables, conditional statements, loops, file handling, etc.</li>
+        <li>Output-based questions</li>
+        <li>Syntax error identification</li>
+        <li>Pseudo code logic</li>
+        <li>Basic Python coding problems</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Basics of AI</strong>:
+      <ul className="pl-5 list-disc">
+        <li>AI applications</li>
+        <li>How AI works</li>
+        <li>Theoretical questions about AI systems</li>
+      </ul>
+    </li>
+  </Box>
+  <Typography className="text-gray-300 mb-2">
+    <strong>
+      Detailed syllabus will be shared during the masterclasses for all shortlisted students.
+    </strong>
+  </Typography>
+</Box>
+
+
 
       <Box
         className="backdrop-blur-sm bg-gray-900/80 rounded-xl border border-gray-700 p-6 shadow-lg font-inter"
