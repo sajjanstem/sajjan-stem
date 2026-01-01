@@ -42,7 +42,7 @@ const Home = () => {
           data-aos="fade-down"
           data-aos-delay="200"
         >
-          Junior Coder Hunt 2025
+          Junior Coder Hunt 2026
         </div>
         <div
           className="text-sm sm:text-base md:text-lg text-gray-400"
@@ -103,11 +103,11 @@ const Home = () => {
       >
         <div className="space-y-6">
           <div className="text-2xl md:text-3xl font-bold text-center mb-6" data-aos="fade-down" data-aos-delay="100">
-            💰 Jr Coder Hunt Exam 2025
+            💰 Jr Coder Hunt Exam 2026
           </div>
           <div className="text-sm md:text-base text-gray-400">
             <p className="mb-4">
-              Ignite your passion for technology with the <span className="font-semibold">Jr Coder Hunt Exam 2025</span>, a talent hunt for students in <span className="font-semibold">classes 6 to 10</span>. Designed to spark curiosity and build essential technical skills, this exciting competition offers a platform to showcase logical thinking, problem-solving, and coding potential, aligned with the transformative vision of NEP 2020.
+              Ignite your passion for technology with the <span className="font-semibold">Jr Coder Hunt Exam 2026</span>, a talent hunt for students in <span className="font-semibold">classes 6 to 10</span>. Designed to spark curiosity and build essential technical skills, this exciting competition offers a platform to showcase logical thinking, problem-solving, and coding potential, aligned with the transformative vision of NEP 2020.
             </p>
             <div className="relative space-y-6">
               {/* Timeline Line */}

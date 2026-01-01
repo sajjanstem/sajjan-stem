@@ -28,14 +28,14 @@ const Stem = () => {
   return (
     <Box className="bg-gradient-to-b from-gray-900 to-black min-h-screen text-gray-200 font-[Inter] relative overflow-hidden">
     <Helmet>
-      <title>Junior Coder Hunt 2025 - Yuva STEM Organisation</title>
+      <title>Junior Coder Hunt 2026 - Yuva STEM Organisation</title>
       <meta
         name="description"
-        content="Join Junior Coder Hunt 2025 by Yuva STEM — India’s premier coding competition for classes 6-10! Syllabus includes reasoning, aptitude, Python basics, AI fundamentals, and problem-solving. Win exciting cash prizes, trophies, medals, and completion certificates. Learn from IIT and IIIT alumni in exclusive masterclasses!"
+        content="Join Junior Coder Hunt 2026 by Yuva STEM — India’s premier coding competition for classes 6-10! Syllabus includes reasoning, aptitude, Python basics, AI fundamentals, and problem-solving. Win exciting cash prizes, trophies, medals, and completion certificates. Learn from IIT and IIIT alumni in exclusive masterclasses!"
       />
       <meta
         name="keywords"
-        content="Junior Coder Hunt, Yuva STEM, Yuva STEM Organisation, coding competition India, coding exam classes 6-10, Python exam, AI exam, reasoning syllabus, aptitude syllabus, coding syllabus junior coder hunt, junior coder hunt 2025 prizes, junior coder hunt 2025 awards, coding contest for kids, STEM competition India, IIT mentorship, IIIT mentorship, win cash prizes coding, trophy coding competition, medal coding contest, completion certificate coding exam"
+        content="Junior Coder Hunt, Yuva STEM, Yuva STEM Organisation, coding competition India, coding exam classes 6-10, Python exam, AI exam, reasoning syllabus, aptitude syllabus, coding syllabus junior coder hunt, junior coder hunt 2026 prizes, junior coder hunt 2026 awards, coding contest for kids, STEM competition India, IIT mentorship, IIIT mentorship, win cash prizes coding, trophy coding competition, medal coding contest, completion certificate coding exam"
       />
       <meta name="author" content="Yuva STEM Organisation" />
     </Helmet>
@@ -43,7 +43,7 @@ const Stem = () => {
 
       {/* Banner Section */}
       <div className="text-center py-12 border-b border-gray-700" data-aos="fade-down">
-        <h1 className="text-4xl md:text-6xl font-extrabold"> Junior Coder Hunt 2025</h1>
+        <h1 className="text-4xl md:text-6xl font-extrabold"> Junior Coder Hunt 2026</h1>
       </div>
 
 
@@ -56,7 +56,7 @@ const Stem = () => {
           data-aos="fade-up"
         >
           <Typography variant="body1" className="text-gray-300 text-lg leading-relaxed">
-            Unleash your coding potential with the <strong>Jr Coder Hunt Exam 2025</strong>, a transformative competition for <strong>classes 6 to 10</strong> students. Designed to align with <strong>NEP 2020</strong>, this prestigious talent hunt ignites passion for technology, sharpens logical reasoning, and builds foundational coding skills. Compete to unlock <strong>exclusive masterclasses by IIT/IIIT alumni</strong>, earn <strong>cash prizes, trophies, and medals</strong>, and take your first step toward becoming a global tech innovator.
+            Unleash your coding potential with the <strong>Jr Coder Hunt Exam 2026</strong>, a transformative competition for <strong>classes 6 to 10</strong> students. Designed to align with <strong>NEP 2020</strong>, this prestigious talent hunt ignites passion for technology, sharpens logical reasoning, and builds foundational coding skills. Compete to unlock <strong>exclusive masterclasses by IIT/IIIT alumni</strong>, earn <strong>cash prizes, trophies, and medals</strong>, and take your first step toward becoming a global tech innovator.
           </Typography>
         </Box>
 
