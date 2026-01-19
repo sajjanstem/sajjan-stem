@@ -88,7 +88,7 @@ const Stem = () => {
                 Step 0: Register Your School & Students
               </Typography>
               <Typography variant="body1" className="text-gray-400">
-                Open the door to a unique opportunity by registering your school and students today! With a minimal exam fee of <strong>₹300 per student</strong>, you can kickstart this exciting journey. Reach out to <a href="mailto:info@yuvastem.org" className="text-green-300 underline">info@yuvastem.org</a> for a hassle-free registration process—let’s get started!
+                Open the door to a unique opportunity by registering your school and students today! With a minimal exam fee of <strong>₹500 per student</strong>, you can kickstart this exciting journey. Reach out to <a href="mailto:info@yuvastem.org" className="text-green-300 underline">info@yuvastem.org</a> for a hassle-free registration process—let’s get started!
               </Typography>
             </Box>
 
