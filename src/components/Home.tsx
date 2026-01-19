@@ -134,9 +134,9 @@ const Home = () => {
               {/* Step 3: Masterclasses */}
               <div className="relative pl-12 md:pl-16" data-aos="fade-right" data-aos-delay="400">
                 <div className="absolute left-2 md:left-4 top-2 w-4 h-4 rounded-full" style={{ backgroundColor: 'rgba(111, 176, 127, 0.8)' }}></div>
-                <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 3: Free Masterclasses by Alumni of IIT/IIIT</div>
+                <div className="font-semibold" style={{ color: 'rgba(111, 176, 127, 0.8)' }}>Step 3: Free Masterclasses by Alumni of IIT/IIIT/BITS</div>
                 <p>
-                  Shortlisted students gain access to <span className="font-semibold">free online live masterclasses</span> led by <span className="font-semibold">IIT/IIIT alumni.</span> Learn hands-on coding with <span className="font-semibold">Python</span> and explore the <span className="font-semibold">basics of AI</span> through engaging, practical sessions.
+                  Shortlisted students gain access to <span className="font-semibold">free online live masterclasses</span> led by <span className="font-semibold">IIT/IIIT/BITS alumni.</span> Learn hands-on coding with <span className="font-semibold">Python</span> and explore the <span className="font-semibold">basics of AI</span> through engaging, practical sessions.
                 </p>
               </div>
 
@@ -196,7 +196,7 @@ const Home = () => {
             The world is transforming faster than ever with technology like AI, robotics, and data science leading the way. <strong>Jr Coder Hunt</strong> gives you the chance to start early, build essential coding and problem-solving skills, and prepare for tomorrow’s innovations.<br /><br />
 
             🧠 <strong>Think Smart, Solve Smart:</strong> Sharpen your logical, computational, and creative thinking.<br />
-            💡 <strong>Learn from the Best:</strong> Get free masterclasses from IIT/IIIT alumni, mentored by experienced IT professionals and directors.<br />
+            💡 <strong>Learn from the Best:</strong> Get free masterclasses from IIT/IIIT/BITS alumni, mentored by experienced IT professionals and directors.<br />
             🏅 <strong>Get Rewarded:</strong> Stand out with medals, trophies, certificates — and grab your share of ₹50,000+ in cash prizes!<br />
             💻 <strong>Be Future-Ready:</strong> Discover how coding and AI can help you solve real-world problems, innovate, and lead in any career you choose.<br />
             🎓 <strong>Tailored for School Students:</strong> Specially designed to nurture talent in school learners who aspire to excel in coding and AI.
@@ -213,7 +213,7 @@ const Home = () => {
           <div className="text-2xl md:text-3xl font-bold text-center">🌱 About Yuva STEM</div>
           <div className="text-sm md:text-base text-gray-400 space-y-4">
             <p>
-              Yuva STEM is a dynamic initiative committed to bridging the gap between classroom learning and essential skills. Our vision is to democratize coding, AI, and digital literacy, enabling every young mind to explore, create, and lead in the digital future. We believe in nurturing curiosity and innovation, ensuring that students from diverse backgrounds gain access to quality technology education. With the guidance of experienced mentors from IITs, IIITs, and industry leaders, we aim to spark lifelong learning and critical thinking in every participant.
+              Yuva STEM is a dynamic initiative committed to bridging the gap between classroom learning and essential skills. Our vision is to democratize coding, AI, and digital literacy, enabling every young mind to explore, create, and lead in the digital future. We believe in nurturing curiosity and innovation, ensuring that students from diverse backgrounds gain access to quality technology education. With the guidance of experienced mentors from IITs, IIITs, BITS, and industry leaders, we aim to spark lifelong learning and critical thinking in every participant.
             </p>
             <p>
               Our mission is to provide equitable platforms that promote coding, AI awareness, and financial literacy, empowering students to think smart, solve smart, and contribute meaningfully to society. Through engaging competitions like the Jr Coder Hunt, free masterclasses, and hands-on challenges, Yuva STEM is building a generation of confident, future-ready innovators. Join us in this journey to shape tomorrow’s digital leaders today!
@@ -234,7 +234,7 @@ const Home = () => {
               Yuva STEM is guided by an advisory committee consisting of highly accomplished technology professionals with decades of experience in the IT industry. These leaders currently serve as directors and senior experts in renowned technology companies, bringing a wealth of practical knowledge and strategic vision to the initiative.
             </p>
             <p>
-              Our mentors are passionate educators and innovators, many of whom are proud alumni of prestigious institutions such as IITs and IIITs. Their mission is to inspire, guide, and support participants, helping them build essential skills and confidence to thrive in a technology-driven world.
+              Our mentors are passionate educators and innovators, many of whom are proud alumni of prestigious institutions such as IITs, IIITs and BITS. Their mission is to inspire, guide, and support participants, helping them build essential skills and confidence to thrive in a technology-driven world.
             </p>
           </div>
         </div>

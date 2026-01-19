@@ -35,10 +35,10 @@ const AboutUs = () => {
           data-aos="fade-up"
         >
           <p className="text-gray-400 text-sm md:text-base">
-            Yuva STEM is a dynamic initiative founded by alumni of the Indian Institute of Information Technology (IIIT) Dharwad, driven by a vision to make coding, AI, and digital literacy accessible to every young learner. We believe coding and technology are not just skills — they are the language of tomorrow. In a rapidly changing technological world, Yuva STEM helps students from diverse backgrounds develop curiosity, creativity, and problem-solving abilities that will prepare them for future challenges.
+          Yuva STEM is a dynamic initiative driven by a vision to make coding, artificial intelligence, and digital literacy accessible to every young learner. We believe technology is not just a skill set — it is the language of tomorrow. In a rapidly evolving digital world, Yuva STEM empowers students from diverse backgrounds to develop curiosity, creativity, and strong problem-solving abilities. Through thoughtfully designed programs and hands-on learning experiences, we prepare young minds to confidently navigate future challenges and become creators of technology, not just consumers.
           </p>
           <p className="text-gray-400 text-sm md:text-base mt-4">
-            Our advisory committee comprises IT professionals with over decades of experience, many of whom currently serve as directors and senior leaders at prominent technology companies. Alongside, we are proud to have mentors who are alumni of prestigious institutes like IITs/IIITs, bringing real-world expertise and guidance to our learners.
+            Our advisory committee comprises IT professionals with over decades of experience, many of whom currently serve as directors and senior leaders at prominent technology companies. Alongside, we are proud to have mentors who are alumni of prestigious institutes like IITs/IIITs/BITS, bringing real-world expertise and guidance to our learners.
           </p>
           <p className="text-gray-400 text-sm md:text-base mt-4">
             Yuva STEM's mission aligns with India's National Education Policy (NEP) 2020, which emphasizes experiential learning, critical thinking, coding, and digital literacy from an early age. We aim to complement this vision by offering equitable platforms through engaging competitions like the Jr Coder Hunt, free masterclasses, and practical challenges that spark lifelong learning.

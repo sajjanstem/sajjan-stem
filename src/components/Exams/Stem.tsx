@@ -56,7 +56,7 @@ const Stem = () => {
           data-aos="fade-up"
         >
           <Typography variant="body1" className="text-gray-300 text-lg leading-relaxed">
-            Unleash your coding potential with the <strong>Jr Coder Hunt Exam 2026</strong>, a transformative competition for <strong>classes 6 to 10</strong> students. Designed to align with <strong>NEP 2020</strong>, this prestigious talent hunt ignites passion for technology, sharpens logical reasoning, and builds foundational coding skills. Compete to unlock <strong>exclusive masterclasses by IIT/IIIT alumni</strong>, earn <strong>cash prizes, trophies, and medals</strong>, and take your first step toward becoming a global tech innovator.
+            Unleash your coding potential with the <strong>Jr Coder Hunt Exam 2026</strong>, a transformative competition for <strong>classes 6 to 10</strong> students. Designed to align with <strong>NEP 2020</strong>, this prestigious talent hunt ignites passion for technology, sharpens logical reasoning, and builds foundational coding skills. Compete to unlock <strong>exclusive masterclasses by IIT/IIIT/BITS alumni</strong>, earn <strong>cash prizes, trophies, and medals</strong>, and take your first step toward becoming a global tech innovator.
           </Typography>
         </Box>
 
@@ -136,10 +136,10 @@ const Stem = () => {
                 className="font-semibold"
                 sx={{ color: "rgba(111, 176, 127, 0.8)" }}
               >
-                Step 3: Free Masterclasses by Alumni of IIT/IIIT
+                Step 3: Free Masterclasses by Alumni of IIT/IIIT/BITS
               </Typography>
               <Typography variant="body1" className="text-gray-400">
-                Shortlisted students gain access to <strong>free online live masterclasses</strong> led by <strong>IIT/IIIT alumni.</strong> Learn hands-on coding with <strong>Python</strong> and explore the <strong>basics of AI</strong> through engaging, practical sessions.
+                Shortlisted students gain access to <strong>free online live masterclasses</strong> led by <strong>IIT/IIIT/BITS alumni.</strong> Learn hands-on coding with <strong>Python</strong> and explore the <strong>basics of AI</strong> through engaging, practical sessions.
               </Typography>
             </Box>
 
