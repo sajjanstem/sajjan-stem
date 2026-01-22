@@ -23,10 +23,12 @@ const Footer = () => {
             <Typography variant="h6" gutterBottom>Our Location</Typography>
             <Typography variant="body1">Yuva STEM Organisation</Typography>
             {/* <Typography variant="body1">Line 1, Line 2</Typography> */}
-            <p>131/A, 3rd Floor, Outer ring road, near Grand Seasons Business Hotel, Kasturi Nagar</p>
-            <Typography variant="body1">Bengaluru, Karnataka 560043(India)</Typography>
+            <p>Spiffy, Nexus business centre, 5th Floor, 11/G194 Plot no 803,
+                Ayyappa society, Madhapur, </p>
+            {/* <p>131/A, 3rd Floor, Outer ring road, near Grand Seasons Business Hotel, Kasturi Nagar</p> */}
+            <Typography variant="body1">Hyderabad, Telangana 500081</Typography>
             <Typography variant="body1">Phone: 7975176756 </Typography>
-            <Typography variant="body1">Timings: 08:00 AM to 5:00 PM IST</Typography>
+            <Typography variant="body1">Timings: 08:00 AM to 6:00 PM IST</Typography>
             <Typography variant="body1">Email: <Link href="mailto:" color="inherit" underline="none">info@yuvastem.org</Link></Typography>
             <Box sx={{ mt: 2 }}>
               {/* <Link href="#" color="inherit" underline="none" sx={{ mr: 1 }}><i className="fab fa-facebook">fb</i></Link>
