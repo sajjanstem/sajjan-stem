@@ -36,20 +36,20 @@ const ContactUs = () => {
             <div className="flex-1">
               <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
               {/* Bengaluru Address */}
-              <h3 className="text-xl font-semibold text-gray-200">Bengaluru</h3>
+              <h3 className="text-xl font-semibold text-gray-200">Hyderabad Office:</h3>
               <p className="text-gray-400">
-                Yuva STEM Organisation<br />
-                131/A, 3rd Floor, NGEF Layout, Outer Ring Road, near Grand Seasons Business Hotel,
-                East of NGEF Layout, Kasturi Nagar, Bengaluru, Karnataka 560043
+                Spiffy, <br />
+                Nexus business centre, 5th Floor, 
+                11/G194 Plot no 803,
+                Ayyappa society, Madhapur, Hyderabad, Telangana 500081
               </p>
 
               {/* Hyderabad Address */}
-              <h3 className="text-xl font-semibold text-gray-200 mt-4">Hyderabad</h3>
+              <h3 className="text-xl font-semibold text-gray-200 mt-4">Bengaluru Office:</h3>
               <p className="text-gray-400">
-                Spiffy <br />
-                Nexus business centre
-                11/G194 Plot no 803, 5th Floor
-                Ayyappa society, Madhapur, Hyderabad, Telangana 500081
+                MOSERP Technologies,<br />
+                131/A, 3rd Floor, NGEF Layout, Outer Ring Road, near Grand Seasons Business Hotel,
+                East of NGEF Layout, Kasturi Nagar, Bengaluru, Karnataka 560043
               </p>
               <h3 className="text-xl font-semibold text-gray-200 mt-4">Email</h3>
               <p className="text-gray-400">
